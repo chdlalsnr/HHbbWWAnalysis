@@ -1,2 +1,0 @@
-/storage/data/cms/store/mc/RunIISummer16NanoAODv7/ttHJetTobb_M125_13TeV_amcatnloFXFX_madspin_pythia8/NANOAODSIM/PUMoriond17_Nano02Apr2020_102X_mcRun2_asymptotic_v8_ext3-v1/110000/2339501A-9C75-5542-88D5-2C5A3895AE61.root
-/storage/data/cms/store/mc/RunIISummer16NanoAODv7/ttHJetTobb_M125_13TeV_amcatnloFXFX_madspin_pythia8/NANOAODSIM/PUMoriond17_Nano02Apr2020_102X_mcRun2_asymptotic_v8_ext3-v1/110000/51CD7DB8-6EF8-FA43-9E00-9628A1B1B8D9.root

@@ -1,4 +1,0 @@
-/storage/data/cms/store/mc/RunIISummer16NanoAODv7/THQ_ctcvcp_HIncl_M125_TuneCP5_13TeV-madgraph-pythia8/NANOAODSIM/PUMoriond17_Nano02Apr2020_102X_mcRun2_asymptotic_v8-v1/120000/EAE40CFE-9E53-544F-ABCD-0E83B4002320.root
-/storage/data/cms/store/mc/RunIISummer16NanoAODv7/THQ_ctcvcp_HIncl_M125_TuneCP5_13TeV-madgraph-pythia8/NANOAODSIM/PUMoriond17_Nano02Apr2020_102X_mcRun2_asymptotic_v8-v1/120000/F07D0971-FAB4-3848-8DA4-9190788B6811.root
-/storage/data/cms/store/mc/RunIISummer16NanoAODv7/THQ_ctcvcp_HIncl_M125_TuneCP5_13TeV-madgraph-pythia8/NANOAODSIM/PUMoriond17_Nano02Apr2020_102X_mcRun2_asymptotic_v8-v1/100000/827A7C2F-AFDA-E049-ABF2-3331B72A3469.root
-/storage/data/cms/store/mc/RunIISummer16NanoAODv7/THQ_ctcvcp_HIncl_M125_TuneCP5_13TeV-madgraph-pythia8/NANOAODSIM/PUMoriond17_Nano02Apr2020_102X_mcRun2_asymptotic_v8-v1/100000/9FB60587-3BEA-7E4B-B1F1-EC6C9CFE05F9.root

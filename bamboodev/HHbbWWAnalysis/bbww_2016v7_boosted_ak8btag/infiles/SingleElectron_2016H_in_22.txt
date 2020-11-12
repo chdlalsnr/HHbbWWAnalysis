@@ -1,2 +1,0 @@
-/storage/data/cms/store/data/Run2016H/SingleElectron/NANOAOD/Nano25Oct2019-v1/30000/B3AD3E5D-1B5D-924A-B69D-C74320520FD0.root
-/storage/data/cms/store/data/Run2016H/SingleElectron/NANOAOD/Nano25Oct2019-v1/30000/509FF852-C9AE-F241-8167-9C2D8C7CC9A1.root

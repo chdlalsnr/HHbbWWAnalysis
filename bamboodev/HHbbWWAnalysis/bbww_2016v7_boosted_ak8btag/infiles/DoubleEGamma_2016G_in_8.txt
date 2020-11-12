@@ -1,2 +1,0 @@
-/storage/data/cms/store/data/Run2016G/DoubleEG/NANOAOD/Nano25Oct2019-v1/20000/CA2A8472-DC21-C742-A14D-8E46C445B523.root
-/storage/data/cms/store/data/Run2016G/DoubleEG/NANOAOD/Nano25Oct2019-v1/20000/DFA8A8D6-C4EC-B142-AC76-84CADCEF857E.root

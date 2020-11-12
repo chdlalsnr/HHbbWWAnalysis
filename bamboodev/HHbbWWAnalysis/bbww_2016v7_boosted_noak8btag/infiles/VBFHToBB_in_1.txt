@@ -1,1 +1,0 @@
-/storage/data/cms/store/mc/RunIISummer16NanoAODv7/VBFHToBB_M-125_13TeV_powheg_pythia8_weightfix/NANOAODSIM/PUMoriond17_Nano02Apr2020_102X_mcRun2_asymptotic_v8-v1/60000/DAA64C81-FB5F-B24A-ACC5-9CD4FF41415C.root
