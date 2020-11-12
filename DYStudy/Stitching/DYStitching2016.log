@@ -1,0 +1,68 @@
+Inclusive sample :
+... N_inc^0     = 1.45E+12
+... N_inc^1     = 3.37E+11
+... N_inc^2     = 1.16E+11
+... N_inc^3     = -2.28E+10
+... Total N_inc = 1.88E+12
+Exclusive 0J sample :
+... N_0J^0     = 5.10E+11
+... N_0J^1     = 1.74E+10
+... N_0J^2     = 0.00E+00
+... N_0J^3     = 0.00E+00
+... Total N_0J = 5.27E+11
+Exclusive 1J sample :
+... N_1J^0     = 0.00E+00
+... N_1J^1     = 4.29E+11
+... N_1J^2     = -2.25E+10
+... N_1J^3     = 0.00E+00
+... Total N_1J = 4.06E+11
+Exclusive 2J sample :
+... N_2J^0     = 0.00E+00
+... N_2J^1     = 0.00E+00
+... N_2J^2     = 2.50E+11
+... N_2J^3     = -4.20E+10
+... Total N_2J = 2.08E+11
+Number per jet multiplicity
+... N^0 = 1.96E+12
+... N^1 = 7.83E+11
+... N^2 = 3.43E+11
+... N^3 = -6.48E+10
+Cross-section per jet multiplicity
+... Xsec^0 : 4683.656485077611
+... Xsec^1 : 1099.0438029621882
+... Xsec^2 : 365.4357254491755
+... Xsec^3 : -70.93601348897508
+Total cross-section (sum over jet mult) : 6077.2
+Inclusive cross section : 6077.2
+Lumiscale weight per sample
+... Inclusive    = 3.24E-09
+... Exclusive 0J = 9.19E-09
+... Exclusive 1J = 2.21E-09
+... Exclusive 2J = 1.62E-09
+Lumiscale weights per jet multiplicity
+... w0 = 2.39E-09
+... w1 = 1.40E-09
+... w2 = 1.06E-09
+... w3 = 1.09E-09
+Stitching weights
+... weight on inclusive sample      in bin 0 (w^0/w_inc) = 0.739
+... weight on inclusive sample      in bin 1 (w^1/w_inc) = 0.434
+... weight on inclusive sample      in bin 2 (w^2/w_inc) = 0.329
+... weight on inclusive sample      in bin 3 (w^3/w_inc) = 0.338
+... weight on exclusive sample (0J) in bin 0 (w^0/w_0)   = 0.261
+... weight on exclusive sample (0J) in bin 1 (w^1/w_0)   = 0.153
+... weight on exclusive sample (0J) in bin 2 (w^2/w_0)   = 0.116
+... weight on exclusive sample (0J) in bin 3 (w^3/w_0)   = 0.119
+... weight on exclusive sample (1J) in bin 0 (w^0/w_1)   = 1.083
+... weight on exclusive sample (1J) in bin 1 (w^1/w_1)   = 0.635
+... weight on exclusive sample (1J) in bin 2 (w^2/w_1)   = 0.481
+... weight on exclusive sample (1J) in bin 3 (w^3/w_1)   = 0.495
+... weight on exclusive sample (2J) in bin 0 (w^0/w_2)   = 1.480
+... weight on exclusive sample (2J) in bin 1 (w^1/w_2)   = 0.868
+... weight on exclusive sample (2J) in bin 2 (w^2/w_2)   = 0.658
+... weight on exclusive sample (2J) in bin 3 (w^3/w_2)   = 0.676
+Fractions
+... 0J : inclusive (0.771), exclusive (0.771) -> Mean (0.771) VS stiched (0.771)
+... 1J : inclusive (0.179), exclusive (0.182) -> Mean (0.181) VS stiched (0.181)
+... 2J : inclusive (0.062), exclusive (0.058) -> Mean (0.060) VS stiched (0.060)
+... 3J : inclusive (-0.012), exclusive (-0.011) -> Mean (-0.012) VS stiched (-0.012)

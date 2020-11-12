@@ -1,0 +1,1145 @@
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% BA04 presentation 
+% LaTeX Template
+% Version 1.0 (14/12/14)
+%
+% This template has been downloaded from:
+% http://www.LaTeXTemplates.com
+%
+% License:
+% CC BY-NC-SA 3.0 (http://creativecommons.org/licenses/by-nc-sa/3.0/)
+%
+%%%%%%%%%%%%%%%%%%%%%%%%a%%%%%%%%%%%%%%%%%
+
+%----------------------------------------------------------------------------------------
+%	PACKAGES AND THEMES
+%----------------------------------------------------------------------------------------
+
+\documentclass[9pt]{beamer}
+
+\mode<presentation> {
+
+% The Beamer class comes with a number of default slide themes
+% which change the colors and layouts of slides. Below this is a list
+% of all the themes, uncomment each in turn to see what they look like.
+
+%\usetheme{default}
+%\usetheme{AnnArbor}
+%\usetheme{Antibes}
+%\usetheme{Bergen}
+%\usetheme{Berkeley}
+%\usetheme{Berlin}
+%\usetheme{Boadilla}
+%\usetheme{CambridgeUS}
+%\usetheme{Copenhagen}
+%\usetheme{Darmstadt}
+%\usetheme{Dresden}
+%\usetheme{Frankfurt}
+%\usetheme{Goettingen}
+%\usetheme{Hannover}
+%\usetheme{Ilmenau}
+%\usetheme{JuanLesPins}
+%\usetheme{Luebeck}
+\usetheme{Madrid}
+%\usetheme{Malmoe}
+%\usetheme{Marburg}
+%\usetheme{Montpellier}
+%\usetheme{PaloAlto}
+%\usetheme{Pittsburgh}
+%\usetheme{Rochester}
+%\usetheme{Singapore}
+%\usetheme{Szeged}
+%\usetheme{Warsaw}
+
+% As well as themes, the Beamer class has a number of color themes
+% for any slide theme. Uncomment each of these in turn to see how it
+% changes the colors of your current slide theme.
+
+%\usecolortheme{albatross}
+\usecolortheme{beaver}
+%\usecolortheme{beetle}
+%\usecolortheme{crane}
+%\usecolortheme{dolphin}
+%\usecolortheme{dove}
+%\usecolortheme{fly}
+%\usecolortheme{lily}
+%\usecolortheme{orchid}
+%\usecolortheme{rose}
+%\usecolortheme{seagull}
+%\usecolortheme{seahorse}
+%\usecolortheme{whale}
+%\usecolortheme{wolverine}
+
+%\setbeamertemplate{footline} % To remove the footer line in all slides uncomment this line
+%\setbeamertemplate{footline}[page number] % To replace the footer line in all slides with a simple slide count uncomment this line
+
+\setbeamertemplate{navigation symbols}{} % To remove the navigation symbols from the bottom of all slides uncomment this line
+\setbeamerfont{frametitle}{size=\normalsize}
+}
+
+\usepackage{graphicx} % Allows including images
+\usepackage{booktabs} % Allows the use of \toprule, \midrule and \bottomrule in tables
+\usepackage[english]{babel}
+\usepackage[utf8x]{inputenc}
+\usepackage{hyperref}
+%\usepackage{underscore}
+
+
+\graphicspath{
+				{../weights/pdf/},
+				{../../BambooOutputHHtobbWW/full2016NanoV6_Tight_Fake_AllDNN/plots_FakeExtrapolation_2016/},
+				{../../BambooOutputHHtobbWW/full2016NanoV6_Tight_Fake_ZPeak_AllDNN/plots_FakeExtrapolation_2016/},
+			 }
+
+\newcommand{\backupbegin}{
+	\newcounter{finalframe}
+	\setcounter{finalframe}{\value{framenumber}}
+}
+\newcommand{\backupend}{
+	\setcounter{framenumber}{\value{finalframe}}
+}
+
+\begin{document}
+%----------------------------------------------------------------------------------------\\
+%----------------------------------------------------------------------------------------\\
+
+%============================================================================================================
+\begin{frame}
+	\frametitle{DY DNN Output : MuMu and ElEl channel Resolved 0btag}
+	\begin{figure}
+	    \textbf{DNN 01} \hspace{1.2cm} \textbf{DNN 02} \hspace{1.2cm} \textbf{DNN 03} \hspace{1.2cm} \textbf{DNN 04} \\
+        \centering
+        \textbf{SR : Z veto} \\
+		\includegraphics[width=0.2\linewidth]{MuMu_HasMuMuTightTwoAk4JetsExclusiveResolvedNoBtag01DYnode_DNNOutput_DY.pdf}
+		\includegraphics[width=0.2\linewidth]{MuMu_HasMuMuTightTwoAk4JetsExclusiveResolvedNoBtag02DYnode_DNNOutput_DY.pdf}
+		\includegraphics[width=0.2\linewidth]{MuMu_HasMuMuTightTwoAk4JetsExclusiveResolvedNoBtag03DYnode_DNNOutput_DY.pdf}
+		\includegraphics[width=0.2\linewidth]{MuMu_HasMuMuTightTwoAk4JetsExclusiveResolvedNoBtag04DYnode_DNNOutput_DY.pdf}\\
+		\includegraphics[width=0.2\linewidth]{ElEl_HasElElTightTwoAk4JetsExclusiveResolvedNoBtag01DYnode_DNNOutput_DY.pdf}
+		\includegraphics[width=0.2\linewidth]{ElEl_HasElElTightTwoAk4JetsExclusiveResolvedNoBtag02DYnode_DNNOutput_DY.pdf}
+		\includegraphics[width=0.2\linewidth]{ElEl_HasElElTightTwoAk4JetsExclusiveResolvedNoBtag03DYnode_DNNOutput_DY.pdf}
+		\includegraphics[width=0.2\linewidth]{ElEl_HasElElTightTwoAk4JetsExclusiveResolvedNoBtag04DYnode_DNNOutput_DY.pdf}\\
+        \textbf{DY CR : Z peak} \\
+		\includegraphics[width=0.2\linewidth]{MuMu_HasMuMuTightZPeakTwoAk4JetsExclusiveResolvedNoBtag01DYnode_DNNOutput_DY.pdf}
+		\includegraphics[width=0.2\linewidth]{MuMu_HasMuMuTightZPeakTwoAk4JetsExclusiveResolvedNoBtag02DYnode_DNNOutput_DY.pdf}
+		\includegraphics[width=0.2\linewidth]{MuMu_HasMuMuTightZPeakTwoAk4JetsExclusiveResolvedNoBtag03DYnode_DNNOutput_DY.pdf}
+		\includegraphics[width=0.2\linewidth]{MuMu_HasMuMuTightZPeakTwoAk4JetsExclusiveResolvedNoBtag04DYnode_DNNOutput_DY.pdf}\\
+		\includegraphics[width=0.2\linewidth]{ElEl_HasElElTightZPeakTwoAk4JetsExclusiveResolvedNoBtag01DYnode_DNNOutput_DY.pdf}
+		\includegraphics[width=0.2\linewidth]{ElEl_HasElElTightZPeakTwoAk4JetsExclusiveResolvedNoBtag02DYnode_DNNOutput_DY.pdf}
+		\includegraphics[width=0.2\linewidth]{ElEl_HasElElTightZPeakTwoAk4JetsExclusiveResolvedNoBtag03DYnode_DNNOutput_DY.pdf}
+		\includegraphics[width=0.2\linewidth]{ElEl_HasElElTightZPeakTwoAk4JetsExclusiveResolvedNoBtag04DYnode_DNNOutput_DY.pdf}\\
+	\end{figure}
+\end{frame}
+%----------------------------------------------------------------------------------------\\
+
+\begin{frame}
+	\frametitle{DY DNN Output : MuMu and ElEl channel Resolved 1btag}
+	\begin{figure}
+	    \textbf{DNN 01} \hspace{1.2cm} \textbf{DNN 02} \hspace{1.2cm} \textbf{DNN 03} \hspace{1.2cm} \textbf{DNN 04} \\
+        \centering
+        \textbf{SR : Z veto} \\
+		\includegraphics[width=0.2\linewidth]{MuMu_HasMuMuTightTwoAk4JetsExclusiveResolvedOneBtag01DYnode_DNNOutput_DY.pdf}
+		\includegraphics[width=0.2\linewidth]{MuMu_HasMuMuTightTwoAk4JetsExclusiveResolvedOneBtag02DYnode_DNNOutput_DY.pdf}
+		\includegraphics[width=0.2\linewidth]{MuMu_HasMuMuTightTwoAk4JetsExclusiveResolvedOneBtag03DYnode_DNNOutput_DY.pdf}
+		\includegraphics[width=0.2\linewidth]{MuMu_HasMuMuTightTwoAk4JetsExclusiveResolvedOneBtag04DYnode_DNNOutput_DY.pdf}\\
+		\includegraphics[width=0.2\linewidth]{ElEl_HasElElTightTwoAk4JetsExclusiveResolvedOneBtag01DYnode_DNNOutput_DY.pdf}
+		\includegraphics[width=0.2\linewidth]{ElEl_HasElElTightTwoAk4JetsExclusiveResolvedOneBtag02DYnode_DNNOutput_DY.pdf}
+		\includegraphics[width=0.2\linewidth]{ElEl_HasElElTightTwoAk4JetsExclusiveResolvedOneBtag03DYnode_DNNOutput_DY.pdf}
+		\includegraphics[width=0.2\linewidth]{ElEl_HasElElTightTwoAk4JetsExclusiveResolvedOneBtag04DYnode_DNNOutput_DY.pdf}\\
+        \textbf{DY CR : Z peak} \\
+		\includegraphics[width=0.2\linewidth]{MuMu_HasMuMuTightZPeakTwoAk4JetsExclusiveResolvedOneBtag01DYnode_DNNOutput_DY.pdf}
+		\includegraphics[width=0.2\linewidth]{MuMu_HasMuMuTightZPeakTwoAk4JetsExclusiveResolvedOneBtag02DYnode_DNNOutput_DY.pdf}
+		\includegraphics[width=0.2\linewidth]{MuMu_HasMuMuTightZPeakTwoAk4JetsExclusiveResolvedOneBtag03DYnode_DNNOutput_DY.pdf}
+		\includegraphics[width=0.2\linewidth]{MuMu_HasMuMuTightZPeakTwoAk4JetsExclusiveResolvedOneBtag04DYnode_DNNOutput_DY.pdf}\\
+		\includegraphics[width=0.2\linewidth]{ElEl_HasElElTightZPeakTwoAk4JetsExclusiveResolvedOneBtag01DYnode_DNNOutput_DY.pdf}
+		\includegraphics[width=0.2\linewidth]{ElEl_HasElElTightZPeakTwoAk4JetsExclusiveResolvedOneBtag02DYnode_DNNOutput_DY.pdf}
+		\includegraphics[width=0.2\linewidth]{ElEl_HasElElTightZPeakTwoAk4JetsExclusiveResolvedOneBtag03DYnode_DNNOutput_DY.pdf}
+		\includegraphics[width=0.2\linewidth]{ElEl_HasElElTightZPeakTwoAk4JetsExclusiveResolvedOneBtag04DYnode_DNNOutput_DY.pdf}\\
+	\end{figure}
+\end{frame}
+%----------------------------------------------------------------------------------------\\
+\begin{frame}
+	\frametitle{DY DNN Output : MuMu and ElEl channel Resolved 2btag}
+	\begin{figure}
+	    \textbf{DNN 01} \hspace{1.2cm} \textbf{DNN 02} \hspace{1.2cm} \textbf{DNN 03} \hspace{1.2cm} \textbf{DNN 04} \\
+        \centering
+        \textbf{SR : Z veto} \\
+		\includegraphics[width=0.2\linewidth]{MuMu_HasMuMuTightTwoAk4JetsExclusiveResolvedTwoBtags01DYnode_DNNOutput_DY.pdf}
+		\includegraphics[width=0.2\linewidth]{MuMu_HasMuMuTightTwoAk4JetsExclusiveResolvedTwoBtags02DYnode_DNNOutput_DY.pdf}
+		\includegraphics[width=0.2\linewidth]{MuMu_HasMuMuTightTwoAk4JetsExclusiveResolvedTwoBtags03DYnode_DNNOutput_DY.pdf}
+		\includegraphics[width=0.2\linewidth]{MuMu_HasMuMuTightTwoAk4JetsExclusiveResolvedTwoBtags04DYnode_DNNOutput_DY.pdf}\\
+		\includegraphics[width=0.2\linewidth]{ElEl_HasElElTightTwoAk4JetsExclusiveResolvedTwoBtags01DYnode_DNNOutput_DY.pdf}
+		\includegraphics[width=0.2\linewidth]{ElEl_HasElElTightTwoAk4JetsExclusiveResolvedTwoBtags02DYnode_DNNOutput_DY.pdf}
+		\includegraphics[width=0.2\linewidth]{ElEl_HasElElTightTwoAk4JetsExclusiveResolvedTwoBtags03DYnode_DNNOutput_DY.pdf}
+		\includegraphics[width=0.2\linewidth]{ElEl_HasElElTightTwoAk4JetsExclusiveResolvedTwoBtags04DYnode_DNNOutput_DY.pdf}\\
+        \textbf{DY CR : Z peak} \\
+		\includegraphics[width=0.2\linewidth]{MuMu_HasMuMuTightZPeakTwoAk4JetsExclusiveResolvedTwoBtags01DYnode_DNNOutput_DY.pdf}
+		\includegraphics[width=0.2\linewidth]{MuMu_HasMuMuTightZPeakTwoAk4JetsExclusiveResolvedTwoBtags02DYnode_DNNOutput_DY.pdf}
+		\includegraphics[width=0.2\linewidth]{MuMu_HasMuMuTightZPeakTwoAk4JetsExclusiveResolvedTwoBtags03DYnode_DNNOutput_DY.pdf}
+		\includegraphics[width=0.2\linewidth]{MuMu_HasMuMuTightZPeakTwoAk4JetsExclusiveResolvedTwoBtags04DYnode_DNNOutput_DY.pdf}\\
+		\includegraphics[width=0.2\linewidth]{ElEl_HasElElTightZPeakTwoAk4JetsExclusiveResolvedTwoBtags01DYnode_DNNOutput_DY.pdf}
+		\includegraphics[width=0.2\linewidth]{ElEl_HasElElTightZPeakTwoAk4JetsExclusiveResolvedTwoBtags02DYnode_DNNOutput_DY.pdf}
+		\includegraphics[width=0.2\linewidth]{ElEl_HasElElTightZPeakTwoAk4JetsExclusiveResolvedTwoBtags03DYnode_DNNOutput_DY.pdf}
+		\includegraphics[width=0.2\linewidth]{ElEl_HasElElTightZPeakTwoAk4JetsExclusiveResolvedTwoBtags04DYnode_DNNOutput_DY.pdf}\\
+	\end{figure}
+\end{frame}
+%----------------------------------------------------------------------------------------\\
+\begin{frame}
+	\frametitle{DY DNN Output : MuMu+ElEl channel Resolved 1btag}
+	\begin{figure}
+	    \textbf{DNN 01} \hspace{1.2cm} \textbf{DNN 02} \hspace{1.2cm} \textbf{DNN 03} \hspace{1.2cm} \textbf{DNN 04}
+        \centering
+		\includegraphics[page=1,width=0.22\linewidth]{weight_DNNoutputDY_SSDL_mc_DNN01_1D_CDFShift1b.pdf}
+		\includegraphics[page=1,width=0.22\linewidth]{weight_DNNoutputDY_SSDL_mc_DNN02_1D_CDFShift1b.pdf}
+		\includegraphics[page=1,width=0.22\linewidth]{weight_DNNoutputDY_SSDL_mc_DNN03_1D_CDFShift1b.pdf}
+		\includegraphics[page=1,width=0.22\linewidth]{weight_DNNoutputDY_SSDL_mc_DNN04_1D_CDFShift1b.pdf}\\
+		\includegraphics[page=2,width=0.22\linewidth]{weight_DNNoutputDY_SSDL_mc_DNN01_1D_CDFShift1b.pdf}
+		\includegraphics[page=2,width=0.22\linewidth]{weight_DNNoutputDY_SSDL_mc_DNN02_1D_CDFShift1b.pdf}
+		\includegraphics[page=2,width=0.22\linewidth]{weight_DNNoutputDY_SSDL_mc_DNN03_1D_CDFShift1b.pdf}
+		\includegraphics[page=2,width=0.22\linewidth]{weight_DNNoutputDY_SSDL_mc_DNN04_1D_CDFShift1b.pdf}\\
+		\includegraphics[page=4,width=0.22\linewidth]{weight_DNNoutputDY_SSDL_mc_DNN01_1D_CDFShift1b.pdf}
+		\includegraphics[page=4,width=0.22\linewidth]{weight_DNNoutputDY_SSDL_mc_DNN02_1D_CDFShift1b.pdf}
+		\includegraphics[page=4,width=0.22\linewidth]{weight_DNNoutputDY_SSDL_mc_DNN03_1D_CDFShift1b.pdf}
+		\includegraphics[page=4,width=0.22\linewidth]{weight_DNNoutputDY_SSDL_mc_DNN04_1D_CDFShift1b.pdf}\\
+		\includegraphics[page=7,width=0.22\linewidth]{weight_DNNoutputDY_SSDL_mc_DNN01_1D_CDFShift1b.pdf}
+		\includegraphics[page=7,width=0.22\linewidth]{weight_DNNoutputDY_SSDL_mc_DNN02_1D_CDFShift1b.pdf}
+		\includegraphics[page=7,width=0.22\linewidth]{weight_DNNoutputDY_SSDL_mc_DNN03_1D_CDFShift1b.pdf}
+		\includegraphics[page=7,width=0.22\linewidth]{weight_DNNoutputDY_SSDL_mc_DNN04_1D_CDFShift1b.pdf}\\
+	\end{figure}
+\end{frame}
+%----------------------------------------------------------------------------------------\\
+\begin{frame}
+	\frametitle{DY DNN Output : MuMu+ElEl channel Resolved 2btag}
+	\begin{figure}
+	    \textbf{DNN 01} \hspace{1.2cm} \textbf{DNN 02} \hspace{1.2cm} \textbf{DNN 03} \hspace{1.2cm} \textbf{DNN 04}
+        \centering
+		\includegraphics[page=1,width=0.22\linewidth]{weight_DNNoutputDY_SSDL_mc_DNN01_1D_CDFShift2b.pdf}
+		\includegraphics[page=1,width=0.22\linewidth]{weight_DNNoutputDY_SSDL_mc_DNN02_1D_CDFShift2b.pdf}
+		\includegraphics[page=1,width=0.22\linewidth]{weight_DNNoutputDY_SSDL_mc_DNN03_1D_CDFShift2b.pdf}
+		\includegraphics[page=1,width=0.22\linewidth]{weight_DNNoutputDY_SSDL_mc_DNN04_1D_CDFShift2b.pdf}\\
+		\includegraphics[page=2,width=0.22\linewidth]{weight_DNNoutputDY_SSDL_mc_DNN01_1D_CDFShift2b.pdf}
+		\includegraphics[page=2,width=0.22\linewidth]{weight_DNNoutputDY_SSDL_mc_DNN02_1D_CDFShift2b.pdf}
+		\includegraphics[page=2,width=0.22\linewidth]{weight_DNNoutputDY_SSDL_mc_DNN03_1D_CDFShift2b.pdf}
+		\includegraphics[page=2,width=0.22\linewidth]{weight_DNNoutputDY_SSDL_mc_DNN04_1D_CDFShift2b.pdf}\\
+		\includegraphics[page=4,width=0.22\linewidth]{weight_DNNoutputDY_SSDL_mc_DNN01_1D_CDFShift2b.pdf}
+		\includegraphics[page=4,width=0.22\linewidth]{weight_DNNoutputDY_SSDL_mc_DNN02_1D_CDFShift2b.pdf}
+		\includegraphics[page=4,width=0.22\linewidth]{weight_DNNoutputDY_SSDL_mc_DNN03_1D_CDFShift2b.pdf}
+		\includegraphics[page=4,width=0.22\linewidth]{weight_DNNoutputDY_SSDL_mc_DNN04_1D_CDFShift2b.pdf}\\
+		\includegraphics[page=7,width=0.22\linewidth]{weight_DNNoutputDY_SSDL_mc_DNN01_1D_CDFShift2b.pdf}
+		\includegraphics[page=7,width=0.22\linewidth]{weight_DNNoutputDY_SSDL_mc_DNN02_1D_CDFShift2b.pdf}
+		\includegraphics[page=7,width=0.22\linewidth]{weight_DNNoutputDY_SSDL_mc_DNN03_1D_CDFShift2b.pdf}
+		\includegraphics[page=7,width=0.22\linewidth]{weight_DNNoutputDY_SSDL_mc_DNN04_1D_CDFShift2b.pdf}\\
+	\end{figure}
+\end{frame}
+%----------------------------------------------------------------------------------------\\
+%============================================================================================================
+\begin{frame}
+	\frametitle{H DNN Output : MuMu and ElEl channel Resolved 0btag}
+	\begin{figure}
+	    \textbf{DNN 01} \hspace{1.2cm} \textbf{DNN 02} \hspace{1.2cm} \textbf{DNN 03} \hspace{1.2cm} \textbf{DNN 04} \\
+        \centering
+        \textbf{SR : Z veto} \\
+		\includegraphics[width=0.2\linewidth]{MuMu_HasMuMuTightTwoAk4JetsExclusiveResolvedNoBtag01Hnode_DNNOutput_H.pdf}
+		\includegraphics[width=0.2\linewidth]{MuMu_HasMuMuTightTwoAk4JetsExclusiveResolvedNoBtag02Hnode_DNNOutput_H.pdf}
+		\includegraphics[width=0.2\linewidth]{MuMu_HasMuMuTightTwoAk4JetsExclusiveResolvedNoBtag03Hnode_DNNOutput_H.pdf}
+		\includegraphics[width=0.2\linewidth]{MuMu_HasMuMuTightTwoAk4JetsExclusiveResolvedNoBtag04Hnode_DNNOutput_H.pdf}\\
+		\includegraphics[width=0.2\linewidth]{ElEl_HasElElTightTwoAk4JetsExclusiveResolvedNoBtag01Hnode_DNNOutput_H.pdf}
+		\includegraphics[width=0.2\linewidth]{ElEl_HasElElTightTwoAk4JetsExclusiveResolvedNoBtag02Hnode_DNNOutput_H.pdf}
+		\includegraphics[width=0.2\linewidth]{ElEl_HasElElTightTwoAk4JetsExclusiveResolvedNoBtag03Hnode_DNNOutput_H.pdf}
+		\includegraphics[width=0.2\linewidth]{ElEl_HasElElTightTwoAk4JetsExclusiveResolvedNoBtag04Hnode_DNNOutput_H.pdf}\\
+        \textbf{H CR : Z peak} \\
+		\includegraphics[width=0.2\linewidth]{MuMu_HasMuMuTightZPeakTwoAk4JetsExclusiveResolvedNoBtag01Hnode_DNNOutput_H.pdf}
+		\includegraphics[width=0.2\linewidth]{MuMu_HasMuMuTightZPeakTwoAk4JetsExclusiveResolvedNoBtag02Hnode_DNNOutput_H.pdf}
+		\includegraphics[width=0.2\linewidth]{MuMu_HasMuMuTightZPeakTwoAk4JetsExclusiveResolvedNoBtag03Hnode_DNNOutput_H.pdf}
+		\includegraphics[width=0.2\linewidth]{MuMu_HasMuMuTightZPeakTwoAk4JetsExclusiveResolvedNoBtag04Hnode_DNNOutput_H.pdf}\\
+		\includegraphics[width=0.2\linewidth]{ElEl_HasElElTightZPeakTwoAk4JetsExclusiveResolvedNoBtag01Hnode_DNNOutput_H.pdf}
+		\includegraphics[width=0.2\linewidth]{ElEl_HasElElTightZPeakTwoAk4JetsExclusiveResolvedNoBtag02Hnode_DNNOutput_H.pdf}
+		\includegraphics[width=0.2\linewidth]{ElEl_HasElElTightZPeakTwoAk4JetsExclusiveResolvedNoBtag03Hnode_DNNOutput_H.pdf}
+		\includegraphics[width=0.2\linewidth]{ElEl_HasElElTightZPeakTwoAk4JetsExclusiveResolvedNoBtag04Hnode_DNNOutput_H.pdf}\\
+	\end{figure}
+\end{frame}
+%----------------------------------------------------------------------------------------\\
+
+\begin{frame}
+	\frametitle{H DNN Output : MuMu and ElEl channel Resolved 1btag}
+	\begin{figure}
+	    \textbf{DNN 01} \hspace{1.2cm} \textbf{DNN 02} \hspace{1.2cm} \textbf{DNN 03} \hspace{1.2cm} \textbf{DNN 04} \\
+        \centering
+        \textbf{SR : Z veto} \\
+		\includegraphics[width=0.2\linewidth]{MuMu_HasMuMuTightTwoAk4JetsExclusiveResolvedOneBtag01Hnode_DNNOutput_H.pdf}
+		\includegraphics[width=0.2\linewidth]{MuMu_HasMuMuTightTwoAk4JetsExclusiveResolvedOneBtag02Hnode_DNNOutput_H.pdf}
+		\includegraphics[width=0.2\linewidth]{MuMu_HasMuMuTightTwoAk4JetsExclusiveResolvedOneBtag03Hnode_DNNOutput_H.pdf}
+		\includegraphics[width=0.2\linewidth]{MuMu_HasMuMuTightTwoAk4JetsExclusiveResolvedOneBtag04Hnode_DNNOutput_H.pdf}\\
+		\includegraphics[width=0.2\linewidth]{ElEl_HasElElTightTwoAk4JetsExclusiveResolvedOneBtag01Hnode_DNNOutput_H.pdf}
+		\includegraphics[width=0.2\linewidth]{ElEl_HasElElTightTwoAk4JetsExclusiveResolvedOneBtag02Hnode_DNNOutput_H.pdf}
+		\includegraphics[width=0.2\linewidth]{ElEl_HasElElTightTwoAk4JetsExclusiveResolvedOneBtag03Hnode_DNNOutput_H.pdf}
+		\includegraphics[width=0.2\linewidth]{ElEl_HasElElTightTwoAk4JetsExclusiveResolvedOneBtag04Hnode_DNNOutput_H.pdf}\\
+        \textbf{H CR : Z peak} \\
+		\includegraphics[width=0.2\linewidth]{MuMu_HasMuMuTightZPeakTwoAk4JetsExclusiveResolvedOneBtag01Hnode_DNNOutput_H.pdf}
+		\includegraphics[width=0.2\linewidth]{MuMu_HasMuMuTightZPeakTwoAk4JetsExclusiveResolvedOneBtag02Hnode_DNNOutput_H.pdf}
+		\includegraphics[width=0.2\linewidth]{MuMu_HasMuMuTightZPeakTwoAk4JetsExclusiveResolvedOneBtag03Hnode_DNNOutput_H.pdf}
+		\includegraphics[width=0.2\linewidth]{MuMu_HasMuMuTightZPeakTwoAk4JetsExclusiveResolvedOneBtag04Hnode_DNNOutput_H.pdf}\\
+		\includegraphics[width=0.2\linewidth]{ElEl_HasElElTightZPeakTwoAk4JetsExclusiveResolvedOneBtag01Hnode_DNNOutput_H.pdf}
+		\includegraphics[width=0.2\linewidth]{ElEl_HasElElTightZPeakTwoAk4JetsExclusiveResolvedOneBtag02Hnode_DNNOutput_H.pdf}
+		\includegraphics[width=0.2\linewidth]{ElEl_HasElElTightZPeakTwoAk4JetsExclusiveResolvedOneBtag03Hnode_DNNOutput_H.pdf}
+		\includegraphics[width=0.2\linewidth]{ElEl_HasElElTightZPeakTwoAk4JetsExclusiveResolvedOneBtag04Hnode_DNNOutput_H.pdf}\\
+	\end{figure}
+\end{frame}
+%----------------------------------------------------------------------------------------\\
+\begin{frame}
+	\frametitle{H DNN Output : MuMu and ElEl channel Resolved 2btag}
+	\begin{figure}
+	    \textbf{DNN 01} \hspace{1.2cm} \textbf{DNN 02} \hspace{1.2cm} \textbf{DNN 03} \hspace{1.2cm} \textbf{DNN 04} \\
+        \centering
+        \textbf{SR : Z veto} \\
+		\includegraphics[width=0.2\linewidth]{MuMu_HasMuMuTightTwoAk4JetsExclusiveResolvedTwoBtags01Hnode_DNNOutput_H.pdf}
+		\includegraphics[width=0.2\linewidth]{MuMu_HasMuMuTightTwoAk4JetsExclusiveResolvedTwoBtags02Hnode_DNNOutput_H.pdf}
+		\includegraphics[width=0.2\linewidth]{MuMu_HasMuMuTightTwoAk4JetsExclusiveResolvedTwoBtags03Hnode_DNNOutput_H.pdf}
+		\includegraphics[width=0.2\linewidth]{MuMu_HasMuMuTightTwoAk4JetsExclusiveResolvedTwoBtags04Hnode_DNNOutput_H.pdf}\\
+		\includegraphics[width=0.2\linewidth]{ElEl_HasElElTightTwoAk4JetsExclusiveResolvedTwoBtags01Hnode_DNNOutput_H.pdf}
+		\includegraphics[width=0.2\linewidth]{ElEl_HasElElTightTwoAk4JetsExclusiveResolvedTwoBtags02Hnode_DNNOutput_H.pdf}
+		\includegraphics[width=0.2\linewidth]{ElEl_HasElElTightTwoAk4JetsExclusiveResolvedTwoBtags03Hnode_DNNOutput_H.pdf}
+		\includegraphics[width=0.2\linewidth]{ElEl_HasElElTightTwoAk4JetsExclusiveResolvedTwoBtags04Hnode_DNNOutput_H.pdf}\\
+        \textbf{H CR : Z peak} \\
+		\includegraphics[width=0.2\linewidth]{MuMu_HasMuMuTightZPeakTwoAk4JetsExclusiveResolvedTwoBtags01Hnode_DNNOutput_H.pdf}
+		\includegraphics[width=0.2\linewidth]{MuMu_HasMuMuTightZPeakTwoAk4JetsExclusiveResolvedTwoBtags02Hnode_DNNOutput_H.pdf}
+		\includegraphics[width=0.2\linewidth]{MuMu_HasMuMuTightZPeakTwoAk4JetsExclusiveResolvedTwoBtags03Hnode_DNNOutput_H.pdf}
+		\includegraphics[width=0.2\linewidth]{MuMu_HasMuMuTightZPeakTwoAk4JetsExclusiveResolvedTwoBtags04Hnode_DNNOutput_H.pdf}\\
+		\includegraphics[width=0.2\linewidth]{ElEl_HasElElTightZPeakTwoAk4JetsExclusiveResolvedTwoBtags01Hnode_DNNOutput_H.pdf}
+		\includegraphics[width=0.2\linewidth]{ElEl_HasElElTightZPeakTwoAk4JetsExclusiveResolvedTwoBtags02Hnode_DNNOutput_H.pdf}
+		\includegraphics[width=0.2\linewidth]{ElEl_HasElElTightZPeakTwoAk4JetsExclusiveResolvedTwoBtags03Hnode_DNNOutput_H.pdf}
+		\includegraphics[width=0.2\linewidth]{ElEl_HasElElTightZPeakTwoAk4JetsExclusiveResolvedTwoBtags04Hnode_DNNOutput_H.pdf}\\
+	\end{figure}
+\end{frame}
+%----------------------------------------------------------------------------------------\\
+\begin{frame}
+	\frametitle{H DNN Output : MuMu+ElEl channel Resolved 1btag}
+	\begin{figure}
+	    \textbf{DNN 01} \hspace{1.2cm} \textbf{DNN 02} \hspace{1.2cm} \textbf{DNN 03} \hspace{1.2cm} \textbf{DNN 04}
+        \centering
+		\includegraphics[page=1,width=0.22\linewidth]{weight_DNNoutputH_SSDL_mc_DNN01_1D_CDFShift1b.pdf}
+		\includegraphics[page=1,width=0.22\linewidth]{weight_DNNoutputH_SSDL_mc_DNN02_1D_CDFShift1b.pdf}
+		\includegraphics[page=1,width=0.22\linewidth]{weight_DNNoutputH_SSDL_mc_DNN03_1D_CDFShift1b.pdf}
+		\includegraphics[page=1,width=0.22\linewidth]{weight_DNNoutputH_SSDL_mc_DNN04_1D_CDFShift1b.pdf}\\
+		\includegraphics[page=2,width=0.22\linewidth]{weight_DNNoutputH_SSDL_mc_DNN01_1D_CDFShift1b.pdf}
+		\includegraphics[page=2,width=0.22\linewidth]{weight_DNNoutputH_SSDL_mc_DNN02_1D_CDFShift1b.pdf}
+		\includegraphics[page=2,width=0.22\linewidth]{weight_DNNoutputH_SSDL_mc_DNN03_1D_CDFShift1b.pdf}
+		\includegraphics[page=2,width=0.22\linewidth]{weight_DNNoutputH_SSDL_mc_DNN04_1D_CDFShift1b.pdf}\\
+		\includegraphics[page=4,width=0.22\linewidth]{weight_DNNoutputH_SSDL_mc_DNN01_1D_CDFShift1b.pdf}
+		\includegraphics[page=4,width=0.22\linewidth]{weight_DNNoutputH_SSDL_mc_DNN02_1D_CDFShift1b.pdf}
+		\includegraphics[page=4,width=0.22\linewidth]{weight_DNNoutputH_SSDL_mc_DNN03_1D_CDFShift1b.pdf}
+		\includegraphics[page=4,width=0.22\linewidth]{weight_DNNoutputH_SSDL_mc_DNN04_1D_CDFShift1b.pdf}\\
+		\includegraphics[page=7,width=0.22\linewidth]{weight_DNNoutputH_SSDL_mc_DNN01_1D_CDFShift1b.pdf}
+		\includegraphics[page=7,width=0.22\linewidth]{weight_DNNoutputH_SSDL_mc_DNN02_1D_CDFShift1b.pdf}
+		\includegraphics[page=7,width=0.22\linewidth]{weight_DNNoutputH_SSDL_mc_DNN03_1D_CDFShift1b.pdf}
+		\includegraphics[page=7,width=0.22\linewidth]{weight_DNNoutputH_SSDL_mc_DNN04_1D_CDFShift1b.pdf}\\
+	\end{figure}
+\end{frame}
+%----------------------------------------------------------------------------------------\\
+\begin{frame}
+	\frametitle{H DNN Output : MuMu+ElEl channel Resolved 2btag}
+	\begin{figure}
+	    \textbf{DNN 01} \hspace{1.2cm} \textbf{DNN 02} \hspace{1.2cm} \textbf{DNN 03} \hspace{1.2cm} \textbf{DNN 04}
+        \centering
+		\includegraphics[page=1,width=0.22\linewidth]{weight_DNNoutputH_SSDL_mc_DNN01_1D_CDFShift2b.pdf}
+		\includegraphics[page=1,width=0.22\linewidth]{weight_DNNoutputH_SSDL_mc_DNN02_1D_CDFShift2b.pdf}
+		\includegraphics[page=1,width=0.22\linewidth]{weight_DNNoutputH_SSDL_mc_DNN03_1D_CDFShift2b.pdf}
+		\includegraphics[page=1,width=0.22\linewidth]{weight_DNNoutputH_SSDL_mc_DNN04_1D_CDFShift2b.pdf}\\
+		\includegraphics[page=2,width=0.22\linewidth]{weight_DNNoutputH_SSDL_mc_DNN01_1D_CDFShift2b.pdf}
+		\includegraphics[page=2,width=0.22\linewidth]{weight_DNNoutputH_SSDL_mc_DNN02_1D_CDFShift2b.pdf}
+		\includegraphics[page=2,width=0.22\linewidth]{weight_DNNoutputH_SSDL_mc_DNN03_1D_CDFShift2b.pdf}
+		\includegraphics[page=2,width=0.22\linewidth]{weight_DNNoutputH_SSDL_mc_DNN04_1D_CDFShift2b.pdf}\\
+		\includegraphics[page=4,width=0.22\linewidth]{weight_DNNoutputH_SSDL_mc_DNN01_1D_CDFShift2b.pdf}
+		\includegraphics[page=4,width=0.22\linewidth]{weight_DNNoutputH_SSDL_mc_DNN02_1D_CDFShift2b.pdf}
+		\includegraphics[page=4,width=0.22\linewidth]{weight_DNNoutputH_SSDL_mc_DNN03_1D_CDFShift2b.pdf}
+		\includegraphics[page=4,width=0.22\linewidth]{weight_DNNoutputH_SSDL_mc_DNN04_1D_CDFShift2b.pdf}\\
+		\includegraphics[page=7,width=0.22\linewidth]{weight_DNNoutputH_SSDL_mc_DNN01_1D_CDFShift2b.pdf}
+		\includegraphics[page=7,width=0.22\linewidth]{weight_DNNoutputH_SSDL_mc_DNN02_1D_CDFShift2b.pdf}
+		\includegraphics[page=7,width=0.22\linewidth]{weight_DNNoutputH_SSDL_mc_DNN03_1D_CDFShift2b.pdf}
+		\includegraphics[page=7,width=0.22\linewidth]{weight_DNNoutputH_SSDL_mc_DNN04_1D_CDFShift2b.pdf}\\
+	\end{figure}
+\end{frame}
+%----------------------------------------------------------------------------------------\\
+%============================================================================================================
+\begin{frame}
+	\frametitle{HH DNN Output : MuMu and ElEl channel Resolved 0btag}
+	\begin{figure}
+	    \textbf{DNN 01} \hspace{1.2cm} \textbf{DNN 02} \hspace{1.2cm} \textbf{DNN 03} \hspace{1.2cm} \textbf{DNN 04} \\
+        \centering
+        \textbf{SR : Z veto} \\
+		\includegraphics[width=0.2\linewidth]{MuMu_HasMuMuTightTwoAk4JetsExclusiveResolvedNoBtag01HHnode_DNNOutput_HH.pdf}
+		\includegraphics[width=0.2\linewidth]{MuMu_HasMuMuTightTwoAk4JetsExclusiveResolvedNoBtag02HHnode_DNNOutput_HH.pdf}
+		\includegraphics[width=0.2\linewidth]{MuMu_HasMuMuTightTwoAk4JetsExclusiveResolvedNoBtag03HHnode_DNNOutput_HH.pdf}
+		\includegraphics[width=0.2\linewidth]{MuMu_HasMuMuTightTwoAk4JetsExclusiveResolvedNoBtag04HHnode_DNNOutput_HH.pdf}\\
+		\includegraphics[width=0.2\linewidth]{ElEl_HasElElTightTwoAk4JetsExclusiveResolvedNoBtag01HHnode_DNNOutput_HH.pdf}
+		\includegraphics[width=0.2\linewidth]{ElEl_HasElElTightTwoAk4JetsExclusiveResolvedNoBtag02HHnode_DNNOutput_HH.pdf}
+		\includegraphics[width=0.2\linewidth]{ElEl_HasElElTightTwoAk4JetsExclusiveResolvedNoBtag03HHnode_DNNOutput_HH.pdf}
+		\includegraphics[width=0.2\linewidth]{ElEl_HasElElTightTwoAk4JetsExclusiveResolvedNoBtag04HHnode_DNNOutput_HH.pdf}\\
+        \textbf{HH CR : Z peak} \\
+		\includegraphics[width=0.2\linewidth]{MuMu_HasMuMuTightZPeakTwoAk4JetsExclusiveResolvedNoBtag01HHnode_DNNOutput_HH.pdf}
+		\includegraphics[width=0.2\linewidth]{MuMu_HasMuMuTightZPeakTwoAk4JetsExclusiveResolvedNoBtag02HHnode_DNNOutput_HH.pdf}
+		\includegraphics[width=0.2\linewidth]{MuMu_HasMuMuTightZPeakTwoAk4JetsExclusiveResolvedNoBtag03HHnode_DNNOutput_HH.pdf}
+		\includegraphics[width=0.2\linewidth]{MuMu_HasMuMuTightZPeakTwoAk4JetsExclusiveResolvedNoBtag04HHnode_DNNOutput_HH.pdf}\\
+		\includegraphics[width=0.2\linewidth]{ElEl_HasElElTightZPeakTwoAk4JetsExclusiveResolvedNoBtag01HHnode_DNNOutput_HH.pdf}
+		\includegraphics[width=0.2\linewidth]{ElEl_HasElElTightZPeakTwoAk4JetsExclusiveResolvedNoBtag02HHnode_DNNOutput_HH.pdf}
+		\includegraphics[width=0.2\linewidth]{ElEl_HasElElTightZPeakTwoAk4JetsExclusiveResolvedNoBtag03HHnode_DNNOutput_HH.pdf}
+		\includegraphics[width=0.2\linewidth]{ElEl_HasElElTightZPeakTwoAk4JetsExclusiveResolvedNoBtag04HHnode_DNNOutput_HH.pdf}\\
+	\end{figure}
+\end{frame}
+%----------------------------------------------------------------------------------------\\
+
+\begin{frame}
+	\frametitle{HH DNN Output : MuMu and ElEl channel Resolved 1btag}
+	\begin{figure}
+	    \textbf{DNN 01} \hspace{1.2cm} \textbf{DNN 02} \hspace{1.2cm} \textbf{DNN 03} \hspace{1.2cm} \textbf{DNN 04} \\
+        \centering
+        \textbf{SR : Z veto} \\
+		\includegraphics[width=0.2\linewidth]{MuMu_HasMuMuTightTwoAk4JetsExclusiveResolvedOneBtag01HHnode_DNNOutput_HH.pdf}
+		\includegraphics[width=0.2\linewidth]{MuMu_HasMuMuTightTwoAk4JetsExclusiveResolvedOneBtag02HHnode_DNNOutput_HH.pdf}
+		\includegraphics[width=0.2\linewidth]{MuMu_HasMuMuTightTwoAk4JetsExclusiveResolvedOneBtag03HHnode_DNNOutput_HH.pdf}
+		\includegraphics[width=0.2\linewidth]{MuMu_HasMuMuTightTwoAk4JetsExclusiveResolvedOneBtag04HHnode_DNNOutput_HH.pdf}\\
+		\includegraphics[width=0.2\linewidth]{ElEl_HasElElTightTwoAk4JetsExclusiveResolvedOneBtag01HHnode_DNNOutput_HH.pdf}
+		\includegraphics[width=0.2\linewidth]{ElEl_HasElElTightTwoAk4JetsExclusiveResolvedOneBtag02HHnode_DNNOutput_HH.pdf}
+		\includegraphics[width=0.2\linewidth]{ElEl_HasElElTightTwoAk4JetsExclusiveResolvedOneBtag03HHnode_DNNOutput_HH.pdf}
+		\includegraphics[width=0.2\linewidth]{ElEl_HasElElTightTwoAk4JetsExclusiveResolvedOneBtag04HHnode_DNNOutput_HH.pdf}\\
+        \textbf{HH CR : Z peak} \\
+		\includegraphics[width=0.2\linewidth]{MuMu_HasMuMuTightZPeakTwoAk4JetsExclusiveResolvedOneBtag01HHnode_DNNOutput_HH.pdf}
+		\includegraphics[width=0.2\linewidth]{MuMu_HasMuMuTightZPeakTwoAk4JetsExclusiveResolvedOneBtag02HHnode_DNNOutput_HH.pdf}
+		\includegraphics[width=0.2\linewidth]{MuMu_HasMuMuTightZPeakTwoAk4JetsExclusiveResolvedOneBtag03HHnode_DNNOutput_HH.pdf}
+		\includegraphics[width=0.2\linewidth]{MuMu_HasMuMuTightZPeakTwoAk4JetsExclusiveResolvedOneBtag04HHnode_DNNOutput_HH.pdf}\\
+		\includegraphics[width=0.2\linewidth]{ElEl_HasElElTightZPeakTwoAk4JetsExclusiveResolvedOneBtag01HHnode_DNNOutput_HH.pdf}
+		\includegraphics[width=0.2\linewidth]{ElEl_HasElElTightZPeakTwoAk4JetsExclusiveResolvedOneBtag02HHnode_DNNOutput_HH.pdf}
+		\includegraphics[width=0.2\linewidth]{ElEl_HasElElTightZPeakTwoAk4JetsExclusiveResolvedOneBtag03HHnode_DNNOutput_HH.pdf}
+		\includegraphics[width=0.2\linewidth]{ElEl_HasElElTightZPeakTwoAk4JetsExclusiveResolvedOneBtag04HHnode_DNNOutput_HH.pdf}\\
+	\end{figure}
+\end{frame}
+%----------------------------------------------------------------------------------------\\
+\begin{frame}
+	\frametitle{HH DNN Output : MuMu and ElEl channel Resolved 2btag}
+	\begin{figure}
+	    \textbf{DNN 01} \hspace{1.2cm} \textbf{DNN 02} \hspace{1.2cm} \textbf{DNN 03} \hspace{1.2cm} \textbf{DNN 04} \\
+        \centering
+        \textbf{SR : Z veto} \\
+		\includegraphics[width=0.2\linewidth]{MuMu_HasMuMuTightTwoAk4JetsExclusiveResolvedTwoBtags01HHnode_DNNOutput_HH.pdf}
+		\includegraphics[width=0.2\linewidth]{MuMu_HasMuMuTightTwoAk4JetsExclusiveResolvedTwoBtags02HHnode_DNNOutput_HH.pdf}
+		\includegraphics[width=0.2\linewidth]{MuMu_HasMuMuTightTwoAk4JetsExclusiveResolvedTwoBtags03HHnode_DNNOutput_HH.pdf}
+		\includegraphics[width=0.2\linewidth]{MuMu_HasMuMuTightTwoAk4JetsExclusiveResolvedTwoBtags04HHnode_DNNOutput_HH.pdf}\\
+		\includegraphics[width=0.2\linewidth]{ElEl_HasElElTightTwoAk4JetsExclusiveResolvedTwoBtags01HHnode_DNNOutput_HH.pdf}
+		\includegraphics[width=0.2\linewidth]{ElEl_HasElElTightTwoAk4JetsExclusiveResolvedTwoBtags02HHnode_DNNOutput_HH.pdf}
+		\includegraphics[width=0.2\linewidth]{ElEl_HasElElTightTwoAk4JetsExclusiveResolvedTwoBtags03HHnode_DNNOutput_HH.pdf}
+		\includegraphics[width=0.2\linewidth]{ElEl_HasElElTightTwoAk4JetsExclusiveResolvedTwoBtags04HHnode_DNNOutput_HH.pdf}\\
+        \textbf{HH CR : Z peak} \\
+		\includegraphics[width=0.2\linewidth]{MuMu_HasMuMuTightZPeakTwoAk4JetsExclusiveResolvedTwoBtags01HHnode_DNNOutput_HH.pdf}
+		\includegraphics[width=0.2\linewidth]{MuMu_HasMuMuTightZPeakTwoAk4JetsExclusiveResolvedTwoBtags02HHnode_DNNOutput_HH.pdf}
+		\includegraphics[width=0.2\linewidth]{MuMu_HasMuMuTightZPeakTwoAk4JetsExclusiveResolvedTwoBtags03HHnode_DNNOutput_HH.pdf}
+		\includegraphics[width=0.2\linewidth]{MuMu_HasMuMuTightZPeakTwoAk4JetsExclusiveResolvedTwoBtags04HHnode_DNNOutput_HH.pdf}\\
+		\includegraphics[width=0.2\linewidth]{ElEl_HasElElTightZPeakTwoAk4JetsExclusiveResolvedTwoBtags01HHnode_DNNOutput_HH.pdf}
+		\includegraphics[width=0.2\linewidth]{ElEl_HasElElTightZPeakTwoAk4JetsExclusiveResolvedTwoBtags02HHnode_DNNOutput_HH.pdf}
+		\includegraphics[width=0.2\linewidth]{ElEl_HasElElTightZPeakTwoAk4JetsExclusiveResolvedTwoBtags03HHnode_DNNOutput_HH.pdf}
+		\includegraphics[width=0.2\linewidth]{ElEl_HasElElTightZPeakTwoAk4JetsExclusiveResolvedTwoBtags04HHnode_DNNOutput_HH.pdf}\\
+	\end{figure}
+\end{frame}
+%----------------------------------------------------------------------------------------\\
+\begin{frame}
+	\frametitle{HH DNN Output : MuMu+ElEl channel Resolved 1btag}
+	\begin{figure}
+	    \textbf{DNN 01} \hspace{1.2cm} \textbf{DNN 02} \hspace{1.2cm} \textbf{DNN 03} \hspace{1.2cm} \textbf{DNN 04}
+        \centering
+		\includegraphics[page=1,width=0.22\linewidth]{weight_DNNoutputHH_SSDL_mc_DNN01_1D_CDFShift1b.pdf}
+		\includegraphics[page=1,width=0.22\linewidth]{weight_DNNoutputHH_SSDL_mc_DNN02_1D_CDFShift1b.pdf}
+		\includegraphics[page=1,width=0.22\linewidth]{weight_DNNoutputHH_SSDL_mc_DNN03_1D_CDFShift1b.pdf}
+		\includegraphics[page=1,width=0.22\linewidth]{weight_DNNoutputHH_SSDL_mc_DNN04_1D_CDFShift1b.pdf}\\
+		\includegraphics[page=2,width=0.22\linewidth]{weight_DNNoutputHH_SSDL_mc_DNN01_1D_CDFShift1b.pdf}
+		\includegraphics[page=2,width=0.22\linewidth]{weight_DNNoutputHH_SSDL_mc_DNN02_1D_CDFShift1b.pdf}
+		\includegraphics[page=2,width=0.22\linewidth]{weight_DNNoutputHH_SSDL_mc_DNN03_1D_CDFShift1b.pdf}
+		\includegraphics[page=2,width=0.22\linewidth]{weight_DNNoutputHH_SSDL_mc_DNN04_1D_CDFShift1b.pdf}\\
+		\includegraphics[page=4,width=0.22\linewidth]{weight_DNNoutputHH_SSDL_mc_DNN01_1D_CDFShift1b.pdf}
+		\includegraphics[page=4,width=0.22\linewidth]{weight_DNNoutputHH_SSDL_mc_DNN02_1D_CDFShift1b.pdf}
+		\includegraphics[page=4,width=0.22\linewidth]{weight_DNNoutputHH_SSDL_mc_DNN03_1D_CDFShift1b.pdf}
+		\includegraphics[page=4,width=0.22\linewidth]{weight_DNNoutputHH_SSDL_mc_DNN04_1D_CDFShift1b.pdf}\\
+		\includegraphics[page=7,width=0.22\linewidth]{weight_DNNoutputHH_SSDL_mc_DNN01_1D_CDFShift1b.pdf}
+		\includegraphics[page=7,width=0.22\linewidth]{weight_DNNoutputHH_SSDL_mc_DNN02_1D_CDFShift1b.pdf}
+		\includegraphics[page=7,width=0.22\linewidth]{weight_DNNoutputHH_SSDL_mc_DNN03_1D_CDFShift1b.pdf}
+		\includegraphics[page=7,width=0.22\linewidth]{weight_DNNoutputHH_SSDL_mc_DNN04_1D_CDFShift1b.pdf}\\
+	\end{figure}
+\end{frame}
+%----------------------------------------------------------------------------------------\\
+\begin{frame}
+	\frametitle{HH DNN Output : MuMu+ElEl channel Resolved 2btag}
+	\begin{figure}
+	    \textbf{DNN 01} \hspace{1.2cm} \textbf{DNN 02} \hspace{1.2cm} \textbf{DNN 03} \hspace{1.2cm} \textbf{DNN 04}
+        \centering
+		\includegraphics[page=1,width=0.22\linewidth]{weight_DNNoutputHH_SSDL_mc_DNN01_1D_CDFShift2b.pdf}
+		\includegraphics[page=1,width=0.22\linewidth]{weight_DNNoutputHH_SSDL_mc_DNN02_1D_CDFShift2b.pdf}
+		\includegraphics[page=1,width=0.22\linewidth]{weight_DNNoutputHH_SSDL_mc_DNN03_1D_CDFShift2b.pdf}
+		\includegraphics[page=1,width=0.22\linewidth]{weight_DNNoutputHH_SSDL_mc_DNN04_1D_CDFShift2b.pdf}\\
+		\includegraphics[page=2,width=0.22\linewidth]{weight_DNNoutputHH_SSDL_mc_DNN01_1D_CDFShift2b.pdf}
+		\includegraphics[page=2,width=0.22\linewidth]{weight_DNNoutputHH_SSDL_mc_DNN02_1D_CDFShift2b.pdf}
+		\includegraphics[page=2,width=0.22\linewidth]{weight_DNNoutputHH_SSDL_mc_DNN03_1D_CDFShift2b.pdf}
+		\includegraphics[page=2,width=0.22\linewidth]{weight_DNNoutputHH_SSDL_mc_DNN04_1D_CDFShift2b.pdf}\\
+		\includegraphics[page=4,width=0.22\linewidth]{weight_DNNoutputHH_SSDL_mc_DNN01_1D_CDFShift2b.pdf}
+		\includegraphics[page=4,width=0.22\linewidth]{weight_DNNoutputHH_SSDL_mc_DNN02_1D_CDFShift2b.pdf}
+		\includegraphics[page=4,width=0.22\linewidth]{weight_DNNoutputHH_SSDL_mc_DNN03_1D_CDFShift2b.pdf}
+		\includegraphics[page=4,width=0.22\linewidth]{weight_DNNoutputHH_SSDL_mc_DNN04_1D_CDFShift2b.pdf}\\
+		\includegraphics[page=7,width=0.22\linewidth]{weight_DNNoutputHH_SSDL_mc_DNN01_1D_CDFShift2b.pdf}
+		\includegraphics[page=7,width=0.22\linewidth]{weight_DNNoutputHH_SSDL_mc_DNN02_1D_CDFShift2b.pdf}
+		\includegraphics[page=7,width=0.22\linewidth]{weight_DNNoutputHH_SSDL_mc_DNN03_1D_CDFShift2b.pdf}
+		\includegraphics[page=7,width=0.22\linewidth]{weight_DNNoutputHH_SSDL_mc_DNN04_1D_CDFShift2b.pdf}\\
+	\end{figure}
+\end{frame}
+%----------------------------------------------------------------------------------------\\
+%============================================================================================================
+\begin{frame}
+	\frametitle{Rare DNN Output : MuMu and ElEl channel Resolved 0btag}
+	\begin{figure}
+	    \textbf{DNN 01} \hspace{1.2cm} \textbf{DNN 02} \hspace{1.2cm} \textbf{DNN 03} \hspace{1.2cm} \textbf{DNN 04} \\
+        \centering
+        \textbf{SR : Z veto} \\
+		\includegraphics[width=0.2\linewidth]{MuMu_HasMuMuTightTwoAk4JetsExclusiveResolvedNoBtag01Rarenode_DNNOutput_Rare.pdf}
+		\includegraphics[width=0.2\linewidth]{MuMu_HasMuMuTightTwoAk4JetsExclusiveResolvedNoBtag02Rarenode_DNNOutput_Rare.pdf}
+		\includegraphics[width=0.2\linewidth]{MuMu_HasMuMuTightTwoAk4JetsExclusiveResolvedNoBtag03Rarenode_DNNOutput_Rare.pdf}
+		\includegraphics[width=0.2\linewidth]{MuMu_HasMuMuTightTwoAk4JetsExclusiveResolvedNoBtag04Rarenode_DNNOutput_Rare.pdf}\\
+		\includegraphics[width=0.2\linewidth]{ElEl_HasElElTightTwoAk4JetsExclusiveResolvedNoBtag01Rarenode_DNNOutput_Rare.pdf}
+		\includegraphics[width=0.2\linewidth]{ElEl_HasElElTightTwoAk4JetsExclusiveResolvedNoBtag02Rarenode_DNNOutput_Rare.pdf}
+		\includegraphics[width=0.2\linewidth]{ElEl_HasElElTightTwoAk4JetsExclusiveResolvedNoBtag03Rarenode_DNNOutput_Rare.pdf}
+		\includegraphics[width=0.2\linewidth]{ElEl_HasElElTightTwoAk4JetsExclusiveResolvedNoBtag04Rarenode_DNNOutput_Rare.pdf}\\
+        \textbf{Rare CR : Z peak} \\
+		\includegraphics[width=0.2\linewidth]{MuMu_HasMuMuTightZPeakTwoAk4JetsExclusiveResolvedNoBtag01Rarenode_DNNOutput_Rare.pdf}
+		\includegraphics[width=0.2\linewidth]{MuMu_HasMuMuTightZPeakTwoAk4JetsExclusiveResolvedNoBtag02Rarenode_DNNOutput_Rare.pdf}
+		\includegraphics[width=0.2\linewidth]{MuMu_HasMuMuTightZPeakTwoAk4JetsExclusiveResolvedNoBtag03Rarenode_DNNOutput_Rare.pdf}
+		\includegraphics[width=0.2\linewidth]{MuMu_HasMuMuTightZPeakTwoAk4JetsExclusiveResolvedNoBtag04Rarenode_DNNOutput_Rare.pdf}\\
+		\includegraphics[width=0.2\linewidth]{ElEl_HasElElTightZPeakTwoAk4JetsExclusiveResolvedNoBtag01Rarenode_DNNOutput_Rare.pdf}
+		\includegraphics[width=0.2\linewidth]{ElEl_HasElElTightZPeakTwoAk4JetsExclusiveResolvedNoBtag02Rarenode_DNNOutput_Rare.pdf}
+		\includegraphics[width=0.2\linewidth]{ElEl_HasElElTightZPeakTwoAk4JetsExclusiveResolvedNoBtag03Rarenode_DNNOutput_Rare.pdf}
+		\includegraphics[width=0.2\linewidth]{ElEl_HasElElTightZPeakTwoAk4JetsExclusiveResolvedNoBtag04Rarenode_DNNOutput_Rare.pdf}\\
+	\end{figure}
+\end{frame}
+%----------------------------------------------------------------------------------------\\
+
+\begin{frame}
+	\frametitle{Rare DNN Output : MuMu and ElEl channel Resolved 1btag}
+	\begin{figure}
+	    \textbf{DNN 01} \hspace{1.2cm} \textbf{DNN 02} \hspace{1.2cm} \textbf{DNN 03} \hspace{1.2cm} \textbf{DNN 04} \\
+        \centering
+        \textbf{SR : Z veto} \\
+		\includegraphics[width=0.2\linewidth]{MuMu_HasMuMuTightTwoAk4JetsExclusiveResolvedOneBtag01Rarenode_DNNOutput_Rare.pdf}
+		\includegraphics[width=0.2\linewidth]{MuMu_HasMuMuTightTwoAk4JetsExclusiveResolvedOneBtag02Rarenode_DNNOutput_Rare.pdf}
+		\includegraphics[width=0.2\linewidth]{MuMu_HasMuMuTightTwoAk4JetsExclusiveResolvedOneBtag03Rarenode_DNNOutput_Rare.pdf}
+		\includegraphics[width=0.2\linewidth]{MuMu_HasMuMuTightTwoAk4JetsExclusiveResolvedOneBtag04Rarenode_DNNOutput_Rare.pdf}\\
+		\includegraphics[width=0.2\linewidth]{ElEl_HasElElTightTwoAk4JetsExclusiveResolvedOneBtag01Rarenode_DNNOutput_Rare.pdf}
+		\includegraphics[width=0.2\linewidth]{ElEl_HasElElTightTwoAk4JetsExclusiveResolvedOneBtag02Rarenode_DNNOutput_Rare.pdf}
+		\includegraphics[width=0.2\linewidth]{ElEl_HasElElTightTwoAk4JetsExclusiveResolvedOneBtag03Rarenode_DNNOutput_Rare.pdf}
+		\includegraphics[width=0.2\linewidth]{ElEl_HasElElTightTwoAk4JetsExclusiveResolvedOneBtag04Rarenode_DNNOutput_Rare.pdf}\\
+        \textbf{Rare CR : Z peak} \\
+		\includegraphics[width=0.2\linewidth]{MuMu_HasMuMuTightZPeakTwoAk4JetsExclusiveResolvedOneBtag01Rarenode_DNNOutput_Rare.pdf}
+		\includegraphics[width=0.2\linewidth]{MuMu_HasMuMuTightZPeakTwoAk4JetsExclusiveResolvedOneBtag02Rarenode_DNNOutput_Rare.pdf}
+		\includegraphics[width=0.2\linewidth]{MuMu_HasMuMuTightZPeakTwoAk4JetsExclusiveResolvedOneBtag03Rarenode_DNNOutput_Rare.pdf}
+		\includegraphics[width=0.2\linewidth]{MuMu_HasMuMuTightZPeakTwoAk4JetsExclusiveResolvedOneBtag04Rarenode_DNNOutput_Rare.pdf}\\
+		\includegraphics[width=0.2\linewidth]{ElEl_HasElElTightZPeakTwoAk4JetsExclusiveResolvedOneBtag01Rarenode_DNNOutput_Rare.pdf}
+		\includegraphics[width=0.2\linewidth]{ElEl_HasElElTightZPeakTwoAk4JetsExclusiveResolvedOneBtag02Rarenode_DNNOutput_Rare.pdf}
+		\includegraphics[width=0.2\linewidth]{ElEl_HasElElTightZPeakTwoAk4JetsExclusiveResolvedOneBtag03Rarenode_DNNOutput_Rare.pdf}
+		\includegraphics[width=0.2\linewidth]{ElEl_HasElElTightZPeakTwoAk4JetsExclusiveResolvedOneBtag04Rarenode_DNNOutput_Rare.pdf}\\
+	\end{figure}
+\end{frame}
+%----------------------------------------------------------------------------------------\\
+\begin{frame}
+	\frametitle{Rare DNN Output : MuMu and ElEl channel Resolved 2btag}
+	\begin{figure}
+	    \textbf{DNN 01} \hspace{1.2cm} \textbf{DNN 02} \hspace{1.2cm} \textbf{DNN 03} \hspace{1.2cm} \textbf{DNN 04} \\
+        \centering
+        \textbf{SR : Z veto} \\
+		\includegraphics[width=0.2\linewidth]{MuMu_HasMuMuTightTwoAk4JetsExclusiveResolvedTwoBtags01Rarenode_DNNOutput_Rare.pdf}
+		\includegraphics[width=0.2\linewidth]{MuMu_HasMuMuTightTwoAk4JetsExclusiveResolvedTwoBtags02Rarenode_DNNOutput_Rare.pdf}
+		\includegraphics[width=0.2\linewidth]{MuMu_HasMuMuTightTwoAk4JetsExclusiveResolvedTwoBtags03Rarenode_DNNOutput_Rare.pdf}
+		\includegraphics[width=0.2\linewidth]{MuMu_HasMuMuTightTwoAk4JetsExclusiveResolvedTwoBtags04Rarenode_DNNOutput_Rare.pdf}\\
+		\includegraphics[width=0.2\linewidth]{ElEl_HasElElTightTwoAk4JetsExclusiveResolvedTwoBtags01Rarenode_DNNOutput_Rare.pdf}
+		\includegraphics[width=0.2\linewidth]{ElEl_HasElElTightTwoAk4JetsExclusiveResolvedTwoBtags02Rarenode_DNNOutput_Rare.pdf}
+		\includegraphics[width=0.2\linewidth]{ElEl_HasElElTightTwoAk4JetsExclusiveResolvedTwoBtags03Rarenode_DNNOutput_Rare.pdf}
+		\includegraphics[width=0.2\linewidth]{ElEl_HasElElTightTwoAk4JetsExclusiveResolvedTwoBtags04Rarenode_DNNOutput_Rare.pdf}\\
+        \textbf{Rare CR : Z peak} \\
+		\includegraphics[width=0.2\linewidth]{MuMu_HasMuMuTightZPeakTwoAk4JetsExclusiveResolvedTwoBtags01Rarenode_DNNOutput_Rare.pdf}
+		\includegraphics[width=0.2\linewidth]{MuMu_HasMuMuTightZPeakTwoAk4JetsExclusiveResolvedTwoBtags02Rarenode_DNNOutput_Rare.pdf}
+		\includegraphics[width=0.2\linewidth]{MuMu_HasMuMuTightZPeakTwoAk4JetsExclusiveResolvedTwoBtags03Rarenode_DNNOutput_Rare.pdf}
+		\includegraphics[width=0.2\linewidth]{MuMu_HasMuMuTightZPeakTwoAk4JetsExclusiveResolvedTwoBtags04Rarenode_DNNOutput_Rare.pdf}\\
+		\includegraphics[width=0.2\linewidth]{ElEl_HasElElTightZPeakTwoAk4JetsExclusiveResolvedTwoBtags01Rarenode_DNNOutput_Rare.pdf}
+		\includegraphics[width=0.2\linewidth]{ElEl_HasElElTightZPeakTwoAk4JetsExclusiveResolvedTwoBtags02Rarenode_DNNOutput_Rare.pdf}
+		\includegraphics[width=0.2\linewidth]{ElEl_HasElElTightZPeakTwoAk4JetsExclusiveResolvedTwoBtags03Rarenode_DNNOutput_Rare.pdf}
+		\includegraphics[width=0.2\linewidth]{ElEl_HasElElTightZPeakTwoAk4JetsExclusiveResolvedTwoBtags04Rarenode_DNNOutput_Rare.pdf}\\
+	\end{figure}
+\end{frame}
+%----------------------------------------------------------------------------------------\\
+\begin{frame}
+	\frametitle{Rare DNN Output : MuMu+ElEl channel Resolved 1btag}
+	\begin{figure}
+	    \textbf{DNN 01} \hspace{1.2cm} \textbf{DNN 02} \hspace{1.2cm} \textbf{DNN 03} \hspace{1.2cm} \textbf{DNN 04}
+        \centering
+		\includegraphics[page=1,width=0.22\linewidth]{weight_DNNoutputRare_SSDL_mc_DNN01_1D_CDFShift1b.pdf}
+		\includegraphics[page=1,width=0.22\linewidth]{weight_DNNoutputRare_SSDL_mc_DNN02_1D_CDFShift1b.pdf}
+		\includegraphics[page=1,width=0.22\linewidth]{weight_DNNoutputRare_SSDL_mc_DNN03_1D_CDFShift1b.pdf}
+		\includegraphics[page=1,width=0.22\linewidth]{weight_DNNoutputRare_SSDL_mc_DNN04_1D_CDFShift1b.pdf}\\
+		\includegraphics[page=2,width=0.22\linewidth]{weight_DNNoutputRare_SSDL_mc_DNN01_1D_CDFShift1b.pdf}
+		\includegraphics[page=2,width=0.22\linewidth]{weight_DNNoutputRare_SSDL_mc_DNN02_1D_CDFShift1b.pdf}
+		\includegraphics[page=2,width=0.22\linewidth]{weight_DNNoutputRare_SSDL_mc_DNN03_1D_CDFShift1b.pdf}
+		\includegraphics[page=2,width=0.22\linewidth]{weight_DNNoutputRare_SSDL_mc_DNN04_1D_CDFShift1b.pdf}\\
+		\includegraphics[page=4,width=0.22\linewidth]{weight_DNNoutputRare_SSDL_mc_DNN01_1D_CDFShift1b.pdf}
+		\includegraphics[page=4,width=0.22\linewidth]{weight_DNNoutputRare_SSDL_mc_DNN02_1D_CDFShift1b.pdf}
+		\includegraphics[page=4,width=0.22\linewidth]{weight_DNNoutputRare_SSDL_mc_DNN03_1D_CDFShift1b.pdf}
+		\includegraphics[page=4,width=0.22\linewidth]{weight_DNNoutputRare_SSDL_mc_DNN04_1D_CDFShift1b.pdf}\\
+		\includegraphics[page=7,width=0.22\linewidth]{weight_DNNoutputRare_SSDL_mc_DNN01_1D_CDFShift1b.pdf}
+		\includegraphics[page=7,width=0.22\linewidth]{weight_DNNoutputRare_SSDL_mc_DNN02_1D_CDFShift1b.pdf}
+		\includegraphics[page=7,width=0.22\linewidth]{weight_DNNoutputRare_SSDL_mc_DNN03_1D_CDFShift1b.pdf}
+		\includegraphics[page=7,width=0.22\linewidth]{weight_DNNoutputRare_SSDL_mc_DNN04_1D_CDFShift1b.pdf}\\
+	\end{figure}
+\end{frame}
+%----------------------------------------------------------------------------------------\\
+\begin{frame}
+	\frametitle{Rare DNN Output : MuMu+ElEl channel Resolved 2btag}
+	\begin{figure}
+	    \textbf{DNN 01} \hspace{1.2cm} \textbf{DNN 02} \hspace{1.2cm} \textbf{DNN 03} \hspace{1.2cm} \textbf{DNN 04}
+        \centering
+		\includegraphics[page=1,width=0.22\linewidth]{weight_DNNoutputRare_SSDL_mc_DNN01_1D_CDFShift2b.pdf}
+		\includegraphics[page=1,width=0.22\linewidth]{weight_DNNoutputRare_SSDL_mc_DNN02_1D_CDFShift2b.pdf}
+		\includegraphics[page=1,width=0.22\linewidth]{weight_DNNoutputRare_SSDL_mc_DNN03_1D_CDFShift2b.pdf}
+		\includegraphics[page=1,width=0.22\linewidth]{weight_DNNoutputRare_SSDL_mc_DNN04_1D_CDFShift2b.pdf}\\
+		\includegraphics[page=2,width=0.22\linewidth]{weight_DNNoutputRare_SSDL_mc_DNN01_1D_CDFShift2b.pdf}
+		\includegraphics[page=2,width=0.22\linewidth]{weight_DNNoutputRare_SSDL_mc_DNN02_1D_CDFShift2b.pdf}
+		\includegraphics[page=2,width=0.22\linewidth]{weight_DNNoutputRare_SSDL_mc_DNN03_1D_CDFShift2b.pdf}
+		\includegraphics[page=2,width=0.22\linewidth]{weight_DNNoutputRare_SSDL_mc_DNN04_1D_CDFShift2b.pdf}\\
+		\includegraphics[page=4,width=0.22\linewidth]{weight_DNNoutputRare_SSDL_mc_DNN01_1D_CDFShift2b.pdf}
+		\includegraphics[page=4,width=0.22\linewidth]{weight_DNNoutputRare_SSDL_mc_DNN02_1D_CDFShift2b.pdf}
+		\includegraphics[page=4,width=0.22\linewidth]{weight_DNNoutputRare_SSDL_mc_DNN03_1D_CDFShift2b.pdf}
+		\includegraphics[page=4,width=0.22\linewidth]{weight_DNNoutputRare_SSDL_mc_DNN04_1D_CDFShift2b.pdf}\\
+		\includegraphics[page=7,width=0.22\linewidth]{weight_DNNoutputRare_SSDL_mc_DNN01_1D_CDFShift2b.pdf}
+		\includegraphics[page=7,width=0.22\linewidth]{weight_DNNoutputRare_SSDL_mc_DNN02_1D_CDFShift2b.pdf}
+		\includegraphics[page=7,width=0.22\linewidth]{weight_DNNoutputRare_SSDL_mc_DNN03_1D_CDFShift2b.pdf}
+		\includegraphics[page=7,width=0.22\linewidth]{weight_DNNoutputRare_SSDL_mc_DNN04_1D_CDFShift2b.pdf}\\
+	\end{figure}
+\end{frame}
+%----------------------------------------------------------------------------------------\\
+%============================================================================================================
+\begin{frame}
+	\frametitle{ST DNN Output : MuMu and ElEl channel Resolved 0btag}
+	\begin{figure}
+	    \textbf{DNN 01} \hspace{1.2cm} \textbf{DNN 02} \hspace{1.2cm} \textbf{DNN 03} \hspace{1.2cm} \textbf{DNN 04} \\
+        \centering
+        \textbf{SR : Z veto} \\
+		\includegraphics[width=0.2\linewidth]{MuMu_HasMuMuTightTwoAk4JetsExclusiveResolvedNoBtag01STnode_DNNOutput_ST.pdf}
+		\includegraphics[width=0.2\linewidth]{MuMu_HasMuMuTightTwoAk4JetsExclusiveResolvedNoBtag02STnode_DNNOutput_ST.pdf}
+		\includegraphics[width=0.2\linewidth]{MuMu_HasMuMuTightTwoAk4JetsExclusiveResolvedNoBtag03STnode_DNNOutput_ST.pdf}
+		\includegraphics[width=0.2\linewidth]{MuMu_HasMuMuTightTwoAk4JetsExclusiveResolvedNoBtag04STnode_DNNOutput_ST.pdf}\\
+		\includegraphics[width=0.2\linewidth]{ElEl_HasElElTightTwoAk4JetsExclusiveResolvedNoBtag01STnode_DNNOutput_ST.pdf}
+		\includegraphics[width=0.2\linewidth]{ElEl_HasElElTightTwoAk4JetsExclusiveResolvedNoBtag02STnode_DNNOutput_ST.pdf}
+		\includegraphics[width=0.2\linewidth]{ElEl_HasElElTightTwoAk4JetsExclusiveResolvedNoBtag03STnode_DNNOutput_ST.pdf}
+		\includegraphics[width=0.2\linewidth]{ElEl_HasElElTightTwoAk4JetsExclusiveResolvedNoBtag04STnode_DNNOutput_ST.pdf}\\
+        \textbf{ST CR : Z peak} \\
+		\includegraphics[width=0.2\linewidth]{MuMu_HasMuMuTightZPeakTwoAk4JetsExclusiveResolvedNoBtag01STnode_DNNOutput_ST.pdf}
+		\includegraphics[width=0.2\linewidth]{MuMu_HasMuMuTightZPeakTwoAk4JetsExclusiveResolvedNoBtag02STnode_DNNOutput_ST.pdf}
+		\includegraphics[width=0.2\linewidth]{MuMu_HasMuMuTightZPeakTwoAk4JetsExclusiveResolvedNoBtag03STnode_DNNOutput_ST.pdf}
+		\includegraphics[width=0.2\linewidth]{MuMu_HasMuMuTightZPeakTwoAk4JetsExclusiveResolvedNoBtag04STnode_DNNOutput_ST.pdf}\\
+		\includegraphics[width=0.2\linewidth]{ElEl_HasElElTightZPeakTwoAk4JetsExclusiveResolvedNoBtag01STnode_DNNOutput_ST.pdf}
+		\includegraphics[width=0.2\linewidth]{ElEl_HasElElTightZPeakTwoAk4JetsExclusiveResolvedNoBtag02STnode_DNNOutput_ST.pdf}
+		\includegraphics[width=0.2\linewidth]{ElEl_HasElElTightZPeakTwoAk4JetsExclusiveResolvedNoBtag03STnode_DNNOutput_ST.pdf}
+		\includegraphics[width=0.2\linewidth]{ElEl_HasElElTightZPeakTwoAk4JetsExclusiveResolvedNoBtag04STnode_DNNOutput_ST.pdf}\\
+	\end{figure}
+\end{frame}
+%----------------------------------------------------------------------------------------\\
+
+\begin{frame}
+	\frametitle{ST DNN Output : MuMu and ElEl channel Resolved 1btag}
+	\begin{figure}
+	    \textbf{DNN 01} \hspace{1.2cm} \textbf{DNN 02} \hspace{1.2cm} \textbf{DNN 03} \hspace{1.2cm} \textbf{DNN 04} \\
+        \centering
+        \textbf{SR : Z veto} \\
+		\includegraphics[width=0.2\linewidth]{MuMu_HasMuMuTightTwoAk4JetsExclusiveResolvedOneBtag01STnode_DNNOutput_ST.pdf}
+		\includegraphics[width=0.2\linewidth]{MuMu_HasMuMuTightTwoAk4JetsExclusiveResolvedOneBtag02STnode_DNNOutput_ST.pdf}
+		\includegraphics[width=0.2\linewidth]{MuMu_HasMuMuTightTwoAk4JetsExclusiveResolvedOneBtag03STnode_DNNOutput_ST.pdf}
+		\includegraphics[width=0.2\linewidth]{MuMu_HasMuMuTightTwoAk4JetsExclusiveResolvedOneBtag04STnode_DNNOutput_ST.pdf}\\
+		\includegraphics[width=0.2\linewidth]{ElEl_HasElElTightTwoAk4JetsExclusiveResolvedOneBtag01STnode_DNNOutput_ST.pdf}
+		\includegraphics[width=0.2\linewidth]{ElEl_HasElElTightTwoAk4JetsExclusiveResolvedOneBtag02STnode_DNNOutput_ST.pdf}
+		\includegraphics[width=0.2\linewidth]{ElEl_HasElElTightTwoAk4JetsExclusiveResolvedOneBtag03STnode_DNNOutput_ST.pdf}
+		\includegraphics[width=0.2\linewidth]{ElEl_HasElElTightTwoAk4JetsExclusiveResolvedOneBtag04STnode_DNNOutput_ST.pdf}\\
+        \textbf{ST CR : Z peak} \\
+		\includegraphics[width=0.2\linewidth]{MuMu_HasMuMuTightZPeakTwoAk4JetsExclusiveResolvedOneBtag01STnode_DNNOutput_ST.pdf}
+		\includegraphics[width=0.2\linewidth]{MuMu_HasMuMuTightZPeakTwoAk4JetsExclusiveResolvedOneBtag02STnode_DNNOutput_ST.pdf}
+		\includegraphics[width=0.2\linewidth]{MuMu_HasMuMuTightZPeakTwoAk4JetsExclusiveResolvedOneBtag03STnode_DNNOutput_ST.pdf}
+		\includegraphics[width=0.2\linewidth]{MuMu_HasMuMuTightZPeakTwoAk4JetsExclusiveResolvedOneBtag04STnode_DNNOutput_ST.pdf}\\
+		\includegraphics[width=0.2\linewidth]{ElEl_HasElElTightZPeakTwoAk4JetsExclusiveResolvedOneBtag01STnode_DNNOutput_ST.pdf}
+		\includegraphics[width=0.2\linewidth]{ElEl_HasElElTightZPeakTwoAk4JetsExclusiveResolvedOneBtag02STnode_DNNOutput_ST.pdf}
+		\includegraphics[width=0.2\linewidth]{ElEl_HasElElTightZPeakTwoAk4JetsExclusiveResolvedOneBtag03STnode_DNNOutput_ST.pdf}
+		\includegraphics[width=0.2\linewidth]{ElEl_HasElElTightZPeakTwoAk4JetsExclusiveResolvedOneBtag04STnode_DNNOutput_ST.pdf}\\
+	\end{figure}
+\end{frame}
+%----------------------------------------------------------------------------------------\\
+\begin{frame}
+	\frametitle{ST DNN Output : MuMu and ElEl channel Resolved 2btag}
+	\begin{figure}
+	    \textbf{DNN 01} \hspace{1.2cm} \textbf{DNN 02} \hspace{1.2cm} \textbf{DNN 03} \hspace{1.2cm} \textbf{DNN 04} \\
+        \centering
+        \textbf{SR : Z veto} \\
+		\includegraphics[width=0.2\linewidth]{MuMu_HasMuMuTightTwoAk4JetsExclusiveResolvedTwoBtags01STnode_DNNOutput_ST.pdf}
+		\includegraphics[width=0.2\linewidth]{MuMu_HasMuMuTightTwoAk4JetsExclusiveResolvedTwoBtags02STnode_DNNOutput_ST.pdf}
+		\includegraphics[width=0.2\linewidth]{MuMu_HasMuMuTightTwoAk4JetsExclusiveResolvedTwoBtags03STnode_DNNOutput_ST.pdf}
+		\includegraphics[width=0.2\linewidth]{MuMu_HasMuMuTightTwoAk4JetsExclusiveResolvedTwoBtags04STnode_DNNOutput_ST.pdf}\\
+		\includegraphics[width=0.2\linewidth]{ElEl_HasElElTightTwoAk4JetsExclusiveResolvedTwoBtags01STnode_DNNOutput_ST.pdf}
+		\includegraphics[width=0.2\linewidth]{ElEl_HasElElTightTwoAk4JetsExclusiveResolvedTwoBtags02STnode_DNNOutput_ST.pdf}
+		\includegraphics[width=0.2\linewidth]{ElEl_HasElElTightTwoAk4JetsExclusiveResolvedTwoBtags03STnode_DNNOutput_ST.pdf}
+		\includegraphics[width=0.2\linewidth]{ElEl_HasElElTightTwoAk4JetsExclusiveResolvedTwoBtags04STnode_DNNOutput_ST.pdf}\\
+        \textbf{ST CR : Z peak} \\
+		\includegraphics[width=0.2\linewidth]{MuMu_HasMuMuTightZPeakTwoAk4JetsExclusiveResolvedTwoBtags01STnode_DNNOutput_ST.pdf}
+		\includegraphics[width=0.2\linewidth]{MuMu_HasMuMuTightZPeakTwoAk4JetsExclusiveResolvedTwoBtags02STnode_DNNOutput_ST.pdf}
+		\includegraphics[width=0.2\linewidth]{MuMu_HasMuMuTightZPeakTwoAk4JetsExclusiveResolvedTwoBtags03STnode_DNNOutput_ST.pdf}
+		\includegraphics[width=0.2\linewidth]{MuMu_HasMuMuTightZPeakTwoAk4JetsExclusiveResolvedTwoBtags04STnode_DNNOutput_ST.pdf}\\
+		\includegraphics[width=0.2\linewidth]{ElEl_HasElElTightZPeakTwoAk4JetsExclusiveResolvedTwoBtags01STnode_DNNOutput_ST.pdf}
+		\includegraphics[width=0.2\linewidth]{ElEl_HasElElTightZPeakTwoAk4JetsExclusiveResolvedTwoBtags02STnode_DNNOutput_ST.pdf}
+		\includegraphics[width=0.2\linewidth]{ElEl_HasElElTightZPeakTwoAk4JetsExclusiveResolvedTwoBtags03STnode_DNNOutput_ST.pdf}
+		\includegraphics[width=0.2\linewidth]{ElEl_HasElElTightZPeakTwoAk4JetsExclusiveResolvedTwoBtags04STnode_DNNOutput_ST.pdf}\\
+	\end{figure}
+\end{frame}
+%----------------------------------------------------------------------------------------\\
+\begin{frame}
+	\frametitle{ST DNN Output : MuMu+ElEl channel Resolved 1btag}
+	\begin{figure}
+	    \textbf{DNN 01} \hspace{1.2cm} \textbf{DNN 02} \hspace{1.2cm} \textbf{DNN 03} \hspace{1.2cm} \textbf{DNN 04}
+        \centering
+		\includegraphics[page=1,width=0.22\linewidth]{weight_DNNoutputST_SSDL_mc_DNN01_1D_CDFShift1b.pdf}
+		\includegraphics[page=1,width=0.22\linewidth]{weight_DNNoutputST_SSDL_mc_DNN02_1D_CDFShift1b.pdf}
+		\includegraphics[page=1,width=0.22\linewidth]{weight_DNNoutputST_SSDL_mc_DNN03_1D_CDFShift1b.pdf}
+		\includegraphics[page=1,width=0.22\linewidth]{weight_DNNoutputST_SSDL_mc_DNN04_1D_CDFShift1b.pdf}\\
+		\includegraphics[page=2,width=0.22\linewidth]{weight_DNNoutputST_SSDL_mc_DNN01_1D_CDFShift1b.pdf}
+		\includegraphics[page=2,width=0.22\linewidth]{weight_DNNoutputST_SSDL_mc_DNN02_1D_CDFShift1b.pdf}
+		\includegraphics[page=2,width=0.22\linewidth]{weight_DNNoutputST_SSDL_mc_DNN03_1D_CDFShift1b.pdf}
+		\includegraphics[page=2,width=0.22\linewidth]{weight_DNNoutputST_SSDL_mc_DNN04_1D_CDFShift1b.pdf}\\
+		\includegraphics[page=4,width=0.22\linewidth]{weight_DNNoutputST_SSDL_mc_DNN01_1D_CDFShift1b.pdf}
+		\includegraphics[page=4,width=0.22\linewidth]{weight_DNNoutputST_SSDL_mc_DNN02_1D_CDFShift1b.pdf}
+		\includegraphics[page=4,width=0.22\linewidth]{weight_DNNoutputST_SSDL_mc_DNN03_1D_CDFShift1b.pdf}
+		\includegraphics[page=4,width=0.22\linewidth]{weight_DNNoutputST_SSDL_mc_DNN04_1D_CDFShift1b.pdf}\\
+		\includegraphics[page=7,width=0.22\linewidth]{weight_DNNoutputST_SSDL_mc_DNN01_1D_CDFShift1b.pdf}
+		\includegraphics[page=7,width=0.22\linewidth]{weight_DNNoutputST_SSDL_mc_DNN02_1D_CDFShift1b.pdf}
+		\includegraphics[page=7,width=0.22\linewidth]{weight_DNNoutputST_SSDL_mc_DNN03_1D_CDFShift1b.pdf}
+		\includegraphics[page=7,width=0.22\linewidth]{weight_DNNoutputST_SSDL_mc_DNN04_1D_CDFShift1b.pdf}\\
+	\end{figure}
+\end{frame}
+%----------------------------------------------------------------------------------------\\
+\begin{frame}
+	\frametitle{ST DNN Output : MuMu+ElEl channel Resolved 2btag}
+	\begin{figure}
+	    \textbf{DNN 01} \hspace{1.2cm} \textbf{DNN 02} \hspace{1.2cm} \textbf{DNN 03} \hspace{1.2cm} \textbf{DNN 04}
+        \centering
+		\includegraphics[page=1,width=0.22\linewidth]{weight_DNNoutputST_SSDL_mc_DNN01_1D_CDFShift2b.pdf}
+		\includegraphics[page=1,width=0.22\linewidth]{weight_DNNoutputST_SSDL_mc_DNN02_1D_CDFShift2b.pdf}
+		\includegraphics[page=1,width=0.22\linewidth]{weight_DNNoutputST_SSDL_mc_DNN03_1D_CDFShift2b.pdf}
+		\includegraphics[page=1,width=0.22\linewidth]{weight_DNNoutputST_SSDL_mc_DNN04_1D_CDFShift2b.pdf}\\
+		\includegraphics[page=2,width=0.22\linewidth]{weight_DNNoutputST_SSDL_mc_DNN01_1D_CDFShift2b.pdf}
+		\includegraphics[page=2,width=0.22\linewidth]{weight_DNNoutputST_SSDL_mc_DNN02_1D_CDFShift2b.pdf}
+		\includegraphics[page=2,width=0.22\linewidth]{weight_DNNoutputST_SSDL_mc_DNN03_1D_CDFShift2b.pdf}
+		\includegraphics[page=2,width=0.22\linewidth]{weight_DNNoutputST_SSDL_mc_DNN04_1D_CDFShift2b.pdf}\\
+		\includegraphics[page=4,width=0.22\linewidth]{weight_DNNoutputST_SSDL_mc_DNN01_1D_CDFShift2b.pdf}
+		\includegraphics[page=4,width=0.22\linewidth]{weight_DNNoutputST_SSDL_mc_DNN02_1D_CDFShift2b.pdf}
+		\includegraphics[page=4,width=0.22\linewidth]{weight_DNNoutputST_SSDL_mc_DNN03_1D_CDFShift2b.pdf}
+		\includegraphics[page=4,width=0.22\linewidth]{weight_DNNoutputST_SSDL_mc_DNN04_1D_CDFShift2b.pdf}\\
+		\includegraphics[page=7,width=0.22\linewidth]{weight_DNNoutputST_SSDL_mc_DNN01_1D_CDFShift2b.pdf}
+		\includegraphics[page=7,width=0.22\linewidth]{weight_DNNoutputST_SSDL_mc_DNN02_1D_CDFShift2b.pdf}
+		\includegraphics[page=7,width=0.22\linewidth]{weight_DNNoutputST_SSDL_mc_DNN03_1D_CDFShift2b.pdf}
+		\includegraphics[page=7,width=0.22\linewidth]{weight_DNNoutputST_SSDL_mc_DNN04_1D_CDFShift2b.pdf}\\
+	\end{figure}
+\end{frame}
+%----------------------------------------------------------------------------------------\\
+%============================================================================================================
+\begin{frame}
+	\frametitle{TT DNN Output : MuMu and ElEl channel Resolved 0btag}
+	\begin{figure}
+	    \textbf{DNN 01} \hspace{1.2cm} \textbf{DNN 02} \hspace{1.2cm} \textbf{DNN 03} \hspace{1.2cm} \textbf{DNN 04} \\
+        \centering
+        \textbf{SR : Z veto} \\
+		\includegraphics[width=0.2\linewidth]{MuMu_HasMuMuTightTwoAk4JetsExclusiveResolvedNoBtag01TTnode_DNNOutput_TT.pdf}
+		\includegraphics[width=0.2\linewidth]{MuMu_HasMuMuTightTwoAk4JetsExclusiveResolvedNoBtag02TTnode_DNNOutput_TT.pdf}
+		%\includegraphics[width=0.2\linewidth]{MuMu_HasMuMuTightTwoAk4JetsExclusiveResolvedNoBtag03TTnode_DNNOutput_TT.pdf}
+        \hspace{2cm}
+		\includegraphics[width=0.2\linewidth]{MuMu_HasMuMuTightTwoAk4JetsExclusiveResolvedNoBtag04TTnode_DNNOutput_TT.pdf}\\
+		\includegraphics[width=0.2\linewidth]{ElEl_HasElElTightTwoAk4JetsExclusiveResolvedNoBtag01TTnode_DNNOutput_TT.pdf}
+		\includegraphics[width=0.2\linewidth]{ElEl_HasElElTightTwoAk4JetsExclusiveResolvedNoBtag02TTnode_DNNOutput_TT.pdf}
+		%\includegraphics[width=0.2\linewidth]{ElEl_HasElElTightTwoAk4JetsExclusiveResolvedNoBtag03TTnode_DNNOutput_TT.pdf}
+        \hspace{2cm}
+		\includegraphics[width=0.2\linewidth]{ElEl_HasElElTightTwoAk4JetsExclusiveResolvedNoBtag04TTnode_DNNOutput_TT.pdf}\\
+        \textbf{TT CR : Z peak} \\
+		\includegraphics[width=0.2\linewidth]{MuMu_HasMuMuTightZPeakTwoAk4JetsExclusiveResolvedNoBtag01TTnode_DNNOutput_TT.pdf}
+		\includegraphics[width=0.2\linewidth]{MuMu_HasMuMuTightZPeakTwoAk4JetsExclusiveResolvedNoBtag02TTnode_DNNOutput_TT.pdf}
+		%\includegraphics[width=0.2\linewidth]{MuMu_HasMuMuTightZPeakTwoAk4JetsExclusiveResolvedNoBtag03TTnode_DNNOutput_TT.pdf}
+        \hspace{2cm}
+		\includegraphics[width=0.2\linewidth]{MuMu_HasMuMuTightZPeakTwoAk4JetsExclusiveResolvedNoBtag04TTnode_DNNOutput_TT.pdf}\\
+		\includegraphics[width=0.2\linewidth]{ElEl_HasElElTightZPeakTwoAk4JetsExclusiveResolvedNoBtag01TTnode_DNNOutput_TT.pdf}
+		\includegraphics[width=0.2\linewidth]{ElEl_HasElElTightZPeakTwoAk4JetsExclusiveResolvedNoBtag02TTnode_DNNOutput_TT.pdf}
+		%\includegraphics[width=0.2\linewidth]{ElEl_HasElElTightZPeakTwoAk4JetsExclusiveResolvedNoBtag03TTnode_DNNOutput_TT.pdf}
+        \hspace{2cm}
+		\includegraphics[width=0.2\linewidth]{ElEl_HasElElTightZPeakTwoAk4JetsExclusiveResolvedNoBtag04TTnode_DNNOutput_TT.pdf}\\
+	\end{figure}
+\end{frame}
+%----------------------------------------------------------------------------------------\\
+
+\begin{frame}
+	\frametitle{TT DNN Output : MuMu and ElEl channel Resolved 1btag}
+	\begin{figure}
+	    \textbf{DNN 01} \hspace{1.2cm} \textbf{DNN 02} \hspace{1.2cm} \textbf{DNN 03} \hspace{1.2cm} \textbf{DNN 04} \\
+        \centering
+        \textbf{SR : Z veto} \\
+		\includegraphics[width=0.2\linewidth]{MuMu_HasMuMuTightTwoAk4JetsExclusiveResolvedOneBtag01TTnode_DNNOutput_TT.pdf}
+		\includegraphics[width=0.2\linewidth]{MuMu_HasMuMuTightTwoAk4JetsExclusiveResolvedOneBtag02TTnode_DNNOutput_TT.pdf}
+		\includegraphics[width=0.2\linewidth]{MuMu_HasMuMuTightTwoAk4JetsExclusiveResolvedOneBtag03TTnode_DNNOutput_TT.pdf}
+		\includegraphics[width=0.2\linewidth]{MuMu_HasMuMuTightTwoAk4JetsExclusiveResolvedOneBtag04TTnode_DNNOutput_TT.pdf}\\
+		\includegraphics[width=0.2\linewidth]{ElEl_HasElElTightTwoAk4JetsExclusiveResolvedOneBtag01TTnode_DNNOutput_TT.pdf}
+		\includegraphics[width=0.2\linewidth]{ElEl_HasElElTightTwoAk4JetsExclusiveResolvedOneBtag02TTnode_DNNOutput_TT.pdf}
+		\includegraphics[width=0.2\linewidth]{ElEl_HasElElTightTwoAk4JetsExclusiveResolvedOneBtag03TTnode_DNNOutput_TT.pdf}
+		\includegraphics[width=0.2\linewidth]{ElEl_HasElElTightTwoAk4JetsExclusiveResolvedOneBtag04TTnode_DNNOutput_TT.pdf}\\
+        \textbf{TT CR : Z peak} \\
+		\includegraphics[width=0.2\linewidth]{MuMu_HasMuMuTightZPeakTwoAk4JetsExclusiveResolvedOneBtag01TTnode_DNNOutput_TT.pdf}
+		\includegraphics[width=0.2\linewidth]{MuMu_HasMuMuTightZPeakTwoAk4JetsExclusiveResolvedOneBtag02TTnode_DNNOutput_TT.pdf}
+		\includegraphics[width=0.2\linewidth]{MuMu_HasMuMuTightZPeakTwoAk4JetsExclusiveResolvedOneBtag03TTnode_DNNOutput_TT.pdf}
+		\includegraphics[width=0.2\linewidth]{MuMu_HasMuMuTightZPeakTwoAk4JetsExclusiveResolvedOneBtag04TTnode_DNNOutput_TT.pdf}\\
+		\includegraphics[width=0.2\linewidth]{ElEl_HasElElTightZPeakTwoAk4JetsExclusiveResolvedOneBtag01TTnode_DNNOutput_TT.pdf}
+		\includegraphics[width=0.2\linewidth]{ElEl_HasElElTightZPeakTwoAk4JetsExclusiveResolvedOneBtag02TTnode_DNNOutput_TT.pdf}
+		\includegraphics[width=0.2\linewidth]{ElEl_HasElElTightZPeakTwoAk4JetsExclusiveResolvedOneBtag03TTnode_DNNOutput_TT.pdf}
+		\includegraphics[width=0.2\linewidth]{ElEl_HasElElTightZPeakTwoAk4JetsExclusiveResolvedOneBtag04TTnode_DNNOutput_TT.pdf}\\
+	\end{figure}
+\end{frame}
+%----------------------------------------------------------------------------------------\\
+\begin{frame}
+	\frametitle{TT DNN Output : MuMu and ElEl channel Resolved 2btag}
+	\begin{figure}
+	    \textbf{DNN 01} \hspace{1.2cm} \textbf{DNN 02} \hspace{1.2cm} \textbf{DNN 03} \hspace{1.2cm} \textbf{DNN 04} \\
+        \centering
+        \textbf{SR : Z veto} \\
+		\includegraphics[width=0.2\linewidth]{MuMu_HasMuMuTightTwoAk4JetsExclusiveResolvedTwoBtags01TTnode_DNNOutput_TT.pdf}
+		\includegraphics[width=0.2\linewidth]{MuMu_HasMuMuTightTwoAk4JetsExclusiveResolvedTwoBtags02TTnode_DNNOutput_TT.pdf}
+		\includegraphics[width=0.2\linewidth]{MuMu_HasMuMuTightTwoAk4JetsExclusiveResolvedTwoBtags03TTnode_DNNOutput_TT.pdf}
+		\includegraphics[width=0.2\linewidth]{MuMu_HasMuMuTightTwoAk4JetsExclusiveResolvedTwoBtags04TTnode_DNNOutput_TT.pdf}\\
+		\includegraphics[width=0.2\linewidth]{ElEl_HasElElTightTwoAk4JetsExclusiveResolvedTwoBtags01TTnode_DNNOutput_TT.pdf}
+		\includegraphics[width=0.2\linewidth]{ElEl_HasElElTightTwoAk4JetsExclusiveResolvedTwoBtags02TTnode_DNNOutput_TT.pdf}
+		\includegraphics[width=0.2\linewidth]{ElEl_HasElElTightTwoAk4JetsExclusiveResolvedTwoBtags03TTnode_DNNOutput_TT.pdf}
+		\includegraphics[width=0.2\linewidth]{ElEl_HasElElTightTwoAk4JetsExclusiveResolvedTwoBtags04TTnode_DNNOutput_TT.pdf}\\
+        \textbf{TT CR : Z peak} \\
+		\includegraphics[width=0.2\linewidth]{MuMu_HasMuMuTightZPeakTwoAk4JetsExclusiveResolvedTwoBtags01TTnode_DNNOutput_TT.pdf}
+		\includegraphics[width=0.2\linewidth]{MuMu_HasMuMuTightZPeakTwoAk4JetsExclusiveResolvedTwoBtags02TTnode_DNNOutput_TT.pdf}
+		\includegraphics[width=0.2\linewidth]{MuMu_HasMuMuTightZPeakTwoAk4JetsExclusiveResolvedTwoBtags03TTnode_DNNOutput_TT.pdf}
+		\includegraphics[width=0.2\linewidth]{MuMu_HasMuMuTightZPeakTwoAk4JetsExclusiveResolvedTwoBtags04TTnode_DNNOutput_TT.pdf}\\
+		\includegraphics[width=0.2\linewidth]{ElEl_HasElElTightZPeakTwoAk4JetsExclusiveResolvedTwoBtags01TTnode_DNNOutput_TT.pdf}
+		\includegraphics[width=0.2\linewidth]{ElEl_HasElElTightZPeakTwoAk4JetsExclusiveResolvedTwoBtags02TTnode_DNNOutput_TT.pdf}
+		\includegraphics[width=0.2\linewidth]{ElEl_HasElElTightZPeakTwoAk4JetsExclusiveResolvedTwoBtags03TTnode_DNNOutput_TT.pdf}
+		\includegraphics[width=0.2\linewidth]{ElEl_HasElElTightZPeakTwoAk4JetsExclusiveResolvedTwoBtags04TTnode_DNNOutput_TT.pdf}\\
+	\end{figure}
+\end{frame}
+%----------------------------------------------------------------------------------------\\
+\begin{frame}
+	\frametitle{TT DNN Output : MuMu+ElEl channel Resolved 1btag}
+	\begin{figure}
+	    %\textbf{DNN 01} \hspace{1.2cm} \textbf{DNN 02} \hspace{1.2cm} \textbf{DNN 03} \hspace{1.2cm} \textbf{DNN 04}
+	    \textbf{DNN 01} \hspace{1.2cm} \textbf{DNN 02}    \\
+        \centering
+		\includegraphics[page=1,width=0.22\linewidth]{weight_DNNoutputTT_SSDL_mc_DNN01_1D_CDFShift1b.pdf}
+		\includegraphics[page=1,width=0.22\linewidth]{weight_DNNoutputTT_SSDL_mc_DNN02_1D_CDFShift1b.pdf}
+		%\includegraphics[page=1,width=0.22\linewidth]{weight_DNNoutputTT_SSDL_mc_DNN03_1D_CDFShift1b.pdf}
+		%\includegraphics[page=1,width=0.22\linewidth]{weight_DNNoutputTT_SSDL_mc_DNN04_1D_CDFShift1b.pdf}\\
+        \\
+		\includegraphics[page=2,width=0.22\linewidth]{weight_DNNoutputTT_SSDL_mc_DNN01_1D_CDFShift1b.pdf}
+		\includegraphics[page=2,width=0.22\linewidth]{weight_DNNoutputTT_SSDL_mc_DNN02_1D_CDFShift1b.pdf}
+        \\
+		%\includegraphics[page=2,width=0.22\linewidth]{weight_DNNoutputTT_SSDL_mc_DNN03_1D_CDFShift1b.pdf}
+		%\includegraphics[page=2,width=0.22\linewidth]{weight_DNNoutputTT_SSDL_mc_DNN04_1D_CDFShift1b.pdf}\\
+		\includegraphics[page=4,width=0.22\linewidth]{weight_DNNoutputTT_SSDL_mc_DNN01_1D_CDFShift1b.pdf}
+		\includegraphics[page=4,width=0.22\linewidth]{weight_DNNoutputTT_SSDL_mc_DNN02_1D_CDFShift1b.pdf}
+        \\
+		%\includegraphics[page=4,width=0.22\linewidth]{weight_DNNoutputTT_SSDL_mc_DNN03_1D_CDFShift1b.pdf}
+		%\includegraphics[page=4,width=0.22\linewidth]{weight_DNNoutputTT_SSDL_mc_DNN04_1D_CDFShift1b.pdf}\\
+		\includegraphics[page=7,width=0.22\linewidth]{weight_DNNoutputTT_SSDL_mc_DNN01_1D_CDFShift1b.pdf}
+		\includegraphics[page=7,width=0.22\linewidth]{weight_DNNoutputTT_SSDL_mc_DNN02_1D_CDFShift1b.pdf}
+        \\
+		%\includegraphics[page=7,width=0.22\linewidth]{weight_DNNoutputTT_SSDL_mc_DNN03_1D_CDFShift1b.pdf}
+		%\includegraphics[page=7,width=0.22\linewidth]{weight_DNNoutputTT_SSDL_mc_DNN04_1D_CDFShift1b.pdf}\\
+	\end{figure}
+\end{frame}
+%----------------------------------------------------------------------------------------\\
+\begin{frame}
+	\frametitle{TT DNN Output : MuMu+ElEl channel Resolved 2btag}
+	\begin{figure}
+	    \textbf{DNN 01} \hspace{1.2cm} \textbf{DNN 02} \\
+        \centering
+		\includegraphics[page=1,width=0.22\linewidth]{weight_DNNoutputTT_SSDL_mc_DNN01_1D_CDFShift2b.pdf}
+		\includegraphics[page=1,width=0.22\linewidth]{weight_DNNoutputTT_SSDL_mc_DNN02_1D_CDFShift2b.pdf}
+        \\
+		%\includegraphics[page=1,width=0.22\linewidth]{weight_DNNoutputTT_SSDL_mc_DNN03_1D_CDFShift2b.pdf}
+		%\includegraphics[page=1,width=0.22\linewidth]{weight_DNNoutputTT_SSDL_mc_DNN04_1D_CDFShift2b.pdf}\\
+		\includegraphics[page=2,width=0.22\linewidth]{weight_DNNoutputTT_SSDL_mc_DNN01_1D_CDFShift2b.pdf}
+		\includegraphics[page=2,width=0.22\linewidth]{weight_DNNoutputTT_SSDL_mc_DNN02_1D_CDFShift2b.pdf}
+        \\
+		%\includegraphics[page=2,width=0.22\linewidth]{weight_DNNoutputTT_SSDL_mc_DNN03_1D_CDFShift2b.pdf}
+		%\includegraphics[page=2,width=0.22\linewidth]{weight_DNNoutputTT_SSDL_mc_DNN04_1D_CDFShift2b.pdf}\\
+		\includegraphics[page=4,width=0.22\linewidth]{weight_DNNoutputTT_SSDL_mc_DNN01_1D_CDFShift2b.pdf}
+		\includegraphics[page=4,width=0.22\linewidth]{weight_DNNoutputTT_SSDL_mc_DNN02_1D_CDFShift2b.pdf}
+        \\
+		%\includegraphics[page=4,width=0.22\linewidth]{weight_DNNoutputTT_SSDL_mc_DNN03_1D_CDFShift2b.pdf}
+		%\includegraphics[page=4,width=0.22\linewidth]{weight_DNNoutputTT_SSDL_mc_DNN04_1D_CDFShift2b.pdf}\\
+		\includegraphics[page=7,width=0.22\linewidth]{weight_DNNoutputTT_SSDL_mc_DNN01_1D_CDFShift2b.pdf}
+		\includegraphics[page=7,width=0.22\linewidth]{weight_DNNoutputTT_SSDL_mc_DNN02_1D_CDFShift2b.pdf}
+        \\
+		%\includegraphics[page=7,width=0.22\linewidth]{weight_DNNoutputTT_SSDL_mc_DNN03_1D_CDFShift2b.pdf}
+		%\includegraphics[page=7,width=0.22\linewidth]{weight_DNNoutputTT_SSDL_mc_DNN04_1D_CDFShift2b.pdf}\\
+	\end{figure}
+\end{frame}
+%----------------------------------------------------------------------------------------\\
+%============================================================================================================
+\begin{frame}
+	\frametitle{TTVX DNN Output : MuMu and ElEl channel Resolved 0btag}
+	\begin{figure}
+	    \textbf{DNN 01} \hspace{1.2cm} \textbf{DNN 02} \hspace{1.2cm} \textbf{DNN 03} \hspace{1.2cm} \textbf{DNN 04} \\
+        \centering
+        \textbf{SR : Z veto} \\
+		\includegraphics[width=0.2\linewidth]{MuMu_HasMuMuTightTwoAk4JetsExclusiveResolvedNoBtag01TTVXnode_DNNOutput_TTVX.pdf}
+		\includegraphics[width=0.2\linewidth]{MuMu_HasMuMuTightTwoAk4JetsExclusiveResolvedNoBtag02TTVXnode_DNNOutput_TTVX.pdf}
+		\includegraphics[width=0.2\linewidth]{MuMu_HasMuMuTightTwoAk4JetsExclusiveResolvedNoBtag03TTVXnode_DNNOutput_TTVX.pdf}
+		\includegraphics[width=0.2\linewidth]{MuMu_HasMuMuTightTwoAk4JetsExclusiveResolvedNoBtag04TTVXnode_DNNOutput_TTVX.pdf}\\
+		\includegraphics[width=0.2\linewidth]{ElEl_HasElElTightTwoAk4JetsExclusiveResolvedNoBtag01TTVXnode_DNNOutput_TTVX.pdf}
+		\includegraphics[width=0.2\linewidth]{ElEl_HasElElTightTwoAk4JetsExclusiveResolvedNoBtag02TTVXnode_DNNOutput_TTVX.pdf}
+		\includegraphics[width=0.2\linewidth]{ElEl_HasElElTightTwoAk4JetsExclusiveResolvedNoBtag03TTVXnode_DNNOutput_TTVX.pdf}
+		\includegraphics[width=0.2\linewidth]{ElEl_HasElElTightTwoAk4JetsExclusiveResolvedNoBtag04TTVXnode_DNNOutput_TTVX.pdf}\\
+        \textbf{TTVX CR : Z peak} \\
+		\includegraphics[width=0.2\linewidth]{MuMu_HasMuMuTightZPeakTwoAk4JetsExclusiveResolvedNoBtag01TTVXnode_DNNOutput_TTVX.pdf}
+		\includegraphics[width=0.2\linewidth]{MuMu_HasMuMuTightZPeakTwoAk4JetsExclusiveResolvedNoBtag02TTVXnode_DNNOutput_TTVX.pdf}
+		\includegraphics[width=0.2\linewidth]{MuMu_HasMuMuTightZPeakTwoAk4JetsExclusiveResolvedNoBtag03TTVXnode_DNNOutput_TTVX.pdf}
+		\includegraphics[width=0.2\linewidth]{MuMu_HasMuMuTightZPeakTwoAk4JetsExclusiveResolvedNoBtag04TTVXnode_DNNOutput_TTVX.pdf}\\
+		\includegraphics[width=0.2\linewidth]{ElEl_HasElElTightZPeakTwoAk4JetsExclusiveResolvedNoBtag01TTVXnode_DNNOutput_TTVX.pdf}
+		\includegraphics[width=0.2\linewidth]{ElEl_HasElElTightZPeakTwoAk4JetsExclusiveResolvedNoBtag02TTVXnode_DNNOutput_TTVX.pdf}
+		\includegraphics[width=0.2\linewidth]{ElEl_HasElElTightZPeakTwoAk4JetsExclusiveResolvedNoBtag03TTVXnode_DNNOutput_TTVX.pdf}
+		\includegraphics[width=0.2\linewidth]{ElEl_HasElElTightZPeakTwoAk4JetsExclusiveResolvedNoBtag04TTVXnode_DNNOutput_TTVX.pdf}\\
+	\end{figure}
+\end{frame}
+%----------------------------------------------------------------------------------------\\
+
+\begin{frame}
+	\frametitle{TTVX DNN Output : MuMu and ElEl channel Resolved 1btag}
+	\begin{figure}
+	    \textbf{DNN 01} \hspace{1.2cm} \textbf{DNN 02} \hspace{1.2cm} \textbf{DNN 03} \hspace{1.2cm} \textbf{DNN 04} \\
+        \centering
+        \textbf{SR : Z veto} \\
+		\includegraphics[width=0.2\linewidth]{MuMu_HasMuMuTightTwoAk4JetsExclusiveResolvedOneBtag01TTVXnode_DNNOutput_TTVX.pdf}
+		\includegraphics[width=0.2\linewidth]{MuMu_HasMuMuTightTwoAk4JetsExclusiveResolvedOneBtag02TTVXnode_DNNOutput_TTVX.pdf}
+		\includegraphics[width=0.2\linewidth]{MuMu_HasMuMuTightTwoAk4JetsExclusiveResolvedOneBtag03TTVXnode_DNNOutput_TTVX.pdf}
+		\includegraphics[width=0.2\linewidth]{MuMu_HasMuMuTightTwoAk4JetsExclusiveResolvedOneBtag04TTVXnode_DNNOutput_TTVX.pdf}\\
+		\includegraphics[width=0.2\linewidth]{ElEl_HasElElTightTwoAk4JetsExclusiveResolvedOneBtag01TTVXnode_DNNOutput_TTVX.pdf}
+		\includegraphics[width=0.2\linewidth]{ElEl_HasElElTightTwoAk4JetsExclusiveResolvedOneBtag02TTVXnode_DNNOutput_TTVX.pdf}
+		\includegraphics[width=0.2\linewidth]{ElEl_HasElElTightTwoAk4JetsExclusiveResolvedOneBtag03TTVXnode_DNNOutput_TTVX.pdf}
+		\includegraphics[width=0.2\linewidth]{ElEl_HasElElTightTwoAk4JetsExclusiveResolvedOneBtag04TTVXnode_DNNOutput_TTVX.pdf}\\
+        \textbf{TTVX CR : Z peak} \\
+		\includegraphics[width=0.2\linewidth]{MuMu_HasMuMuTightZPeakTwoAk4JetsExclusiveResolvedOneBtag01TTVXnode_DNNOutput_TTVX.pdf}
+		\includegraphics[width=0.2\linewidth]{MuMu_HasMuMuTightZPeakTwoAk4JetsExclusiveResolvedOneBtag02TTVXnode_DNNOutput_TTVX.pdf}
+		\includegraphics[width=0.2\linewidth]{MuMu_HasMuMuTightZPeakTwoAk4JetsExclusiveResolvedOneBtag03TTVXnode_DNNOutput_TTVX.pdf}
+		\includegraphics[width=0.2\linewidth]{MuMu_HasMuMuTightZPeakTwoAk4JetsExclusiveResolvedOneBtag04TTVXnode_DNNOutput_TTVX.pdf}\\
+		\includegraphics[width=0.2\linewidth]{ElEl_HasElElTightZPeakTwoAk4JetsExclusiveResolvedOneBtag01TTVXnode_DNNOutput_TTVX.pdf}
+		\includegraphics[width=0.2\linewidth]{ElEl_HasElElTightZPeakTwoAk4JetsExclusiveResolvedOneBtag02TTVXnode_DNNOutput_TTVX.pdf}
+		\includegraphics[width=0.2\linewidth]{ElEl_HasElElTightZPeakTwoAk4JetsExclusiveResolvedOneBtag03TTVXnode_DNNOutput_TTVX.pdf}
+		\includegraphics[width=0.2\linewidth]{ElEl_HasElElTightZPeakTwoAk4JetsExclusiveResolvedOneBtag04TTVXnode_DNNOutput_TTVX.pdf}\\
+	\end{figure}
+\end{frame}
+%----------------------------------------------------------------------------------------\\
+\begin{frame}
+	\frametitle{TTVX DNN Output : MuMu and ElEl channel Resolved 2btag}
+	\begin{figure}
+	    \textbf{DNN 01} \hspace{1.2cm} \textbf{DNN 02} \hspace{1.2cm} \textbf{DNN 03} \hspace{1.2cm} \textbf{DNN 04} \\
+        \centering
+        \textbf{SR : Z veto} \\
+		\includegraphics[width=0.2\linewidth]{MuMu_HasMuMuTightTwoAk4JetsExclusiveResolvedTwoBtags01TTVXnode_DNNOutput_TTVX.pdf}
+		\includegraphics[width=0.2\linewidth]{MuMu_HasMuMuTightTwoAk4JetsExclusiveResolvedTwoBtags02TTVXnode_DNNOutput_TTVX.pdf}
+		\includegraphics[width=0.2\linewidth]{MuMu_HasMuMuTightTwoAk4JetsExclusiveResolvedTwoBtags03TTVXnode_DNNOutput_TTVX.pdf}
+		\includegraphics[width=0.2\linewidth]{MuMu_HasMuMuTightTwoAk4JetsExclusiveResolvedTwoBtags04TTVXnode_DNNOutput_TTVX.pdf}\\
+		\includegraphics[width=0.2\linewidth]{ElEl_HasElElTightTwoAk4JetsExclusiveResolvedTwoBtags01TTVXnode_DNNOutput_TTVX.pdf}
+		\includegraphics[width=0.2\linewidth]{ElEl_HasElElTightTwoAk4JetsExclusiveResolvedTwoBtags02TTVXnode_DNNOutput_TTVX.pdf}
+		\includegraphics[width=0.2\linewidth]{ElEl_HasElElTightTwoAk4JetsExclusiveResolvedTwoBtags03TTVXnode_DNNOutput_TTVX.pdf}
+		\includegraphics[width=0.2\linewidth]{ElEl_HasElElTightTwoAk4JetsExclusiveResolvedTwoBtags04TTVXnode_DNNOutput_TTVX.pdf}\\
+        \textbf{TTVX CR : Z peak} \\
+		\includegraphics[width=0.2\linewidth]{MuMu_HasMuMuTightZPeakTwoAk4JetsExclusiveResolvedTwoBtags01TTVXnode_DNNOutput_TTVX.pdf}
+		\includegraphics[width=0.2\linewidth]{MuMu_HasMuMuTightZPeakTwoAk4JetsExclusiveResolvedTwoBtags02TTVXnode_DNNOutput_TTVX.pdf}
+		\includegraphics[width=0.2\linewidth]{MuMu_HasMuMuTightZPeakTwoAk4JetsExclusiveResolvedTwoBtags03TTVXnode_DNNOutput_TTVX.pdf}
+		\includegraphics[width=0.2\linewidth]{MuMu_HasMuMuTightZPeakTwoAk4JetsExclusiveResolvedTwoBtags04TTVXnode_DNNOutput_TTVX.pdf}\\
+		\includegraphics[width=0.2\linewidth]{ElEl_HasElElTightZPeakTwoAk4JetsExclusiveResolvedTwoBtags01TTVXnode_DNNOutput_TTVX.pdf}
+		\includegraphics[width=0.2\linewidth]{ElEl_HasElElTightZPeakTwoAk4JetsExclusiveResolvedTwoBtags02TTVXnode_DNNOutput_TTVX.pdf}
+		\includegraphics[width=0.2\linewidth]{ElEl_HasElElTightZPeakTwoAk4JetsExclusiveResolvedTwoBtags03TTVXnode_DNNOutput_TTVX.pdf}
+		\includegraphics[width=0.2\linewidth]{ElEl_HasElElTightZPeakTwoAk4JetsExclusiveResolvedTwoBtags04TTVXnode_DNNOutput_TTVX.pdf}\\
+	\end{figure}
+\end{frame}
+%----------------------------------------------------------------------------------------\\
+\begin{frame}
+	\frametitle{TTVX DNN Output : MuMu+ElEl channel Resolved 1btag}
+	\begin{figure}
+	    \textbf{DNN 01} \hspace{1.2cm} \textbf{DNN 02} \hspace{1.2cm} \textbf{DNN 03} \hspace{1.2cm} \textbf{DNN 04}
+        \centering
+		\includegraphics[page=1,width=0.22\linewidth]{weight_DNNoutputTTVX_SSDL_mc_DNN01_1D_CDFShift1b.pdf}
+		\includegraphics[page=1,width=0.22\linewidth]{weight_DNNoutputTTVX_SSDL_mc_DNN02_1D_CDFShift1b.pdf}
+		\includegraphics[page=1,width=0.22\linewidth]{weight_DNNoutputTTVX_SSDL_mc_DNN03_1D_CDFShift1b.pdf}
+		\includegraphics[page=1,width=0.22\linewidth]{weight_DNNoutputTTVX_SSDL_mc_DNN04_1D_CDFShift1b.pdf}\\
+		\includegraphics[page=2,width=0.22\linewidth]{weight_DNNoutputTTVX_SSDL_mc_DNN01_1D_CDFShift1b.pdf}
+		\includegraphics[page=2,width=0.22\linewidth]{weight_DNNoutputTTVX_SSDL_mc_DNN02_1D_CDFShift1b.pdf}
+		\includegraphics[page=2,width=0.22\linewidth]{weight_DNNoutputTTVX_SSDL_mc_DNN03_1D_CDFShift1b.pdf}
+		\includegraphics[page=2,width=0.22\linewidth]{weight_DNNoutputTTVX_SSDL_mc_DNN04_1D_CDFShift1b.pdf}\\
+		\includegraphics[page=4,width=0.22\linewidth]{weight_DNNoutputTTVX_SSDL_mc_DNN01_1D_CDFShift1b.pdf}
+		\includegraphics[page=4,width=0.22\linewidth]{weight_DNNoutputTTVX_SSDL_mc_DNN02_1D_CDFShift1b.pdf}
+		\includegraphics[page=4,width=0.22\linewidth]{weight_DNNoutputTTVX_SSDL_mc_DNN03_1D_CDFShift1b.pdf}
+		\includegraphics[page=4,width=0.22\linewidth]{weight_DNNoutputTTVX_SSDL_mc_DNN04_1D_CDFShift1b.pdf}\\
+		\includegraphics[page=7,width=0.22\linewidth]{weight_DNNoutputTTVX_SSDL_mc_DNN01_1D_CDFShift1b.pdf}
+		\includegraphics[page=7,width=0.22\linewidth]{weight_DNNoutputTTVX_SSDL_mc_DNN02_1D_CDFShift1b.pdf}
+		\includegraphics[page=7,width=0.22\linewidth]{weight_DNNoutputTTVX_SSDL_mc_DNN03_1D_CDFShift1b.pdf}
+		\includegraphics[page=7,width=0.22\linewidth]{weight_DNNoutputTTVX_SSDL_mc_DNN04_1D_CDFShift1b.pdf}\\
+	\end{figure}
+\end{frame}
+%----------------------------------------------------------------------------------------\\
+\begin{frame}
+	\frametitle{TTVX DNN Output : MuMu+ElEl channel Resolved 2btag}
+	\begin{figure}
+	    \textbf{DNN 01} \hspace{1.2cm} \textbf{DNN 02} \hspace{1.2cm} \textbf{DNN 03} \hspace{1.2cm} \textbf{DNN 04}
+        \centering
+		\includegraphics[page=1,width=0.22\linewidth]{weight_DNNoutputTTVX_SSDL_mc_DNN01_1D_CDFShift2b.pdf}
+		\includegraphics[page=1,width=0.22\linewidth]{weight_DNNoutputTTVX_SSDL_mc_DNN02_1D_CDFShift2b.pdf}
+		\includegraphics[page=1,width=0.22\linewidth]{weight_DNNoutputTTVX_SSDL_mc_DNN03_1D_CDFShift2b.pdf}
+		\includegraphics[page=1,width=0.22\linewidth]{weight_DNNoutputTTVX_SSDL_mc_DNN04_1D_CDFShift2b.pdf}\\
+		\includegraphics[page=2,width=0.22\linewidth]{weight_DNNoutputTTVX_SSDL_mc_DNN01_1D_CDFShift2b.pdf}
+		\includegraphics[page=2,width=0.22\linewidth]{weight_DNNoutputTTVX_SSDL_mc_DNN02_1D_CDFShift2b.pdf}
+		\includegraphics[page=2,width=0.22\linewidth]{weight_DNNoutputTTVX_SSDL_mc_DNN03_1D_CDFShift2b.pdf}
+		\includegraphics[page=2,width=0.22\linewidth]{weight_DNNoutputTTVX_SSDL_mc_DNN04_1D_CDFShift2b.pdf}\\
+		\includegraphics[page=4,width=0.22\linewidth]{weight_DNNoutputTTVX_SSDL_mc_DNN01_1D_CDFShift2b.pdf}
+		\includegraphics[page=4,width=0.22\linewidth]{weight_DNNoutputTTVX_SSDL_mc_DNN02_1D_CDFShift2b.pdf}
+		\includegraphics[page=4,width=0.22\linewidth]{weight_DNNoutputTTVX_SSDL_mc_DNN03_1D_CDFShift2b.pdf}
+		\includegraphics[page=4,width=0.22\linewidth]{weight_DNNoutputTTVX_SSDL_mc_DNN04_1D_CDFShift2b.pdf}\\
+		\includegraphics[page=7,width=0.22\linewidth]{weight_DNNoutputTTVX_SSDL_mc_DNN01_1D_CDFShift2b.pdf}
+		\includegraphics[page=7,width=0.22\linewidth]{weight_DNNoutputTTVX_SSDL_mc_DNN02_1D_CDFShift2b.pdf}
+		\includegraphics[page=7,width=0.22\linewidth]{weight_DNNoutputTTVX_SSDL_mc_DNN03_1D_CDFShift2b.pdf}
+		\includegraphics[page=7,width=0.22\linewidth]{weight_DNNoutputTTVX_SSDL_mc_DNN04_1D_CDFShift2b.pdf}\\
+	\end{figure}
+\end{frame}
+%----------------------------------------------------------------------------------------\\
+%============================================================================================================
+\begin{frame}
+	\frametitle{VVV DNN Output : MuMu and ElEl channel Resolved 0btag}
+	\begin{figure}
+	    \textbf{DNN 01} \hspace{1.2cm} \textbf{DNN 02} \hspace{1.2cm} \textbf{DNN 03} \hspace{1.2cm} \textbf{DNN 04} \\
+        \centering
+        \textbf{SR : Z veto} \\
+		\includegraphics[width=0.2\linewidth]{MuMu_HasMuMuTightTwoAk4JetsExclusiveResolvedNoBtag01VVVnode_DNNOutput_VVV.pdf}
+		\includegraphics[width=0.2\linewidth]{MuMu_HasMuMuTightTwoAk4JetsExclusiveResolvedNoBtag02VVVnode_DNNOutput_VVV.pdf}
+		\includegraphics[width=0.2\linewidth]{MuMu_HasMuMuTightTwoAk4JetsExclusiveResolvedNoBtag03VVVnode_DNNOutput_VVV.pdf}
+		\includegraphics[width=0.2\linewidth]{MuMu_HasMuMuTightTwoAk4JetsExclusiveResolvedNoBtag04VVVnode_DNNOutput_VVV.pdf}\\
+		\includegraphics[width=0.2\linewidth]{ElEl_HasElElTightTwoAk4JetsExclusiveResolvedNoBtag01VVVnode_DNNOutput_VVV.pdf}
+		\includegraphics[width=0.2\linewidth]{ElEl_HasElElTightTwoAk4JetsExclusiveResolvedNoBtag02VVVnode_DNNOutput_VVV.pdf}
+		\includegraphics[width=0.2\linewidth]{ElEl_HasElElTightTwoAk4JetsExclusiveResolvedNoBtag03VVVnode_DNNOutput_VVV.pdf}
+		\includegraphics[width=0.2\linewidth]{ElEl_HasElElTightTwoAk4JetsExclusiveResolvedNoBtag04VVVnode_DNNOutput_VVV.pdf}\\
+        \textbf{VVV CR : Z peak} \\
+		\includegraphics[width=0.2\linewidth]{MuMu_HasMuMuTightZPeakTwoAk4JetsExclusiveResolvedNoBtag01VVVnode_DNNOutput_VVV.pdf}
+		\includegraphics[width=0.2\linewidth]{MuMu_HasMuMuTightZPeakTwoAk4JetsExclusiveResolvedNoBtag02VVVnode_DNNOutput_VVV.pdf}
+		\includegraphics[width=0.2\linewidth]{MuMu_HasMuMuTightZPeakTwoAk4JetsExclusiveResolvedNoBtag03VVVnode_DNNOutput_VVV.pdf}
+		\includegraphics[width=0.2\linewidth]{MuMu_HasMuMuTightZPeakTwoAk4JetsExclusiveResolvedNoBtag04VVVnode_DNNOutput_VVV.pdf}\\
+		\includegraphics[width=0.2\linewidth]{ElEl_HasElElTightZPeakTwoAk4JetsExclusiveResolvedNoBtag01VVVnode_DNNOutput_VVV.pdf}
+		\includegraphics[width=0.2\linewidth]{ElEl_HasElElTightZPeakTwoAk4JetsExclusiveResolvedNoBtag02VVVnode_DNNOutput_VVV.pdf}
+		\includegraphics[width=0.2\linewidth]{ElEl_HasElElTightZPeakTwoAk4JetsExclusiveResolvedNoBtag03VVVnode_DNNOutput_VVV.pdf}
+		\includegraphics[width=0.2\linewidth]{ElEl_HasElElTightZPeakTwoAk4JetsExclusiveResolvedNoBtag04VVVnode_DNNOutput_VVV.pdf}\\
+	\end{figure}
+\end{frame}
+%----------------------------------------------------------------------------------------\\
+
+\begin{frame}
+	\frametitle{VVV DNN Output : MuMu and ElEl channel Resolved 1btag}
+	\begin{figure}
+	    \textbf{DNN 01} \hspace{1.2cm} \textbf{DNN 02} \hspace{1.2cm} \textbf{DNN 03} \hspace{1.2cm} \textbf{DNN 04} \\
+        \centering
+        \textbf{SR : Z veto} \\
+		\includegraphics[width=0.2\linewidth]{MuMu_HasMuMuTightTwoAk4JetsExclusiveResolvedOneBtag01VVVnode_DNNOutput_VVV.pdf}
+		\includegraphics[width=0.2\linewidth]{MuMu_HasMuMuTightTwoAk4JetsExclusiveResolvedOneBtag02VVVnode_DNNOutput_VVV.pdf}
+		\includegraphics[width=0.2\linewidth]{MuMu_HasMuMuTightTwoAk4JetsExclusiveResolvedOneBtag03VVVnode_DNNOutput_VVV.pdf}
+		\includegraphics[width=0.2\linewidth]{MuMu_HasMuMuTightTwoAk4JetsExclusiveResolvedOneBtag04VVVnode_DNNOutput_VVV.pdf}\\
+		\includegraphics[width=0.2\linewidth]{ElEl_HasElElTightTwoAk4JetsExclusiveResolvedOneBtag01VVVnode_DNNOutput_VVV.pdf}
+		\includegraphics[width=0.2\linewidth]{ElEl_HasElElTightTwoAk4JetsExclusiveResolvedOneBtag02VVVnode_DNNOutput_VVV.pdf}
+		\includegraphics[width=0.2\linewidth]{ElEl_HasElElTightTwoAk4JetsExclusiveResolvedOneBtag03VVVnode_DNNOutput_VVV.pdf}
+		\includegraphics[width=0.2\linewidth]{ElEl_HasElElTightTwoAk4JetsExclusiveResolvedOneBtag04VVVnode_DNNOutput_VVV.pdf}\\
+        \textbf{VVV CR : Z peak} \\
+		\includegraphics[width=0.2\linewidth]{MuMu_HasMuMuTightZPeakTwoAk4JetsExclusiveResolvedOneBtag01VVVnode_DNNOutput_VVV.pdf}
+		\includegraphics[width=0.2\linewidth]{MuMu_HasMuMuTightZPeakTwoAk4JetsExclusiveResolvedOneBtag02VVVnode_DNNOutput_VVV.pdf}
+		\includegraphics[width=0.2\linewidth]{MuMu_HasMuMuTightZPeakTwoAk4JetsExclusiveResolvedOneBtag03VVVnode_DNNOutput_VVV.pdf}
+		\includegraphics[width=0.2\linewidth]{MuMu_HasMuMuTightZPeakTwoAk4JetsExclusiveResolvedOneBtag04VVVnode_DNNOutput_VVV.pdf}\\
+		\includegraphics[width=0.2\linewidth]{ElEl_HasElElTightZPeakTwoAk4JetsExclusiveResolvedOneBtag01VVVnode_DNNOutput_VVV.pdf}
+		\includegraphics[width=0.2\linewidth]{ElEl_HasElElTightZPeakTwoAk4JetsExclusiveResolvedOneBtag02VVVnode_DNNOutput_VVV.pdf}
+		\includegraphics[width=0.2\linewidth]{ElEl_HasElElTightZPeakTwoAk4JetsExclusiveResolvedOneBtag03VVVnode_DNNOutput_VVV.pdf}
+		\includegraphics[width=0.2\linewidth]{ElEl_HasElElTightZPeakTwoAk4JetsExclusiveResolvedOneBtag04VVVnode_DNNOutput_VVV.pdf}\\
+	\end{figure}
+\end{frame}
+%----------------------------------------------------------------------------------------\\
+\begin{frame}
+	\frametitle{VVV DNN Output : MuMu and ElEl channel Resolved 2btag}
+	\begin{figure}
+	    \textbf{DNN 01} \hspace{1.2cm} \textbf{DNN 02} \hspace{1.2cm} \textbf{DNN 03} \hspace{1.2cm} \textbf{DNN 04} \\
+        \centering
+        \textbf{SR : Z veto} \\
+		\includegraphics[width=0.2\linewidth]{MuMu_HasMuMuTightTwoAk4JetsExclusiveResolvedTwoBtags01VVVnode_DNNOutput_VVV.pdf}
+		\includegraphics[width=0.2\linewidth]{MuMu_HasMuMuTightTwoAk4JetsExclusiveResolvedTwoBtags02VVVnode_DNNOutput_VVV.pdf}
+		\includegraphics[width=0.2\linewidth]{MuMu_HasMuMuTightTwoAk4JetsExclusiveResolvedTwoBtags03VVVnode_DNNOutput_VVV.pdf}
+		\includegraphics[width=0.2\linewidth]{MuMu_HasMuMuTightTwoAk4JetsExclusiveResolvedTwoBtags04VVVnode_DNNOutput_VVV.pdf}\\
+		\includegraphics[width=0.2\linewidth]{ElEl_HasElElTightTwoAk4JetsExclusiveResolvedTwoBtags01VVVnode_DNNOutput_VVV.pdf}
+		\includegraphics[width=0.2\linewidth]{ElEl_HasElElTightTwoAk4JetsExclusiveResolvedTwoBtags02VVVnode_DNNOutput_VVV.pdf}
+		\includegraphics[width=0.2\linewidth]{ElEl_HasElElTightTwoAk4JetsExclusiveResolvedTwoBtags03VVVnode_DNNOutput_VVV.pdf}
+		\includegraphics[width=0.2\linewidth]{ElEl_HasElElTightTwoAk4JetsExclusiveResolvedTwoBtags04VVVnode_DNNOutput_VVV.pdf}\\
+        \textbf{VVV CR : Z peak} \\
+		\includegraphics[width=0.2\linewidth]{MuMu_HasMuMuTightZPeakTwoAk4JetsExclusiveResolvedTwoBtags01VVVnode_DNNOutput_VVV.pdf}
+		\includegraphics[width=0.2\linewidth]{MuMu_HasMuMuTightZPeakTwoAk4JetsExclusiveResolvedTwoBtags02VVVnode_DNNOutput_VVV.pdf}
+		\includegraphics[width=0.2\linewidth]{MuMu_HasMuMuTightZPeakTwoAk4JetsExclusiveResolvedTwoBtags03VVVnode_DNNOutput_VVV.pdf}
+		\includegraphics[width=0.2\linewidth]{MuMu_HasMuMuTightZPeakTwoAk4JetsExclusiveResolvedTwoBtags04VVVnode_DNNOutput_VVV.pdf}\\
+		\includegraphics[width=0.2\linewidth]{ElEl_HasElElTightZPeakTwoAk4JetsExclusiveResolvedTwoBtags01VVVnode_DNNOutput_VVV.pdf}
+		\includegraphics[width=0.2\linewidth]{ElEl_HasElElTightZPeakTwoAk4JetsExclusiveResolvedTwoBtags02VVVnode_DNNOutput_VVV.pdf}
+		\includegraphics[width=0.2\linewidth]{ElEl_HasElElTightZPeakTwoAk4JetsExclusiveResolvedTwoBtags03VVVnode_DNNOutput_VVV.pdf}
+		\includegraphics[width=0.2\linewidth]{ElEl_HasElElTightZPeakTwoAk4JetsExclusiveResolvedTwoBtags04VVVnode_DNNOutput_VVV.pdf}\\
+	\end{figure}
+\end{frame}
+%----------------------------------------------------------------------------------------\\
+\begin{frame}
+	\frametitle{VVV DNN Output : MuMu+ElEl channel Resolved 1btag}
+	\begin{figure}
+	    \textbf{DNN 01} \hspace{1.2cm} \textbf{DNN 02} \hspace{1.2cm} \textbf{DNN 03} \hspace{1.2cm} \textbf{DNN 04}
+        \centering
+		\includegraphics[page=1,width=0.22\linewidth]{weight_DNNoutputVVV_SSDL_mc_DNN01_1D_CDFShift1b.pdf}
+		\includegraphics[page=1,width=0.22\linewidth]{weight_DNNoutputVVV_SSDL_mc_DNN02_1D_CDFShift1b.pdf}
+		\includegraphics[page=1,width=0.22\linewidth]{weight_DNNoutputVVV_SSDL_mc_DNN03_1D_CDFShift1b.pdf}
+		\includegraphics[page=1,width=0.22\linewidth]{weight_DNNoutputVVV_SSDL_mc_DNN04_1D_CDFShift1b.pdf}\\
+		\includegraphics[page=2,width=0.22\linewidth]{weight_DNNoutputVVV_SSDL_mc_DNN01_1D_CDFShift1b.pdf}
+		\includegraphics[page=2,width=0.22\linewidth]{weight_DNNoutputVVV_SSDL_mc_DNN02_1D_CDFShift1b.pdf}
+		\includegraphics[page=2,width=0.22\linewidth]{weight_DNNoutputVVV_SSDL_mc_DNN03_1D_CDFShift1b.pdf}
+		\includegraphics[page=2,width=0.22\linewidth]{weight_DNNoutputVVV_SSDL_mc_DNN04_1D_CDFShift1b.pdf}\\
+		\includegraphics[page=4,width=0.22\linewidth]{weight_DNNoutputVVV_SSDL_mc_DNN01_1D_CDFShift1b.pdf}
+		\includegraphics[page=4,width=0.22\linewidth]{weight_DNNoutputVVV_SSDL_mc_DNN02_1D_CDFShift1b.pdf}
+		\includegraphics[page=4,width=0.22\linewidth]{weight_DNNoutputVVV_SSDL_mc_DNN03_1D_CDFShift1b.pdf}
+		\includegraphics[page=4,width=0.22\linewidth]{weight_DNNoutputVVV_SSDL_mc_DNN04_1D_CDFShift1b.pdf}\\
+		\includegraphics[page=7,width=0.22\linewidth]{weight_DNNoutputVVV_SSDL_mc_DNN01_1D_CDFShift1b.pdf}
+		\includegraphics[page=7,width=0.22\linewidth]{weight_DNNoutputVVV_SSDL_mc_DNN02_1D_CDFShift1b.pdf}
+		\includegraphics[page=7,width=0.22\linewidth]{weight_DNNoutputVVV_SSDL_mc_DNN03_1D_CDFShift1b.pdf}
+		\includegraphics[page=7,width=0.22\linewidth]{weight_DNNoutputVVV_SSDL_mc_DNN04_1D_CDFShift1b.pdf}\\
+	\end{figure}
+\end{frame}
+%----------------------------------------------------------------------------------------\\
+\begin{frame}
+	\frametitle{VVV DNN Output : MuMu+ElEl channel Resolved 2btag}
+	\begin{figure}
+	    \textbf{DNN 01} \hspace{1.2cm} \textbf{DNN 02} \hspace{1.2cm} \textbf{DNN 03} \hspace{1.2cm} \textbf{DNN 04}
+        \centering
+		\includegraphics[page=1,width=0.22\linewidth]{weight_DNNoutputVVV_SSDL_mc_DNN01_1D_CDFShift2b.pdf}
+		\includegraphics[page=1,width=0.22\linewidth]{weight_DNNoutputVVV_SSDL_mc_DNN02_1D_CDFShift2b.pdf}
+		\includegraphics[page=1,width=0.22\linewidth]{weight_DNNoutputVVV_SSDL_mc_DNN03_1D_CDFShift2b.pdf}
+		\includegraphics[page=1,width=0.22\linewidth]{weight_DNNoutputVVV_SSDL_mc_DNN04_1D_CDFShift2b.pdf}\\
+		\includegraphics[page=2,width=0.22\linewidth]{weight_DNNoutputVVV_SSDL_mc_DNN01_1D_CDFShift2b.pdf}
+		\includegraphics[page=2,width=0.22\linewidth]{weight_DNNoutputVVV_SSDL_mc_DNN02_1D_CDFShift2b.pdf}
+		\includegraphics[page=2,width=0.22\linewidth]{weight_DNNoutputVVV_SSDL_mc_DNN03_1D_CDFShift2b.pdf}
+		\includegraphics[page=2,width=0.22\linewidth]{weight_DNNoutputVVV_SSDL_mc_DNN04_1D_CDFShift2b.pdf}\\
+		\includegraphics[page=4,width=0.22\linewidth]{weight_DNNoutputVVV_SSDL_mc_DNN01_1D_CDFShift2b.pdf}
+		\includegraphics[page=4,width=0.22\linewidth]{weight_DNNoutputVVV_SSDL_mc_DNN02_1D_CDFShift2b.pdf}
+		\includegraphics[page=4,width=0.22\linewidth]{weight_DNNoutputVVV_SSDL_mc_DNN03_1D_CDFShift2b.pdf}
+		\includegraphics[page=4,width=0.22\linewidth]{weight_DNNoutputVVV_SSDL_mc_DNN04_1D_CDFShift2b.pdf}\\
+		\includegraphics[page=7,width=0.22\linewidth]{weight_DNNoutputVVV_SSDL_mc_DNN01_1D_CDFShift2b.pdf}
+		\includegraphics[page=7,width=0.22\linewidth]{weight_DNNoutputVVV_SSDL_mc_DNN02_1D_CDFShift2b.pdf}
+		\includegraphics[page=7,width=0.22\linewidth]{weight_DNNoutputVVV_SSDL_mc_DNN03_1D_CDFShift2b.pdf}
+		\includegraphics[page=7,width=0.22\linewidth]{weight_DNNoutputVVV_SSDL_mc_DNN04_1D_CDFShift2b.pdf}\\
+	\end{figure}
+\end{frame}
+%----------------------------------------------------------------------------------------\\
+
+
+\end{document}

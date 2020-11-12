@@ -1,0 +1,545 @@
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% BA04 presentation 
+% LaTeX Template
+% Version 1.0 (14/12/14)
+%
+% This template has been downloaded from:
+% http://www.LaTeXTemplates.com
+%
+% License:
+% CC BY-NC-SA 3.0 (http://creativecommons.org/licenses/by-nc-sa/3.0/)
+%
+%%%%%%%%%%%%%%%%%%%%%%%%a%%%%%%%%%%%%%%%%%
+
+%----------------------------------------------------------------------------------------
+%	PACKAGES AND THEMES
+%----------------------------------------------------------------------------------------
+
+\documentclass[9pt]{beamer}
+
+\mode<presentation> {
+
+% The Beamer class comes with a number of default slide themes
+% which change the colors and layouts of slides. Below this is a list
+% of all the themes, uncomment each in turn to see what they look like.
+
+%\usetheme{default}
+%\usetheme{AnnArbor}
+%\usetheme{Antibes}
+%\usetheme{Bergen}
+%\usetheme{Berkeley}
+%\usetheme{Berlin}
+%\usetheme{Boadilla}
+%\usetheme{CambridgeUS}
+%\usetheme{Copenhagen}
+%\usetheme{Darmstadt}
+%\usetheme{Dresden}
+%\usetheme{Frankfurt}
+%\usetheme{Goettingen}
+%\usetheme{Hannover}
+%\usetheme{Ilmenau}
+%\usetheme{JuanLesPins}
+%\usetheme{Luebeck}
+\usetheme{Madrid}
+%\usetheme{Malmoe}
+%\usetheme{Marburg}
+%\usetheme{Montpellier}
+%\usetheme{PaloAlto}
+%\usetheme{Pittsburgh}
+%\usetheme{Rochester}
+%\usetheme{Singapore}
+%\usetheme{Szeged}
+%\usetheme{Warsaw}
+
+% As well as themes, the Beamer class has a number of color themes
+% for any slide theme. Uncomment each of these in turn to see how it
+% changes the colors of your current slide theme.
+
+%\usecolortheme{albatross}
+\usecolortheme{beaver}
+%\usecolortheme{beetle}
+%\usecolortheme{crane}
+%\usecolortheme{dolphin}
+%\usecolortheme{dove}
+%\usecolortheme{fly}
+%\usecolortheme{lily}
+%\usecolortheme{orchid}
+%\usecolortheme{rose}
+%\usecolortheme{seagull}
+%\usecolortheme{seahorse}
+%\usecolortheme{whale}
+%\usecolortheme{wolverine}
+
+%\setbeamertemplate{footline} % To remove the footer line in all slides uncomment this line
+%\setbeamertemplate{footline}[page number] % To replace the footer line in all slides with a simple slide count uncomment this line
+
+\setbeamertemplate{navigation symbols}{} % To remove the navigation symbols from the bottom of all slides uncomment this line
+\setbeamerfont{frametitle}{size=\normalsize}
+}
+
+\usepackage{graphicx} % Allows including images
+\usepackage{booktabs} % Allows the use of \toprule, \midrule and \bottomrule in tables
+\usepackage[english]{babel}
+\usepackage[utf8x]{inputenc}
+\usepackage{hyperref}
+%\usepackage{underscore}
+
+
+\graphicspath{
+				{/home/ucl/cp3/fbury/bamboodev/HHbbWWAnalysis/BambooOutputHHtobbWW/}
+			 }
+
+\newcommand{\backupbegin}{
+	\newcounter{finalframe}
+	\setcounter{finalframe}{\value{framenumber}}
+}
+\newcommand{\backupend}{
+	\setcounter{framenumber}{\value{finalframe}}
+}
+
+\begin{document}
+%----------------------------------------------------------------------------------------\\
+%----------------------------------------------------------------------------------------\\
+\begin{frame}
+	\frametitle{Resolved 1 btag : first lepton $P_T$}
+    \hspace{2cm} \textbf{DY MC} \hspace{1.9cm} \textbf{Data-driven DY} \hspace{1cm} \textbf{Pseudo-data DY}
+    \begin{center}
+        \textbf{DNN 01 (with btag score)}
+    \end{center}
+	\begin{figure}
+		\includegraphics[width=0.32\linewidth]{full2016NanoV6_Tight_Fake_DNN01/plots_FakeExtrapolation_2016/MuMu_HasMuMuTightTwoAk4JetsExclusiveResolvedOneBtag_firstlepton_pt.pdf}
+		\includegraphics[width=0.32\linewidth]{full2016NanoV6_Tight_DNN01_DYEstimation_LeadjetParam_Data/plots_DYEstimation_2016/MuMu_HasMuMuTightTwoAk4JetsExclusiveResolvedOneBtag_firstlepton_pt.pdf}
+		\includegraphics[width=0.32\linewidth]{full2016NanoV6_Tight_DNN01_DYEstimation_LeadjetParam_PseudoData/plots_pseudodata_2016/MuMu_HasMuMuTightTwoAk4JetsExclusiveResolvedOneBtag_firstlepton_pt.pdf}
+	\end{figure}
+    \begin{center}
+        \textbf{DNN 02 (without btag score)}
+    \end{center}
+	\begin{figure}
+		\includegraphics[width=0.32\linewidth]{full2016NanoV6_Tight_Fake_DNN02/plots_FakeExtrapolation_2016/MuMu_HasMuMuTightTwoAk4JetsExclusiveResolvedOneBtag_firstlepton_pt.pdf}
+		\includegraphics[width=0.32\linewidth]{full2016NanoV6_Tight_DNN02_DYEstimation_LeadjetParam_Data/plots_DYEstimation_2016/MuMu_HasMuMuTightTwoAk4JetsExclusiveResolvedOneBtag_firstlepton_pt.pdf}
+		\includegraphics[width=0.32\linewidth]{full2016NanoV6_Tight_DNN02_DYEstimation_LeadjetParam_PseudoData/plots_pseudodata_2016/MuMu_HasMuMuTightTwoAk4JetsExclusiveResolvedOneBtag_firstlepton_pt.pdf}
+	\end{figure}
+\end{frame}
+%----------------------------------------------------------------------------------------\\
+\begin{frame}
+	\frametitle{Resolved 2 btag : first lepton $P_T$}
+    \hspace{2cm} \textbf{DY MC} \hspace{1.9cm} \textbf{Data-driven DY} \hspace{1cm} \textbf{Pseudo-data DY}
+    \begin{center}
+        \textbf{DNN 01 (with btag score)}
+    \end{center}
+	\begin{figure}
+		\includegraphics[width=0.32\linewidth]{full2016NanoV6_Tight_Fake_DNN01/plots_FakeExtrapolation_2016/MuMu_HasMuMuTightTwoAk4JetsExclusiveResolvedTwoBtags_firstlepton_pt.pdf}
+		\includegraphics[width=0.32\linewidth]{full2016NanoV6_Tight_DNN01_DYEstimation_LeadjetParam_Data/plots_DYEstimation_2016/MuMu_HasMuMuTightTwoAk4JetsExclusiveResolvedTwoBtags_firstlepton_pt.pdf}
+		\includegraphics[width=0.32\linewidth]{full2016NanoV6_Tight_DNN01_DYEstimation_LeadjetParam_PseudoData/plots_pseudodata_2016/MuMu_HasMuMuTightTwoAk4JetsExclusiveResolvedTwoBtags_firstlepton_pt.pdf}
+	\end{figure}
+    \begin{center}
+        \textbf{DNN 02 (without btag score)}
+    \end{center}
+	\begin{figure}
+		\includegraphics[width=0.32\linewidth]{full2016NanoV6_Tight_Fake_DNN02/plots_FakeExtrapolation_2016/MuMu_HasMuMuTightTwoAk4JetsExclusiveResolvedTwoBtags_firstlepton_pt.pdf}
+		\includegraphics[width=0.32\linewidth]{full2016NanoV6_Tight_DNN02_DYEstimation_LeadjetParam_Data/plots_DYEstimation_2016/MuMu_HasMuMuTightTwoAk4JetsExclusiveResolvedTwoBtags_firstlepton_pt.pdf}
+		\includegraphics[width=0.32\linewidth]{full2016NanoV6_Tight_DNN02_DYEstimation_LeadjetParam_PseudoData/plots_pseudodata_2016/MuMu_HasMuMuTightTwoAk4JetsExclusiveResolvedTwoBtags_firstlepton_pt.pdf}
+	\end{figure}
+\end{frame}
+
+
+
+%----------------------------------------------------------------------------------------\\
+\begin{frame}
+	\frametitle{Resolved 1 btag : leading jet $P_T$}
+    \hspace{2cm} \textbf{DY MC} \hspace{1.9cm} \textbf{Data-driven DY} \hspace{1cm} \textbf{Pseudo-data DY}
+    \begin{center}
+        \textbf{DNN 01 (with btag score)}
+    \end{center}
+	\begin{figure}
+		\includegraphics[width=0.32\linewidth]{full2016NanoV6_Tight_Fake_DNN01/plots_FakeExtrapolation_2016/MuMu_HasMuMuTightTwoAk4JetsExclusiveResolvedOneBtag_leadbjet_pt.pdf}
+		\includegraphics[width=0.32\linewidth]{full2016NanoV6_Tight_DNN01_DYEstimation_LeadjetParam_Data/plots_DYEstimation_2016/MuMu_HasMuMuTightTwoAk4JetsExclusiveResolvedOneBtag_leadbjet_pt.pdf}
+		\includegraphics[width=0.32\linewidth]{full2016NanoV6_Tight_DNN01_DYEstimation_LeadjetParam_PseudoData/plots_pseudodata_2016/MuMu_HasMuMuTightTwoAk4JetsExclusiveResolvedOneBtag_leadbjet_pt.pdf}
+	\end{figure}
+    \begin{center}
+        \textbf{DNN 02 (without btag score)}
+    \end{center}
+	\begin{figure}
+		\includegraphics[width=0.32\linewidth]{full2016NanoV6_Tight_Fake_DNN02/plots_FakeExtrapolation_2016/MuMu_HasMuMuTightTwoAk4JetsExclusiveResolvedOneBtag_leadbjet_pt.pdf}
+		\includegraphics[width=0.32\linewidth]{full2016NanoV6_Tight_DNN02_DYEstimation_LeadjetParam_Data/plots_DYEstimation_2016/MuMu_HasMuMuTightTwoAk4JetsExclusiveResolvedOneBtag_leadbjet_pt.pdf}
+		\includegraphics[width=0.32\linewidth]{full2016NanoV6_Tight_DNN02_DYEstimation_LeadjetParam_PseudoData/plots_pseudodata_2016/MuMu_HasMuMuTightTwoAk4JetsExclusiveResolvedOneBtag_leadbjet_pt.pdf}
+	\end{figure}
+\end{frame}
+%----------------------------------------------------------------------------------------\\
+\begin{frame}
+	\frametitle{Resolved 2 btag : leading jet $P_T$}
+    \hspace{2cm} \textbf{DY MC} \hspace{1.9cm} \textbf{Data-driven DY} \hspace{1cm} \textbf{Pseudo-data DY}
+    \begin{center}
+        \textbf{DNN 01 (with btag score)}
+    \end{center}
+	\begin{figure}
+		\includegraphics[width=0.32\linewidth]{full2016NanoV6_Tight_Fake_DNN01/plots_FakeExtrapolation_2016/MuMu_HasMuMuTightTwoAk4JetsExclusiveResolvedTwoBtags_leadbjet_pt.pdf}
+		\includegraphics[width=0.32\linewidth]{full2016NanoV6_Tight_DNN01_DYEstimation_LeadjetParam_Data/plots_DYEstimation_2016/MuMu_HasMuMuTightTwoAk4JetsExclusiveResolvedTwoBtags_leadbjet_pt.pdf}
+		\includegraphics[width=0.32\linewidth]{full2016NanoV6_Tight_DNN01_DYEstimation_LeadjetParam_PseudoData/plots_pseudodata_2016/MuMu_HasMuMuTightTwoAk4JetsExclusiveResolvedTwoBtags_leadbjet_pt.pdf}
+	\end{figure}
+    \begin{center}
+        \textbf{DNN 02 (without btag score)}
+    \end{center}
+	\begin{figure}
+		\includegraphics[width=0.32\linewidth]{full2016NanoV6_Tight_Fake_DNN02/plots_FakeExtrapolation_2016/MuMu_HasMuMuTightTwoAk4JetsExclusiveResolvedTwoBtags_leadbjet_pt.pdf}
+		\includegraphics[width=0.32\linewidth]{full2016NanoV6_Tight_DNN02_DYEstimation_LeadjetParam_Data/plots_DYEstimation_2016/MuMu_HasMuMuTightTwoAk4JetsExclusiveResolvedTwoBtags_leadbjet_pt.pdf}
+		\includegraphics[width=0.32\linewidth]{full2016NanoV6_Tight_DNN02_DYEstimation_LeadjetParam_PseudoData/plots_pseudodata_2016/MuMu_HasMuMuTightTwoAk4JetsExclusiveResolvedTwoBtags_leadbjet_pt.pdf}
+	\end{figure}
+\end{frame}
+
+
+
+
+
+
+
+
+%----------------------------------------------------------------------------------------\\
+\begin{frame}
+	\frametitle{Resolved 1 btag : DNN output node DY}
+    \hspace{2cm} \textbf{DY MC} \hspace{1.9cm} \textbf{Data-driven DY} \hspace{1cm} \textbf{Pseudo-data DY}
+    \begin{center}
+        \textbf{DNN 01 (with btag score)}
+    \end{center}
+	\begin{figure}
+		\includegraphics[width=0.32\linewidth]{full2016NanoV6_Tight_Fake_DNN01/plots_FakeExtrapolation_2016/MuMu_HasMuMuTightTwoAk4JetsExclusiveResolvedOneBtagDYnode_DNNOutput_DY.pdf}
+		\includegraphics[width=0.32\linewidth]{full2016NanoV6_Tight_DNN01_DYEstimation_LeadjetParam_Data/plots_DYEstimation_2016/MuMu_HasMuMuTightTwoAk4JetsExclusiveResolvedOneBtagDYnode_DNNOutput_DY.pdf}
+		\includegraphics[width=0.32\linewidth]{full2016NanoV6_Tight_DNN01_DYEstimation_LeadjetParam_PseudoData/plots_pseudodata_2016/MuMu_HasMuMuTightTwoAk4JetsExclusiveResolvedOneBtagDYnode_DNNOutput_DY.pdf}
+	\end{figure}
+    \begin{center}
+        \textbf{DNN 02 (without btag score)}
+    \end{center}
+	\begin{figure}
+		\includegraphics[width=0.32\linewidth]{full2016NanoV6_Tight_Fake_DNN02/plots_FakeExtrapolation_2016/MuMu_HasMuMuTightTwoAk4JetsExclusiveResolvedOneBtagDYnode_DNNOutput_DY.pdf}
+		\includegraphics[width=0.32\linewidth]{full2016NanoV6_Tight_DNN02_DYEstimation_LeadjetParam_Data/plots_DYEstimation_2016/MuMu_HasMuMuTightTwoAk4JetsExclusiveResolvedOneBtagDYnode_DNNOutput_DY.pdf}
+		\includegraphics[width=0.32\linewidth]{full2016NanoV6_Tight_DNN02_DYEstimation_LeadjetParam_PseudoData/plots_pseudodata_2016/MuMu_HasMuMuTightTwoAk4JetsExclusiveResolvedOneBtagDYnode_DNNOutput_DY.pdf}
+	\end{figure}
+\end{frame}
+%----------------------------------------------------------------------------------------\\
+\begin{frame}
+	\frametitle{Resolved 2 btag : DNN output node DY}
+    \hspace{2cm} \textbf{DY MC} \hspace{1.9cm} \textbf{Data-driven DY} \hspace{1cm} \textbf{Pseudo-data DY}
+    \begin{center}
+        \textbf{DNN 01 (with btag score)}
+    \end{center}
+	\begin{figure}
+		\includegraphics[width=0.32\linewidth]{full2016NanoV6_Tight_Fake_DNN01/plots_FakeExtrapolation_2016/MuMu_HasMuMuTightTwoAk4JetsExclusiveResolvedTwoBtagsDYnode_DNNOutput_DY.pdf}
+		\includegraphics[width=0.32\linewidth]{full2016NanoV6_Tight_DNN01_DYEstimation_LeadjetParam_Data/plots_DYEstimation_2016/MuMu_HasMuMuTightTwoAk4JetsExclusiveResolvedTwoBtagsDYnode_DNNOutput_DY.pdf}
+		\includegraphics[width=0.32\linewidth]{full2016NanoV6_Tight_DNN01_DYEstimation_LeadjetParam_PseudoData/plots_pseudodata_2016/MuMu_HasMuMuTightTwoAk4JetsExclusiveResolvedTwoBtagsDYnode_DNNOutput_DY.pdf}
+	\end{figure}
+    \begin{center}
+        \textbf{DNN 02 (without btag score)}
+    \end{center}
+	\begin{figure}
+		\includegraphics[width=0.32\linewidth]{full2016NanoV6_Tight_Fake_DNN02/plots_FakeExtrapolation_2016/MuMu_HasMuMuTightTwoAk4JetsExclusiveResolvedTwoBtagsDYnode_DNNOutput_DY.pdf}
+		\includegraphics[width=0.32\linewidth]{full2016NanoV6_Tight_DNN02_DYEstimation_LeadjetParam_Data/plots_DYEstimation_2016/MuMu_HasMuMuTightTwoAk4JetsExclusiveResolvedTwoBtagsDYnode_DNNOutput_DY.pdf}
+		\includegraphics[width=0.32\linewidth]{full2016NanoV6_Tight_DNN02_DYEstimation_LeadjetParam_PseudoData/plots_pseudodata_2016/MuMu_HasMuMuTightTwoAk4JetsExclusiveResolvedTwoBtagsDYnode_DNNOutput_DY.pdf}
+	\end{figure}
+\end{frame}
+%----------------------------------------------------------------------------------------\\
+\begin{frame}
+	\frametitle{Resolved 1 btag : DNN output node ttbar}
+    \hspace{2cm} \textbf{DY MC} \hspace{1.9cm} \textbf{Data-driven DY} \hspace{1cm} \textbf{Pseudo-data DY}
+    \begin{center}
+        \textbf{DNN 01 (with btag score)}
+    \end{center}
+	\begin{figure}
+		\includegraphics[width=0.32\linewidth]{full2016NanoV6_Tight_Fake_DNN01/plots_FakeExtrapolation_2016/MuMu_HasMuMuTightTwoAk4JetsExclusiveResolvedOneBtagttbarnode_DNNOutput_ttbar.pdf}
+		\includegraphics[width=0.32\linewidth]{full2016NanoV6_Tight_DNN01_DYEstimation_LeadjetParam_Data/plots_DYEstimation_2016/MuMu_HasMuMuTightTwoAk4JetsExclusiveResolvedOneBtagttbarnode_DNNOutput_ttbar.pdf}
+		\includegraphics[width=0.32\linewidth]{full2016NanoV6_Tight_DNN01_DYEstimation_LeadjetParam_PseudoData/plots_pseudodata_2016/MuMu_HasMuMuTightTwoAk4JetsExclusiveResolvedOneBtagttbarnode_DNNOutput_ttbar.pdf}
+	\end{figure}
+    \begin{center}
+        \textbf{DNN 02 (without btag score)}
+    \end{center}
+	\begin{figure}
+		\includegraphics[width=0.32\linewidth]{full2016NanoV6_Tight_Fake_DNN02/plots_FakeExtrapolation_2016/MuMu_HasMuMuTightTwoAk4JetsExclusiveResolvedOneBtagttbarnode_DNNOutput_ttbar.pdf}
+		\includegraphics[width=0.32\linewidth]{full2016NanoV6_Tight_DNN02_DYEstimation_LeadjetParam_Data/plots_DYEstimation_2016/MuMu_HasMuMuTightTwoAk4JetsExclusiveResolvedOneBtagttbarnode_DNNOutput_ttbar.pdf}
+		\includegraphics[width=0.32\linewidth]{full2016NanoV6_Tight_DNN02_DYEstimation_LeadjetParam_PseudoData/plots_pseudodata_2016/MuMu_HasMuMuTightTwoAk4JetsExclusiveResolvedOneBtagttbarnode_DNNOutput_ttbar.pdf}
+	\end{figure}
+\end{frame}
+%----------------------------------------------------------------------------------------\\
+\begin{frame}
+	\frametitle{Resolved 2 btag : DNN output node ttbar}
+    \hspace{2cm} \textbf{DY MC} \hspace{1.9cm} \textbf{Data-driven DY} \hspace{1cm} \textbf{Pseudo-data DY}
+    \begin{center}
+        \textbf{DNN 01 (with btag score)}
+    \end{center}
+	\begin{figure}
+		\includegraphics[width=0.32\linewidth]{full2016NanoV6_Tight_Fake_DNN01/plots_FakeExtrapolation_2016/MuMu_HasMuMuTightTwoAk4JetsExclusiveResolvedTwoBtagsttbarnode_DNNOutput_ttbar.pdf}
+		\includegraphics[width=0.32\linewidth]{full2016NanoV6_Tight_DNN01_DYEstimation_LeadjetParam_Data/plots_DYEstimation_2016/MuMu_HasMuMuTightTwoAk4JetsExclusiveResolvedTwoBtagsttbarnode_DNNOutput_ttbar.pdf}
+		\includegraphics[width=0.32\linewidth]{full2016NanoV6_Tight_DNN01_DYEstimation_LeadjetParam_PseudoData/plots_pseudodata_2016/MuMu_HasMuMuTightTwoAk4JetsExclusiveResolvedTwoBtagsttbarnode_DNNOutput_ttbar.pdf}
+	\end{figure}
+    \begin{center}
+        \textbf{DNN 02 (without btag score)}
+    \end{center}
+	\begin{figure}
+		\includegraphics[width=0.32\linewidth]{full2016NanoV6_Tight_Fake_DNN02/plots_FakeExtrapolation_2016/MuMu_HasMuMuTightTwoAk4JetsExclusiveResolvedTwoBtagsttbarnode_DNNOutput_ttbar.pdf}
+		\includegraphics[width=0.32\linewidth]{full2016NanoV6_Tight_DNN02_DYEstimation_LeadjetParam_Data/plots_DYEstimation_2016/MuMu_HasMuMuTightTwoAk4JetsExclusiveResolvedTwoBtagsttbarnode_DNNOutput_ttbar.pdf}
+		\includegraphics[width=0.32\linewidth]{full2016NanoV6_Tight_DNN02_DYEstimation_LeadjetParam_PseudoData/plots_pseudodata_2016/MuMu_HasMuMuTightTwoAk4JetsExclusiveResolvedTwoBtagsttbarnode_DNNOutput_ttbar.pdf}
+	\end{figure}
+\end{frame}
+
+%----------------------------------------------------------------------------------------\\
+\begin{frame}
+	\frametitle{Resolved 1 btag : DNN output node ST}
+    \hspace{2cm} \textbf{DY MC} \hspace{1.9cm} \textbf{Data-driven DY} \hspace{1cm} \textbf{Pseudo-data DY}
+    \begin{center}
+        \textbf{DNN 01 (with btag score)}
+    \end{center}
+	\begin{figure}
+		\includegraphics[width=0.32\linewidth]{full2016NanoV6_Tight_Fake_DNN01/plots_FakeExtrapolation_2016/MuMu_HasMuMuTightTwoAk4JetsExclusiveResolvedOneBtagSTnode_DNNOutput_ST.pdf}
+		\includegraphics[width=0.32\linewidth]{full2016NanoV6_Tight_DNN01_DYEstimation_LeadjetParam_Data/plots_DYEstimation_2016/MuMu_HasMuMuTightTwoAk4JetsExclusiveResolvedOneBtagSTnode_DNNOutput_ST.pdf}
+		\includegraphics[width=0.32\linewidth]{full2016NanoV6_Tight_DNN01_DYEstimation_LeadjetParam_PseudoData/plots_pseudodata_2016/MuMu_HasMuMuTightTwoAk4JetsExclusiveResolvedOneBtagSTnode_DNNOutput_ST.pdf}
+	\end{figure}
+    \begin{center}
+        \textbf{DNN 02 (without btag score)}
+    \end{center}
+	\begin{figure}
+		\includegraphics[width=0.32\linewidth]{full2016NanoV6_Tight_Fake_DNN02/plots_FakeExtrapolation_2016/MuMu_HasMuMuTightTwoAk4JetsExclusiveResolvedOneBtagSTnode_DNNOutput_ST.pdf}
+		\includegraphics[width=0.32\linewidth]{full2016NanoV6_Tight_DNN02_DYEstimation_LeadjetParam_Data/plots_DYEstimation_2016/MuMu_HasMuMuTightTwoAk4JetsExclusiveResolvedOneBtagSTnode_DNNOutput_ST.pdf}
+		\includegraphics[width=0.32\linewidth]{full2016NanoV6_Tight_DNN02_DYEstimation_LeadjetParam_PseudoData/plots_pseudodata_2016/MuMu_HasMuMuTightTwoAk4JetsExclusiveResolvedOneBtagSTnode_DNNOutput_ST.pdf}
+	\end{figure}
+\end{frame}
+%----------------------------------------------------------------------------------------\\
+\begin{frame}
+	\frametitle{Resolved 2 btag : DNN output node ST}
+    \hspace{2cm} \textbf{DY MC} \hspace{1.9cm} \textbf{Data-driven DY} \hspace{1cm} \textbf{Pseudo-data DY}
+    \begin{center}
+        \textbf{DNN 01 (with btag score)}
+    \end{center}
+	\begin{figure}
+		\includegraphics[width=0.32\linewidth]{full2016NanoV6_Tight_Fake_DNN01/plots_FakeExtrapolation_2016/MuMu_HasMuMuTightTwoAk4JetsExclusiveResolvedTwoBtagsSTnode_DNNOutput_ST.pdf}
+		\includegraphics[width=0.32\linewidth]{full2016NanoV6_Tight_DNN01_DYEstimation_LeadjetParam_Data/plots_DYEstimation_2016/MuMu_HasMuMuTightTwoAk4JetsExclusiveResolvedTwoBtagsSTnode_DNNOutput_ST.pdf}
+		\includegraphics[width=0.32\linewidth]{full2016NanoV6_Tight_DNN01_DYEstimation_LeadjetParam_PseudoData/plots_pseudodata_2016/MuMu_HasMuMuTightTwoAk4JetsExclusiveResolvedTwoBtagsSTnode_DNNOutput_ST.pdf}
+	\end{figure}
+    \begin{center}
+        \textbf{DNN 02 (without btag score)}
+    \end{center}
+	\begin{figure}
+		\includegraphics[width=0.32\linewidth]{full2016NanoV6_Tight_Fake_DNN02/plots_FakeExtrapolation_2016/MuMu_HasMuMuTightTwoAk4JetsExclusiveResolvedTwoBtagsSTnode_DNNOutput_ST.pdf}
+		\includegraphics[width=0.32\linewidth]{full2016NanoV6_Tight_DNN02_DYEstimation_LeadjetParam_Data/plots_DYEstimation_2016/MuMu_HasMuMuTightTwoAk4JetsExclusiveResolvedTwoBtagsSTnode_DNNOutput_ST.pdf}
+		\includegraphics[width=0.32\linewidth]{full2016NanoV6_Tight_DNN02_DYEstimation_LeadjetParam_PseudoData/plots_pseudodata_2016/MuMu_HasMuMuTightTwoAk4JetsExclusiveResolvedTwoBtagsSTnode_DNNOutput_ST.pdf}
+	\end{figure}
+\end{frame}
+
+%----------------------------------------------------------------------------------------\\
+\begin{frame}
+	\frametitle{Resolved 1 btag : DNN output node ttVX}
+    \hspace{2cm} \textbf{DY MC} \hspace{1.9cm} \textbf{Data-driven DY} \hspace{1cm} \textbf{Pseudo-data DY}
+    \begin{center}
+        \textbf{DNN 01 (with btag score)}
+    \end{center}
+	\begin{figure}
+		\includegraphics[width=0.32\linewidth]{full2016NanoV6_Tight_Fake_DNN01/plots_FakeExtrapolation_2016/MuMu_HasMuMuTightTwoAk4JetsExclusiveResolvedOneBtagttVXnode_DNNOutput_ttVX.pdf}
+		\includegraphics[width=0.32\linewidth]{full2016NanoV6_Tight_DNN01_DYEstimation_LeadjetParam_Data/plots_DYEstimation_2016/MuMu_HasMuMuTightTwoAk4JetsExclusiveResolvedOneBtagttVXnode_DNNOutput_ttVX.pdf}
+		\includegraphics[width=0.32\linewidth]{full2016NanoV6_Tight_DNN01_DYEstimation_LeadjetParam_PseudoData/plots_pseudodata_2016/MuMu_HasMuMuTightTwoAk4JetsExclusiveResolvedOneBtagttVXnode_DNNOutput_ttVX.pdf}
+	\end{figure}
+    \begin{center}
+        \textbf{DNN 02 (without btag score)}
+    \end{center}
+	\begin{figure}
+		\includegraphics[width=0.32\linewidth]{full2016NanoV6_Tight_Fake_DNN02/plots_FakeExtrapolation_2016/MuMu_HasMuMuTightTwoAk4JetsExclusiveResolvedOneBtagttVXnode_DNNOutput_ttVX.pdf}
+		\includegraphics[width=0.32\linewidth]{full2016NanoV6_Tight_DNN02_DYEstimation_LeadjetParam_Data/plots_DYEstimation_2016/MuMu_HasMuMuTightTwoAk4JetsExclusiveResolvedOneBtagttVXnode_DNNOutput_ttVX.pdf}
+		\includegraphics[width=0.32\linewidth]{full2016NanoV6_Tight_DNN02_DYEstimation_LeadjetParam_PseudoData/plots_pseudodata_2016/MuMu_HasMuMuTightTwoAk4JetsExclusiveResolvedOneBtagttVXnode_DNNOutput_ttVX.pdf}
+	\end{figure}
+\end{frame}
+%----------------------------------------------------------------------------------------\\
+\begin{frame}
+	\frametitle{Resolved 2 btag : DNN output node ttVX}
+    \hspace{2cm} \textbf{DY MC} \hspace{1.9cm} \textbf{Data-driven DY} \hspace{1cm} \textbf{Pseudo-data DY}
+    \begin{center}
+        \textbf{DNN 01 (with btag score)}
+    \end{center}
+	\begin{figure}
+		\includegraphics[width=0.32\linewidth]{full2016NanoV6_Tight_Fake_DNN01/plots_FakeExtrapolation_2016/MuMu_HasMuMuTightTwoAk4JetsExclusiveResolvedTwoBtagsttVXnode_DNNOutput_ttVX.pdf}
+		\includegraphics[width=0.32\linewidth]{full2016NanoV6_Tight_DNN01_DYEstimation_LeadjetParam_Data/plots_DYEstimation_2016/MuMu_HasMuMuTightTwoAk4JetsExclusiveResolvedTwoBtagsttVXnode_DNNOutput_ttVX.pdf}
+		\includegraphics[width=0.32\linewidth]{full2016NanoV6_Tight_DNN01_DYEstimation_LeadjetParam_PseudoData/plots_pseudodata_2016/MuMu_HasMuMuTightTwoAk4JetsExclusiveResolvedTwoBtagsttVXnode_DNNOutput_ttVX.pdf}
+	\end{figure}
+    \begin{center}
+        \textbf{DNN 02 (without btag score)}
+    \end{center}
+	\begin{figure}
+		\includegraphics[width=0.32\linewidth]{full2016NanoV6_Tight_Fake_DNN02/plots_FakeExtrapolation_2016/MuMu_HasMuMuTightTwoAk4JetsExclusiveResolvedTwoBtagsttVXnode_DNNOutput_ttVX.pdf}
+		\includegraphics[width=0.32\linewidth]{full2016NanoV6_Tight_DNN02_DYEstimation_LeadjetParam_Data/plots_DYEstimation_2016/MuMu_HasMuMuTightTwoAk4JetsExclusiveResolvedTwoBtagsttVXnode_DNNOutput_ttVX.pdf}
+		\includegraphics[width=0.32\linewidth]{full2016NanoV6_Tight_DNN02_DYEstimation_LeadjetParam_PseudoData/plots_pseudodata_2016/MuMu_HasMuMuTightTwoAk4JetsExclusiveResolvedTwoBtagsttVXnode_DNNOutput_ttVX.pdf}
+	\end{figure}
+\end{frame}
+
+%----------------------------------------------------------------------------------------\\
+\begin{frame}
+	\frametitle{Resolved 1 btag : DNN output node VVV}
+    \hspace{2cm} \textbf{DY MC} \hspace{1.9cm} \textbf{Data-driven DY} \hspace{1cm} \textbf{Pseudo-data DY}
+    \begin{center}
+        \textbf{DNN 01 (with btag score)}
+    \end{center}
+	\begin{figure}
+		\includegraphics[width=0.32\linewidth]{full2016NanoV6_Tight_Fake_DNN01/plots_FakeExtrapolation_2016/MuMu_HasMuMuTightTwoAk4JetsExclusiveResolvedOneBtagVVVnode_DNNOutput_VVV.pdf}
+		\includegraphics[width=0.32\linewidth]{full2016NanoV6_Tight_DNN01_DYEstimation_LeadjetParam_Data/plots_DYEstimation_2016/MuMu_HasMuMuTightTwoAk4JetsExclusiveResolvedOneBtagVVVnode_DNNOutput_VVV.pdf}
+		\includegraphics[width=0.32\linewidth]{full2016NanoV6_Tight_DNN01_DYEstimation_LeadjetParam_PseudoData/plots_pseudodata_2016/MuMu_HasMuMuTightTwoAk4JetsExclusiveResolvedOneBtagVVVnode_DNNOutput_VVV.pdf}
+	\end{figure}
+    \begin{center}
+        \textbf{DNN 02 (without btag score)}
+    \end{center}
+	\begin{figure}
+		\includegraphics[width=0.32\linewidth]{full2016NanoV6_Tight_Fake_DNN02/plots_FakeExtrapolation_2016/MuMu_HasMuMuTightTwoAk4JetsExclusiveResolvedOneBtagVVVnode_DNNOutput_VVV.pdf}
+		\includegraphics[width=0.32\linewidth]{full2016NanoV6_Tight_DNN02_DYEstimation_LeadjetParam_Data/plots_DYEstimation_2016/MuMu_HasMuMuTightTwoAk4JetsExclusiveResolvedOneBtagVVVnode_DNNOutput_VVV.pdf}
+		\includegraphics[width=0.32\linewidth]{full2016NanoV6_Tight_DNN02_DYEstimation_LeadjetParam_PseudoData/plots_pseudodata_2016/MuMu_HasMuMuTightTwoAk4JetsExclusiveResolvedOneBtagVVVnode_DNNOutput_VVV.pdf}
+	\end{figure}
+\end{frame}
+%----------------------------------------------------------------------------------------\\
+\begin{frame}
+	\frametitle{Resolved 2 btag : DNN output node VVV}
+    \hspace{2cm} \textbf{DY MC} \hspace{1.9cm} \textbf{Data-driven DY} \hspace{1cm} \textbf{Pseudo-data DY}
+    \begin{center}
+        \textbf{DNN 01 (with btag score)}
+    \end{center}
+	\begin{figure}
+		\includegraphics[width=0.32\linewidth]{full2016NanoV6_Tight_Fake_DNN01/plots_FakeExtrapolation_2016/MuMu_HasMuMuTightTwoAk4JetsExclusiveResolvedTwoBtagsVVVnode_DNNOutput_VVV.pdf}
+		\includegraphics[width=0.32\linewidth]{full2016NanoV6_Tight_DNN01_DYEstimation_LeadjetParam_Data/plots_DYEstimation_2016/MuMu_HasMuMuTightTwoAk4JetsExclusiveResolvedTwoBtagsVVVnode_DNNOutput_VVV.pdf}
+		\includegraphics[width=0.32\linewidth]{full2016NanoV6_Tight_DNN01_DYEstimation_LeadjetParam_PseudoData/plots_pseudodata_2016/MuMu_HasMuMuTightTwoAk4JetsExclusiveResolvedTwoBtagsVVVnode_DNNOutput_VVV.pdf}
+	\end{figure}
+    \begin{center}
+        \textbf{DNN 02 (without btag score)}
+    \end{center}
+	\begin{figure}
+		\includegraphics[width=0.32\linewidth]{full2016NanoV6_Tight_Fake_DNN02/plots_FakeExtrapolation_2016/MuMu_HasMuMuTightTwoAk4JetsExclusiveResolvedTwoBtagsVVVnode_DNNOutput_VVV.pdf}
+		\includegraphics[width=0.32\linewidth]{full2016NanoV6_Tight_DNN02_DYEstimation_LeadjetParam_Data/plots_DYEstimation_2016/MuMu_HasMuMuTightTwoAk4JetsExclusiveResolvedTwoBtagsVVVnode_DNNOutput_VVV.pdf}
+		\includegraphics[width=0.32\linewidth]{full2016NanoV6_Tight_DNN02_DYEstimation_LeadjetParam_PseudoData/plots_pseudodata_2016/MuMu_HasMuMuTightTwoAk4JetsExclusiveResolvedTwoBtagsVVVnode_DNNOutput_VVV.pdf}
+	\end{figure}
+\end{frame}
+
+%----------------------------------------------------------------------------------------\\
+\begin{frame}
+	\frametitle{Resolved 1 btag : DNN output node H}
+    \hspace{2cm} \textbf{DY MC} \hspace{1.9cm} \textbf{Data-driven DY} \hspace{1cm} \textbf{Pseudo-data DY}
+    \begin{center}
+        \textbf{DNN 01 (with btag score)}
+    \end{center}
+	\begin{figure}
+		\includegraphics[width=0.32\linewidth]{full2016NanoV6_Tight_Fake_DNN01/plots_FakeExtrapolation_2016/MuMu_HasMuMuTightTwoAk4JetsExclusiveResolvedOneBtagHnode_DNNOutput_H.pdf}
+		\includegraphics[width=0.32\linewidth]{full2016NanoV6_Tight_DNN01_DYEstimation_LeadjetParam_Data/plots_DYEstimation_2016/MuMu_HasMuMuTightTwoAk4JetsExclusiveResolvedOneBtagHnode_DNNOutput_H.pdf}
+		\includegraphics[width=0.32\linewidth]{full2016NanoV6_Tight_DNN01_DYEstimation_LeadjetParam_PseudoData/plots_pseudodata_2016/MuMu_HasMuMuTightTwoAk4JetsExclusiveResolvedOneBtagHnode_DNNOutput_H.pdf}
+	\end{figure}
+    \begin{center}
+        \textbf{DNN 02 (without btag score)}
+    \end{center}
+	\begin{figure}
+		\includegraphics[width=0.32\linewidth]{full2016NanoV6_Tight_Fake_DNN02/plots_FakeExtrapolation_2016/MuMu_HasMuMuTightTwoAk4JetsExclusiveResolvedOneBtagHnode_DNNOutput_H.pdf}
+		\includegraphics[width=0.32\linewidth]{full2016NanoV6_Tight_DNN02_DYEstimation_LeadjetParam_Data/plots_DYEstimation_2016/MuMu_HasMuMuTightTwoAk4JetsExclusiveResolvedOneBtagHnode_DNNOutput_H.pdf}
+		\includegraphics[width=0.32\linewidth]{full2016NanoV6_Tight_DNN02_DYEstimation_LeadjetParam_PseudoData/plots_pseudodata_2016/MuMu_HasMuMuTightTwoAk4JetsExclusiveResolvedOneBtagHnode_DNNOutput_H.pdf}
+	\end{figure}
+\end{frame}
+%----------------------------------------------------------------------------------------\\
+\begin{frame}
+	\frametitle{Resolved 2 btag : DNN output node H}
+    \hspace{2cm} \textbf{DY MC} \hspace{1.9cm} \textbf{Data-driven DY} \hspace{1cm} \textbf{Pseudo-data DY}
+    \begin{center}
+        \textbf{DNN 01 (with btag score)}
+    \end{center}
+	\begin{figure}
+		\includegraphics[width=0.32\linewidth]{full2016NanoV6_Tight_Fake_DNN01/plots_FakeExtrapolation_2016/MuMu_HasMuMuTightTwoAk4JetsExclusiveResolvedTwoBtagsHnode_DNNOutput_H.pdf}
+		\includegraphics[width=0.32\linewidth]{full2016NanoV6_Tight_DNN01_DYEstimation_LeadjetParam_Data/plots_DYEstimation_2016/MuMu_HasMuMuTightTwoAk4JetsExclusiveResolvedTwoBtagsHnode_DNNOutput_H.pdf}
+		\includegraphics[width=0.32\linewidth]{full2016NanoV6_Tight_DNN01_DYEstimation_LeadjetParam_PseudoData/plots_pseudodata_2016/MuMu_HasMuMuTightTwoAk4JetsExclusiveResolvedTwoBtagsHnode_DNNOutput_H.pdf}
+	\end{figure}
+    \begin{center}
+        \textbf{DNN 02 (without btag score)}
+    \end{center}
+	\begin{figure}
+		\includegraphics[width=0.32\linewidth]{full2016NanoV6_Tight_Fake_DNN02/plots_FakeExtrapolation_2016/MuMu_HasMuMuTightTwoAk4JetsExclusiveResolvedTwoBtagsHnode_DNNOutput_H.pdf}
+		\includegraphics[width=0.32\linewidth]{full2016NanoV6_Tight_DNN02_DYEstimation_LeadjetParam_Data/plots_DYEstimation_2016/MuMu_HasMuMuTightTwoAk4JetsExclusiveResolvedTwoBtagsHnode_DNNOutput_H.pdf}
+		\includegraphics[width=0.32\linewidth]{full2016NanoV6_Tight_DNN02_DYEstimation_LeadjetParam_PseudoData/plots_pseudodata_2016/MuMu_HasMuMuTightTwoAk4JetsExclusiveResolvedTwoBtagsHnode_DNNOutput_H.pdf}
+	\end{figure}
+\end{frame}
+
+%----------------------------------------------------------------------------------------\\
+\begin{frame}
+	\frametitle{Resolved 1 btag : DNN output node HH}
+    \hspace{2cm} \textbf{DY MC} \hspace{1.9cm} \textbf{Data-driven DY} \hspace{1cm} \textbf{Pseudo-data DY}
+    \begin{center}
+        \textbf{DNN 01 (with btag score)}
+    \end{center}
+	\begin{figure}
+		\includegraphics[width=0.32\linewidth]{full2016NanoV6_Tight_Fake_DNN01/plots_FakeExtrapolation_2016/MuMu_HasMuMuTightTwoAk4JetsExclusiveResolvedOneBtagHHnode_DNNOutput_HH.pdf}
+		\includegraphics[width=0.32\linewidth]{full2016NanoV6_Tight_DNN01_DYEstimation_LeadjetParam_Data/plots_DYEstimation_2016/MuMu_HasMuMuTightTwoAk4JetsExclusiveResolvedOneBtagHHnode_DNNOutput_HH.pdf}
+		\includegraphics[width=0.32\linewidth]{full2016NanoV6_Tight_DNN01_DYEstimation_LeadjetParam_PseudoData/plots_pseudodata_2016/MuMu_HasMuMuTightTwoAk4JetsExclusiveResolvedOneBtagHHnode_DNNOutput_HH.pdf}
+	\end{figure}
+    \begin{center}
+        \textbf{DNN 02 (without btag score)}
+    \end{center}
+	\begin{figure}
+		\includegraphics[width=0.32\linewidth]{full2016NanoV6_Tight_Fake_DNN02/plots_FakeExtrapolation_2016/MuMu_HasMuMuTightTwoAk4JetsExclusiveResolvedOneBtagHHnode_DNNOutput_HH.pdf}
+		\includegraphics[width=0.32\linewidth]{full2016NanoV6_Tight_DNN02_DYEstimation_LeadjetParam_Data/plots_DYEstimation_2016/MuMu_HasMuMuTightTwoAk4JetsExclusiveResolvedOneBtagHHnode_DNNOutput_HH.pdf}
+		\includegraphics[width=0.32\linewidth]{full2016NanoV6_Tight_DNN02_DYEstimation_LeadjetParam_PseudoData/plots_pseudodata_2016/MuMu_HasMuMuTightTwoAk4JetsExclusiveResolvedOneBtagHHnode_DNNOutput_HH.pdf}
+	\end{figure}
+\end{frame}
+%----------------------------------------------------------------------------------------\\
+\begin{frame}
+	\frametitle{Resolved 2 btag : DNN output node HH}
+    \hspace{2cm} \textbf{DY MC} \hspace{1.9cm} \textbf{Data-driven DY} \hspace{1cm} \textbf{Pseudo-data DY}
+    \begin{center}
+        \textbf{DNN 01 (with btag score)}
+    \end{center}
+	\begin{figure}
+		\includegraphics[width=0.32\linewidth]{full2016NanoV6_Tight_Fake_DNN01/plots_FakeExtrapolation_2016/MuMu_HasMuMuTightTwoAk4JetsExclusiveResolvedTwoBtagsHHnode_DNNOutput_HH.pdf}
+		\includegraphics[width=0.32\linewidth]{full2016NanoV6_Tight_DNN01_DYEstimation_LeadjetParam_Data/plots_DYEstimation_2016/MuMu_HasMuMuTightTwoAk4JetsExclusiveResolvedTwoBtagsHHnode_DNNOutput_HH.pdf}
+		\includegraphics[width=0.32\linewidth]{full2016NanoV6_Tight_DNN01_DYEstimation_LeadjetParam_PseudoData/plots_pseudodata_2016/MuMu_HasMuMuTightTwoAk4JetsExclusiveResolvedTwoBtagsHHnode_DNNOutput_HH.pdf}
+	\end{figure}
+    \begin{center}
+        \textbf{DNN 02 (without btag score)}
+    \end{center}
+	\begin{figure}
+		\includegraphics[width=0.32\linewidth]{full2016NanoV6_Tight_Fake_DNN02/plots_FakeExtrapolation_2016/MuMu_HasMuMuTightTwoAk4JetsExclusiveResolvedTwoBtagsHHnode_DNNOutput_HH.pdf}
+		\includegraphics[width=0.32\linewidth]{full2016NanoV6_Tight_DNN02_DYEstimation_LeadjetParam_Data/plots_DYEstimation_2016/MuMu_HasMuMuTightTwoAk4JetsExclusiveResolvedTwoBtagsHHnode_DNNOutput_HH.pdf}
+		\includegraphics[width=0.32\linewidth]{full2016NanoV6_Tight_DNN02_DYEstimation_LeadjetParam_PseudoData/plots_pseudodata_2016/MuMu_HasMuMuTightTwoAk4JetsExclusiveResolvedTwoBtagsHHnode_DNNOutput_HH.pdf}
+	\end{figure}
+\end{frame}
+
+%----------------------------------------------------------------------------------------\\
+\begin{frame}
+    \frametitle{Resolved 1 btag : DNN output node Rare}
+    \hspace{2cm} \textbf{DY MC} \hspace{1.9cm} \textbf{Data-driven DY} \hspace{1cm} \textbf{Pseudo-data DY}
+    \begin{center}
+        \textbf{DNN 01 (with btag score)}
+    \end{center}
+	\begin{figure}
+		\includegraphics[width=0.32\linewidth]{full2016NanoV6_Tight_Fake_DNN01/plots_FakeExtrapolation_2016/MuMu_HasMuMuTightTwoAk4JetsExclusiveResolvedOneBtagRarenode_DNNOutput_Rare.pdf}
+		\includegraphics[width=0.32\linewidth]{full2016NanoV6_Tight_DNN01_DYEstimation_LeadjetParam_Data/plots_DYEstimation_2016/MuMu_HasMuMuTightTwoAk4JetsExclusiveResolvedOneBtagRarenode_DNNOutput_Rare.pdf}
+		\includegraphics[width=0.32\linewidth]{full2016NanoV6_Tight_DNN01_DYEstimation_LeadjetParam_PseudoData/plots_pseudodata_2016/MuMu_HasMuMuTightTwoAk4JetsExclusiveResolvedOneBtagRarenode_DNNOutput_Rare.pdf}
+	\end{figure}
+    \begin{center}
+        \textbf{DNN 02 (without btag score)}
+    \end{center}
+	\begin{figure}
+		\includegraphics[width=0.32\linewidth]{full2016NanoV6_Tight_Fake_DNN02/plots_FakeExtrapolation_2016/MuMu_HasMuMuTightTwoAk4JetsExclusiveResolvedOneBtagRarenode_DNNOutput_Rare.pdf}
+		\includegraphics[width=0.32\linewidth]{full2016NanoV6_Tight_DNN02_DYEstimation_LeadjetParam_Data/plots_DYEstimation_2016/MuMu_HasMuMuTightTwoAk4JetsExclusiveResolvedOneBtagRarenode_DNNOutput_Rare.pdf}
+		\includegraphics[width=0.32\linewidth]{full2016NanoV6_Tight_DNN02_DYEstimation_LeadjetParam_PseudoData/plots_pseudodata_2016/MuMu_HasMuMuTightTwoAk4JetsExclusiveResolvedOneBtagRarenode_DNNOutput_Rare.pdf}
+	\end{figure}
+\end{frame}
+%----------------------------------------------------------------------------------------\\
+\begin{frame}
+	\frametitle{Resolved 2 btag : DNN output node Rare}
+    \hspace{2cm} \textbf{DY MC} \hspace{1.9cm} \textbf{Data-driven DY} \hspace{1cm} \textbf{Pseudo-data DY}
+    \begin{center}
+        \textbf{DNN 01 (with btag score)}
+    \end{center}
+	\begin{figure}
+		\includegraphics[width=0.32\linewidth]{full2016NanoV6_Tight_Fake_DNN01/plots_FakeExtrapolation_2016/MuMu_HasMuMuTightTwoAk4JetsExclusiveResolvedTwoBtagsRarenode_DNNOutput_Rare.pdf}
+		\includegraphics[width=0.32\linewidth]{full2016NanoV6_Tight_DNN01_DYEstimation_LeadjetParam_Data/plots_DYEstimation_2016/MuMu_HasMuMuTightTwoAk4JetsExclusiveResolvedTwoBtagsRarenode_DNNOutput_Rare.pdf}
+		\includegraphics[width=0.32\linewidth]{full2016NanoV6_Tight_DNN01_DYEstimation_LeadjetParam_PseudoData/plots_pseudodata_2016/MuMu_HasMuMuTightTwoAk4JetsExclusiveResolvedTwoBtagsRarenode_DNNOutput_Rare.pdf}
+	\end{figure}
+    \begin{center}
+        \textbf{DNN 02 (without btag score)}
+    \end{center}
+	\begin{figure}
+		\includegraphics[width=0.32\linewidth]{full2016NanoV6_Tight_Fake_DNN02/plots_FakeExtrapolation_2016/MuMu_HasMuMuTightTwoAk4JetsExclusiveResolvedTwoBtagsRarenode_DNNOutput_Rare.pdf}
+		\includegraphics[width=0.32\linewidth]{full2016NanoV6_Tight_DNN02_DYEstimation_LeadjetParam_Data/plots_DYEstimation_2016/MuMu_HasMuMuTightTwoAk4JetsExclusiveResolvedTwoBtagsRarenode_DNNOutput_Rare.pdf}
+		\includegraphics[width=0.32\linewidth]{full2016NanoV6_Tight_DNN02_DYEstimation_LeadjetParam_PseudoData/plots_pseudodata_2016/MuMu_HasMuMuTightTwoAk4JetsExclusiveResolvedTwoBtagsRarenode_DNNOutput_Rare.pdf}
+	\end{figure}
+\end{frame}
+
+
+
+\backupbegin
+
+\backupend
+\end{document}

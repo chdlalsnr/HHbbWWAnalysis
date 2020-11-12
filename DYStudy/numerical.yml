@@ -1,0 +1,101 @@
+2016:
+  boosted:
+    ZVeto_0b:
+      ElEl:
+        prefit: 1089.240
+        S+B: 877.326
+      MuMu: 
+        prefit: 6652.413 
+        S+B: 5455.103
+    ZPeak_0b:
+      ElEl: 
+        prefit: 6112.333
+        S+B: 5337.767
+      MuMu: 
+        prefit: 28420.117 
+        S+B: 25413.281
+    ZPeak_1b:
+      ElEl:
+        prefit: 598.962 
+        S+B: 513.729
+      MuMu: 
+        prefit: 2496.236
+        S+B: 2407.989
+  resolved:
+    ZVeto_0b:
+      ElEl: 
+        prefit: 47602.147
+        S+B: 31720.395
+      MuMu: 
+        prefit: 236380.212
+        S+B: 181986.683
+    ZPeak_0b:
+      ElEl: 
+        prefit: 252394.673 
+        S+B: 204321.126
+      MuMu: 
+        prefit: 1194083.906
+        S+B: 1066758.086
+    ZPeak_1b:
+      ElEl:
+        prefit: 29583.752
+        S+B: 24351.737
+      MuMu: 
+        prefit:  140051.460
+        S+B: 122718.375
+    ZPeak_2b:
+      ElEl:
+        prefit: 4334.863
+        S+B: 2734.874
+      MuMu: 
+        prefit: 20692.247
+        S+B: 14988.201
+
+2017:
+  boosted:
+    ZVeto_0b:
+      ElEl:
+        prefit: 1273.783
+        S+B: 1027.831
+      MuMu: 
+        prefit: 6368.271
+        S+B: 4825.611
+    ZPeak_0b:
+      ElEl: 
+        prefit: 6856.214
+        S+B: 6026.160
+      MuMu: 
+        prefit: 26523.977 
+        S+B: 23572.954
+    ZPeak_1b:
+      ElEl:
+        prefit: 509.781
+        S+B: 556.820
+      MuMu: 
+        prefit: 2052.216
+        S+B: 2117.581
+
+2018:
+  boosted:
+    ZVeto_0b:
+      ElEl:
+        prefit: 1703.964
+        S+B: 1215.198
+      MuMu: 
+        prefit: 8667.709 
+        S+B: 8190.072
+    ZPeak_0b:
+      ElEl: 
+        prefit: 8851.352
+        S+B: 8003.587
+      MuMu: 
+        prefit: 37690.602
+        S+B: 37118.528
+    ZPeak_1b:
+      ElEl:
+        prefit: 806.288 
+        S+B: 929.962
+      MuMu: 
+        prefit: 3128.080
+        S+B: 3971.849
+
