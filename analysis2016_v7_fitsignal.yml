@@ -1,0 +1,208 @@
+tree: Events
+eras:
+  '2016': 
+    luminosity: 35922 
+    luminosity-error: 0.025     
+samples:
+  GluGluToHHTo2B2VTo2L2Nu_node_cHHH0:
+    cross-section: 1
+    era: '2016'
+    files:
+    - /nfs/scratch/fynu/fbury/HHSignalsTmp/GluGluToHHTo2B2VTo2L2Nu_node_cHHH0_TuneCUETP8M1_PSWeights_13TeV-powheg-pythia8/00CC5E2F-4109-F44D-A367-2475BC1202D7.root
+    - /nfs/scratch/fynu/fbury/HHSignalsTmp/GluGluToHHTo2B2VTo2L2Nu_node_cHHH0_TuneCUETP8M1_PSWeights_13TeV-powheg-pythia8/02FAB1B2-BADB-6443-BCDA-0A25B8C93325.root
+    - /nfs/scratch/fynu/fbury/HHSignalsTmp/GluGluToHHTo2B2VTo2L2Nu_node_cHHH0_TuneCUETP8M1_PSWeights_13TeV-powheg-pythia8/0C545B31-3EFC-D14A-88B3-7A7BE6A93818.root
+    - /nfs/scratch/fynu/fbury/HHSignalsTmp/GluGluToHHTo2B2VTo2L2Nu_node_cHHH0_TuneCUETP8M1_PSWeights_13TeV-powheg-pythia8/1B86327B-B724-B149-B4CB-0374230A2A6D.root
+    - /nfs/scratch/fynu/fbury/HHSignalsTmp/GluGluToHHTo2B2VTo2L2Nu_node_cHHH0_TuneCUETP8M1_PSWeights_13TeV-powheg-pythia8/20DBBBB5-F6AF-4246-AE12-9BD4B7A0ED34.root
+    - /nfs/scratch/fynu/fbury/HHSignalsTmp/GluGluToHHTo2B2VTo2L2Nu_node_cHHH0_TuneCUETP8M1_PSWeights_13TeV-powheg-pythia8/3AA59699-4F97-884F-8AC0-ED5A578D2DC8.root
+    - /nfs/scratch/fynu/fbury/HHSignalsTmp/GluGluToHHTo2B2VTo2L2Nu_node_cHHH0_TuneCUETP8M1_PSWeights_13TeV-powheg-pythia8/42DE7623-6C91-1941-AAAC-12AE187CCA12.root
+    - /nfs/scratch/fynu/fbury/HHSignalsTmp/GluGluToHHTo2B2VTo2L2Nu_node_cHHH0_TuneCUETP8M1_PSWeights_13TeV-powheg-pythia8/4C5AADC8-98FC-DA4E-BB1D-1A86E3FE5A5F.root
+    - /nfs/scratch/fynu/fbury/HHSignalsTmp/GluGluToHHTo2B2VTo2L2Nu_node_cHHH0_TuneCUETP8M1_PSWeights_13TeV-powheg-pythia8/5BF7479C-0EB2-C941-9E4A-1894B5F363A3.root
+    - /nfs/scratch/fynu/fbury/HHSignalsTmp/GluGluToHHTo2B2VTo2L2Nu_node_cHHH0_TuneCUETP8M1_PSWeights_13TeV-powheg-pythia8/7BF8006A-CBE9-F44A-A47B-8DBDC94C90BA.root
+    - /nfs/scratch/fynu/fbury/HHSignalsTmp/GluGluToHHTo2B2VTo2L2Nu_node_cHHH0_TuneCUETP8M1_PSWeights_13TeV-powheg-pythia8/7D1E5DA3-66D1-5442-934E-D0367D4927CB.root
+    - /nfs/scratch/fynu/fbury/HHSignalsTmp/GluGluToHHTo2B2VTo2L2Nu_node_cHHH0_TuneCUETP8M1_PSWeights_13TeV-powheg-pythia8/7E698877-1AD4-4641-B2B0-711CD742FCFA.root
+    - /nfs/scratch/fynu/fbury/HHSignalsTmp/GluGluToHHTo2B2VTo2L2Nu_node_cHHH0_TuneCUETP8M1_PSWeights_13TeV-powheg-pythia8/7EE74245-BC96-C949-BBEE-46CA10F22DDD.root
+    - /nfs/scratch/fynu/fbury/HHSignalsTmp/GluGluToHHTo2B2VTo2L2Nu_node_cHHH0_TuneCUETP8M1_PSWeights_13TeV-powheg-pythia8/88888E3A-98EE-534B-B899-7CA990E1D1C3.root
+    - /nfs/scratch/fynu/fbury/HHSignalsTmp/GluGluToHHTo2B2VTo2L2Nu_node_cHHH0_TuneCUETP8M1_PSWeights_13TeV-powheg-pythia8/9065DD18-4E68-1B4D-8C7D-B14A1A5E0DE1.root
+    - /nfs/scratch/fynu/fbury/HHSignalsTmp/GluGluToHHTo2B2VTo2L2Nu_node_cHHH0_TuneCUETP8M1_PSWeights_13TeV-powheg-pythia8/912C4174-FFC0-5342-A263-2A5C3212295C.root
+    - /nfs/scratch/fynu/fbury/HHSignalsTmp/GluGluToHHTo2B2VTo2L2Nu_node_cHHH0_TuneCUETP8M1_PSWeights_13TeV-powheg-pythia8/93B27AD1-6DB3-E648-965D-3FA3F84AEDA6.root
+    - /nfs/scratch/fynu/fbury/HHSignalsTmp/GluGluToHHTo2B2VTo2L2Nu_node_cHHH0_TuneCUETP8M1_PSWeights_13TeV-powheg-pythia8/B310A1C8-E63D-8840-BBD7-94EB40D0772F.root
+    - /nfs/scratch/fynu/fbury/HHSignalsTmp/GluGluToHHTo2B2VTo2L2Nu_node_cHHH0_TuneCUETP8M1_PSWeights_13TeV-powheg-pythia8/F21BBDF8-B8D0-2743-A263-48D6DB8C60D4.root
+    - /nfs/scratch/fynu/fbury/HHSignalsTmp/GluGluToHHTo2B2VTo2L2Nu_node_cHHH0_TuneCUETP8M1_PSWeights_13TeV-powheg-pythia8/F2EC460B-0E7B-0449-A4BD-4461AD6F6953.root
+    - /nfs/scratch/fynu/fbury/HHSignalsTmp/GluGluToHHTo2B2VTo2L2Nu_node_cHHH0_TuneCUETP8M1_PSWeights_13TeV-powheg-pythia8/F796602E-FDD1-344F-A55A-12F60AD35E70.root
+    generated-events: genEventSumw
+    legend: HH (cHHH0)
+    line-type: 1
+    split: 21
+    type: signal
+  GluGluToHHTo2B2VTo2L2Nu_node_cHHH1:
+    cross-section: 1
+    era: '2016'
+    files: 
+    - /nfs/scratch/fynu/fbury/HHSignalsTmp/GluGluToHHTo2B2VTo2L2Nu_node_cHHH1_TuneCUETP8M1_PSWeights_13TeV-powheg-pythia8/37B88CB0-5027-9344-A5BD-80A1A6998FA7.root
+    - /nfs/scratch/fynu/fbury/HHSignalsTmp/GluGluToHHTo2B2VTo2L2Nu_node_cHHH1_TuneCUETP8M1_PSWeights_13TeV-powheg-pythia8/67185026-BB87-4344-8F41-F27C9FE40A97.root
+    - /nfs/scratch/fynu/fbury/HHSignalsTmp/GluGluToHHTo2B2VTo2L2Nu_node_cHHH1_TuneCUETP8M1_PSWeights_13TeV-powheg-pythia8/83329C72-180E-E24A-8718-58CF91D5F2B2.root
+    - /nfs/scratch/fynu/fbury/HHSignalsTmp/GluGluToHHTo2B2VTo2L2Nu_node_cHHH1_TuneCUETP8M1_PSWeights_13TeV-powheg-pythia8/843E2ED7-9C1E-7F44-8E39-B71AB0BBF196.root
+    - /nfs/scratch/fynu/fbury/HHSignalsTmp/GluGluToHHTo2B2VTo2L2Nu_node_cHHH1_TuneCUETP8M1_PSWeights_13TeV-powheg-pythia8/F6B6B22B-513C-0E4D-A4B2-3177D8325922.root
+    generated-events: genEventSumw
+    legend: HH (cHHH1)
+    line-type: 1
+    split: 5
+    type: signal
+  GluGluToHHTo2B2VTo2L2Nu_node_cHHH2p45:
+    cross-section: 1
+    era: '2016'
+    files: 
+    - /nfs/scratch/fynu/fbury/HHSignalsTmp/GluGluToHHTo2B2VTo2L2Nu_node_cHHH2p45_TuneCUETP8M1_PSWeights_13TeV-powheg-pythia8/05443517-1C1F-0B46-9DCC-E15BC18AD2AB.root
+    - /nfs/scratch/fynu/fbury/HHSignalsTmp/GluGluToHHTo2B2VTo2L2Nu_node_cHHH2p45_TuneCUETP8M1_PSWeights_13TeV-powheg-pythia8/0B01456F-C918-4B42-AD2B-1A2144224645.root
+    - /nfs/scratch/fynu/fbury/HHSignalsTmp/GluGluToHHTo2B2VTo2L2Nu_node_cHHH2p45_TuneCUETP8M1_PSWeights_13TeV-powheg-pythia8/138FCA84-E809-E341-834F-8D451540237B.root
+    - /nfs/scratch/fynu/fbury/HHSignalsTmp/GluGluToHHTo2B2VTo2L2Nu_node_cHHH2p45_TuneCUETP8M1_PSWeights_13TeV-powheg-pythia8/32DF8A6B-D0D3-384A-8126-F28AD4EA9D0A.root
+    - /nfs/scratch/fynu/fbury/HHSignalsTmp/GluGluToHHTo2B2VTo2L2Nu_node_cHHH2p45_TuneCUETP8M1_PSWeights_13TeV-powheg-pythia8/334DAC2D-8CA4-1A49-A3F6-A8ED32BEDF16.root
+    - /nfs/scratch/fynu/fbury/HHSignalsTmp/GluGluToHHTo2B2VTo2L2Nu_node_cHHH2p45_TuneCUETP8M1_PSWeights_13TeV-powheg-pythia8/4933029A-E9C8-0541-AA61-9BA2B4F88916.root
+    - /nfs/scratch/fynu/fbury/HHSignalsTmp/GluGluToHHTo2B2VTo2L2Nu_node_cHHH2p45_TuneCUETP8M1_PSWeights_13TeV-powheg-pythia8/4A714742-1FB2-8B49-B666-4E7B4300830D.root
+    - /nfs/scratch/fynu/fbury/HHSignalsTmp/GluGluToHHTo2B2VTo2L2Nu_node_cHHH2p45_TuneCUETP8M1_PSWeights_13TeV-powheg-pythia8/69AFB8FD-833D-9948-9FFA-7D99302D96FD.root
+    - /nfs/scratch/fynu/fbury/HHSignalsTmp/GluGluToHHTo2B2VTo2L2Nu_node_cHHH2p45_TuneCUETP8M1_PSWeights_13TeV-powheg-pythia8/6D2376D8-45DE-B542-84C9-EEA3B4253CD4.root
+    - /nfs/scratch/fynu/fbury/HHSignalsTmp/GluGluToHHTo2B2VTo2L2Nu_node_cHHH2p45_TuneCUETP8M1_PSWeights_13TeV-powheg-pythia8/749F58CF-D5E7-544A-A602-63867821F4EA.root
+    - /nfs/scratch/fynu/fbury/HHSignalsTmp/GluGluToHHTo2B2VTo2L2Nu_node_cHHH2p45_TuneCUETP8M1_PSWeights_13TeV-powheg-pythia8/8D511CAF-FAFF-B241-816F-7C283EB2FCB3.root
+    - /nfs/scratch/fynu/fbury/HHSignalsTmp/GluGluToHHTo2B2VTo2L2Nu_node_cHHH2p45_TuneCUETP8M1_PSWeights_13TeV-powheg-pythia8/9ED09D03-46E9-1144-94FC-6BA4381DFDE5.root
+    - /nfs/scratch/fynu/fbury/HHSignalsTmp/GluGluToHHTo2B2VTo2L2Nu_node_cHHH2p45_TuneCUETP8M1_PSWeights_13TeV-powheg-pythia8/9FA12F7C-9AFB-B94C-9B16-A66E28E51EE5.root
+    - /nfs/scratch/fynu/fbury/HHSignalsTmp/GluGluToHHTo2B2VTo2L2Nu_node_cHHH2p45_TuneCUETP8M1_PSWeights_13TeV-powheg-pythia8/ABBF256D-9414-2946-A770-B17C7F7A5C2B.root
+    - /nfs/scratch/fynu/fbury/HHSignalsTmp/GluGluToHHTo2B2VTo2L2Nu_node_cHHH2p45_TuneCUETP8M1_PSWeights_13TeV-powheg-pythia8/AC6CB7FD-6CE6-F047-B4C8-DC3040210115.root
+    - /nfs/scratch/fynu/fbury/HHSignalsTmp/GluGluToHHTo2B2VTo2L2Nu_node_cHHH2p45_TuneCUETP8M1_PSWeights_13TeV-powheg-pythia8/B63D110E-5CAE-9841-A496-6C1686056B8A.root
+    - /nfs/scratch/fynu/fbury/HHSignalsTmp/GluGluToHHTo2B2VTo2L2Nu_node_cHHH2p45_TuneCUETP8M1_PSWeights_13TeV-powheg-pythia8/DFA7D01D-D65E-5C40-BAA8-BEAAABAC5496.root
+    - /nfs/scratch/fynu/fbury/HHSignalsTmp/GluGluToHHTo2B2VTo2L2Nu_node_cHHH2p45_TuneCUETP8M1_PSWeights_13TeV-powheg-pythia8/F1C4090B-46D5-214A-B675-888A7EC66BF9.root
+    - /nfs/scratch/fynu/fbury/HHSignalsTmp/GluGluToHHTo2B2VTo2L2Nu_node_cHHH2p45_TuneCUETP8M1_PSWeights_13TeV-powheg-pythia8/F75BDE4F-63A1-8849-BAA4-7438A3CAA2E6.root
+    generated-events: genEventSumw
+    legend: HH (cHHH2p45)
+    line-type: 19
+    split: 10
+    type: signal
+  GluGluToHHTo2B2VTo2L2Nu_node_cHHH5:
+    cross-section: 1
+    era: '2016'
+    files: 
+    - /nfs/scratch/fynu/fbury/HHSignalsTmp/GluGluToHHTo2B2VTo2L2Nu_node_cHHH5_TuneCUETP8M1_PSWeights_13TeV-powheg-pythia8/0CF2E470-3B8D-8B4B-B92E-D4889E323886.root
+    - /nfs/scratch/fynu/fbury/HHSignalsTmp/GluGluToHHTo2B2VTo2L2Nu_node_cHHH5_TuneCUETP8M1_PSWeights_13TeV-powheg-pythia8/14354B87-C981-1342-8050-CE7518D393A0.root
+    - /nfs/scratch/fynu/fbury/HHSignalsTmp/GluGluToHHTo2B2VTo2L2Nu_node_cHHH5_TuneCUETP8M1_PSWeights_13TeV-powheg-pythia8/145BCA13-03FF-AF4C-A29D-B0249A3E367A.root
+    - /nfs/scratch/fynu/fbury/HHSignalsTmp/GluGluToHHTo2B2VTo2L2Nu_node_cHHH5_TuneCUETP8M1_PSWeights_13TeV-powheg-pythia8/3260F1B9-7016-854F-9C0F-A7579A719762.root
+    - /nfs/scratch/fynu/fbury/HHSignalsTmp/GluGluToHHTo2B2VTo2L2Nu_node_cHHH5_TuneCUETP8M1_PSWeights_13TeV-powheg-pythia8/3434AC46-47CD-D440-9012-D709E9EFDCB8.root
+    - /nfs/scratch/fynu/fbury/HHSignalsTmp/GluGluToHHTo2B2VTo2L2Nu_node_cHHH5_TuneCUETP8M1_PSWeights_13TeV-powheg-pythia8/684CAF6E-C876-D840-AD22-94A31E96888F.root
+    - /nfs/scratch/fynu/fbury/HHSignalsTmp/GluGluToHHTo2B2VTo2L2Nu_node_cHHH5_TuneCUETP8M1_PSWeights_13TeV-powheg-pythia8/7680BE59-5658-6146-8F1A-79A2079D0DD9.root
+    - /nfs/scratch/fynu/fbury/HHSignalsTmp/GluGluToHHTo2B2VTo2L2Nu_node_cHHH5_TuneCUETP8M1_PSWeights_13TeV-powheg-pythia8/D29D95DA-C793-1A4D-97C8-79DA232F37FC.root
+    - /nfs/scratch/fynu/fbury/HHSignalsTmp/GluGluToHHTo2B2VTo2L2Nu_node_cHHH5_TuneCUETP8M1_PSWeights_13TeV-powheg-pythia8/E3E89B35-B0D7-4449-8281-4E25547489CA.root
+    - /nfs/scratch/fynu/fbury/HHSignalsTmp/GluGluToHHTo2B2VTo2L2Nu_node_cHHH5_TuneCUETP8M1_PSWeights_13TeV-powheg-pythia8/F9EB336D-FB9E-AE46-8281-42C064FB9730.root
+    - /nfs/scratch/fynu/fbury/HHSignalsTmp/GluGluToHHTo2B2VTo2L2Nu_node_cHHH5_TuneCUETP8M1_PSWeights_13TeV-powheg-pythia8/FB11411D-9304-B041-9199-A3C4273C50B5.root
+    generated-events: genEventSumw
+    legend: HH (cHHH5)
+    line-type: 1
+    split: 11
+    type: signal
+
+
+######################## PlotIt ##########################
+
+plotIt:
+  configuration:
+    width: 800
+    height: 599
+    luminosity-label: '%1$.2f fb^{-1} (13 TeV)'  #TODO
+    experiment: CMS
+    extra-label: 2016 Data -- Work in progress
+    show-overflow: true
+    margin-left: 0.15
+    margin-right: 0.03
+    margin-top: 0.05 
+    margin-bottom: 0.13
+  legend:
+    position: [0.7, 0.6, 0.91, 0.91]
+  groups:
+    data:
+      legend: data
+    ttbar:
+      fill-color: "#cc7a16"
+      legend: tt
+      order: 1
+    ST:
+      fill-color: "#99053d"
+      legend: Single Top
+      order: 2
+    DY:
+      fill-color: "#1a83a1"
+      legend: Drell-Yan
+      order: 3
+    Wjets:
+      fill-color: "#d95564"
+      legend: W+jets
+      order: 4
+    VVV: 
+      fill-color: "#ccbf45"
+      legend: VV(V)
+      order: 5
+    ttVV:
+      fill-color: "#174704"
+      legend: tt+V(V)
+      order: 6
+    SM:
+      fill-color: "#06b894"
+      legend: SM Higgs (ggH, qqH, ttH, ZH)
+      order: 7
+    Rares:
+      fill-color: "#610596"
+      legend: Rares
+      order: 8
+    DYEstimation:
+      fill-color: "#1a83a1"
+      legend: Drell-Yan (from data)
+      order: 3
+    Fake:
+      fill-color: "#6e3303"
+      legend: Fake
+      order: 9
+  systematics:
+      # on the jets
+    - jer
+    - jesTotal
+      # on the lepton id
+    - mu_loose
+    - mu_tightmva
+    - el_looserecoptlt20
+    - el_looserecoptgt20
+    - el_looseid
+    - el_looseeff
+    - el_tightmva
+     # on the lepton trigger 
+    - ttH_singleElectron_trigSF
+    - ttH_singleMuon_trigSF
+    - ttH_doubleElectron_trigSF 
+    - ttH_doubleMuon_trigSF
+    - ttH_electronMuon_trigSF
+     # on the pileup
+    - pileup
+      # on the jet btagging
+    - deepjet
+    #- deepcsv
+    # Btag SF #
+    - btagSF_lf
+    - btagSF_hf
+    - btagSF_hfstats1
+    - btagSF_hfstats2
+    - btagSF_lfstats1
+    - btagSF_lfstats2
+    - btagSF_cferr1
+    - btagSF_cferr2
+    # Top pt reweighting #
+    - topPtReweighting
+    # Btag reweighting
+    - btag_ratio
+    # DY weight #
+    - dy_reweighting_elel
+    - dy_reweighting_mumu
+    # Fake factor
+    - el_FR_pt_syst
+    - el_FR_barrel_syst
+    - el_FR_norm_syst
+    - electronCorrFR
+    - mu_FR_pt_syst
+    - mu_FR_barrel_syst
+    - mu_FR_norm_syst
+    - muonCorrFR
+

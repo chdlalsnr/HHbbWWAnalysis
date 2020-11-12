@@ -1,0 +1,4 @@
+>>> import logging
+>>> logging.basicConfig(level=logging.DEBUG)
+>>> from bamboo.jetdatabasecache import JetDatabaseCache
+>>> jecDBCache = JetDatabaseCache("JECDatabase", repository="cms-jet/JECDatabase", mayWrite=True, cachedir="cacheJEC")

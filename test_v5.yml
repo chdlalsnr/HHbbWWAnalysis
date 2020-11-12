@@ -1,0 +1,138 @@
+tree: Events
+eras:
+  '2016': 
+    luminosity: 1000
+    luminosity-error: 0.025   
+
+samples:
+#  TTTo2L2Nu: # TODO : errors 
+#    files: ['/storage/data/cms/store/mc/RunIISummer16NanoAODv5/TTTo2L2Nu_TuneCP5_PSweights_13TeV-powheg-pythia8/NANOAODSIM/PUMoriond17_Nano1June2019_102X_mcRun2_asymptotic_v7-v1/250000/56E2714C-52AA-0648-A188-1A04E0C8D27F.root']
+#    generated-events: 'genEventSumw'
+#    cross-section: 88.40
+#    group: ttbar
+#    era: '2016'
+#    pufile: 'TTTo2L2Nu_2016.json'
+#  DYJetsToLL_M-10to50:
+#    files: [/storage/data/cms/store/mc/RunIISummer16NanoAODv5/DYJetsToLL_M-10to50_TuneCUETP8M1_13TeV-amcatnloFXFX-pythia8/NANOAODSIM/PUMoriond17_Nano1June2019_102X_mcRun2_asymptotic_v7_ext1-v1/130000/FB06B8A0-9E32-5C40-BA5B-11455D5FFA35.root]
+#    generated-events: 'genEventSumw'
+#    cross-section: 18810.0 #pb
+#    group: DY
+#    era: '2016'
+#    pufile: 'DYJetsToLL_M-10to50_2016.json'
+#  DYToLL_2J:
+#    files: [/storage/data/cms/store/mc/RunIISummer16NanoAODv5/DYToLL_2J_13TeV-amcatnloFXFX-pythia8/NANOAODSIM/PUMoriond17_Nano1June2019_102X_mcRun2_asymptotic_v7_ext1-v1/260000/C54A1511-AAD0-CA42-9716-A92F71BD539E.root]
+#    generated-events: 'genEventSumw'
+#    cross-section: 340.5  #pb
+#    group: DY
+#    era: '2016'
+#    pufile: 'DYToLL_2J_2016.json'
+#  MuonEG_2016E:
+#    files: [/storage/data/cms/store/data/Run2016E/MuonEG/NANOAOD/Nano1June2019-v2/230000/5815D4AD-5CCF-E04D-AEEC-E37D882EF104.root]
+#    group: data
+#    era: '2016'
+#    run_range: [276831, 277420]
+#    certified_lumi_file: https://cms-service-dqm.web.cern.ch/cms-service-dqm/CAF/certification/Collisions16/13TeV/ReReco/Final/Cert_271036-284044_13TeV_23Sep2016ReReco_Collisions16_JSON.txt
+#  DoubleMuon_2016B:
+#    files: ['/storage/data/cms/store/data/Run2016B_ver2/DoubleMuon/NANOAOD/Nano1June2019_ver2-v1/70000/49777B6C-849A-5644-9B61-00C5697F6BD2.root']
+#    group: data
+#    era: '2016'
+#    run_range: [272007, 275376]
+#    certified_lumi_file: https://cms-service-dqm.web.cern.ch/cms-service-dqm/CAF/certification/Collisions16/13TeV/ReReco/Final/Cert_271036-284044_13TeV_23Sep2016ReReco_Collisions16_JSON.txt
+  DoubleEGamma_2016B:
+    files: ['/storage/data/cms/store/data/Run2016B_ver2/DoubleEG/NANOAOD/Nano1June2019_ver2-v1/230000/ED2D3AB2-C347-7445-A3D9-CF61613E5F1B.root']
+    group: data
+    era: '2016'
+    run_range: [272007, 275376]
+    certified_lumi_file: https://cms-service-dqm.web.cern.ch/cms-service-dqm/CAF/certification/Collisions16/13TeV/ReReco/Final/Cert_271036-284044_13TeV_23Sep2016ReReco_Collisions16_JSON.txt
+
+
+#### Data Driven 
+datadriven:
+  DYEstimation:
+    uses: [ data ]
+    replaces: [ DY ]
+  FakeExtrapolation:
+    uses : [all]
+    replaces : [all]
+
+#### plotIt
+plotIt:
+  configuration:
+    width: 800
+    height: 600
+    luminosity-label: '%1$.2f fb^{-1} (13 TeV)'  #TODO
+    experiment: CMS
+    #extra-label: 2016 Data --Work in progress
+    show-overflow: true
+    margin-left: 0.20
+    margin-right: 0.03
+    margin-top: 0.05
+    margin-bottom: 0.13
+  legend:
+    position: [0.7, 0.6, 0.91, 0.91]
+  groups:
+    data:
+      legend: data
+    ttbar:
+      fill-color: "#cc7a16"
+      legend: tt
+      order: 1
+    DY:
+      fill-color: "#1a83a1"
+      legend: Drell-Yan
+      order: 2
+  systematics:
+      # on the jets
+    - jer
+    - jesTotal
+      # on the lepton id /iso 
+    - mu_loose
+    - mu_tightmva
+    - el_looserecoptlt20
+    - el_looserecoptgt20
+    - el_looseid
+    - el_looseeff
+    - el_tightmva
+     # on the pileup
+    - pileup
+     # on the trigger
+    - eleltrig
+    - mumutrig
+    - elmutrig
+    - mueltrig
+      # on the jet btagging
+    - deepjet
+    #- deepcsv
+      # on the cross section : 1+xsec_uncert(pb)/xsec(pb)
+    - ttxsc: {type: const, value: 1.0007626608267177 , on: 'TT'}   # uncer=0.5572
+    - TTTo2L2Nuxsc: {type: const, value: 1.0007627118644067 , on: 'TTTo2L2Nu'}  # uncer= 0.0585
+    - DYJetsToLLxsc: {type: const, value: 1.0032721956406168, on: 'DYJetsToLL'}    # uncer= 61.55
+    - DYToLL_0Jxsc: {type: const, value: 1.0013216312802187, on: 'DYToLL_0J'} # uncer= 6.287
+    - DYToLL_2Jxsc: {type: const, value: 1.0032481644640234, on: 'DYToLL_2J'}   # uncer= 1.106
+    - ST_s-channel_4fxsc: {type: const, value: 1.0013622585438335, on: 'ST_schannel_4f'} # uncer= 0.004584
+    - ST_tW_top_5fxsc: {type: const, value: 1.0008007351010764, on: 'ST_tW_top_5f'}  # uncer= 0.0305
+    - ST_tW_antitop_5fxsc: {type: const, value: 1.00080204778157, on: 'ST_tW_antitop_5f'} # uncer= 0.03055
+    - ZZTo2L2Nuxsc: {type: const, value: 1.0004762579730688, on: 'ZZTo2L2Nu'} # uncer= 0.0002688
+    - ZZTo2L2Qxsc: {type: const, value: 1.0015211049037864, on: 'ZZTo2L2Q'} # uncer= 0.004901
+    - ZZTo4Lxsc: {type: const, value: 1.0018081210191083, on: 'ZZTo4L'} # uncer= 0.002271
+    - HZJ_HToWWxsc: {type: const, value: 1.0048418394471026, on: 'HZJ_HToWW'} # uncer= 0.003643
+    - ZH_HToBB_ZToLLxsc: {type: const, value: 1.0024366521627848, on: 'ZH_HToBB_ZToLL'} # uncer= 0.0001904
+    - ggZH_HToBB_ZToLLxsc: {type: const, value: 1.0011125970664365, on: 'ggZH_HToBB_ZToLL'} # uncer= 7.737e-06
+    - ggZH_HToBB_ZToNuNuxsc: {type: const, value: 1.0011136198106336, on: 'ggZH_HToBB_ZToNuNu'} # uncer= 1.529e-05
+    - ttHTobbxsc: {type: const, value: 1.050638524299397, on: 'ttHTobb'} # uncer= 0.02855
+    - ttHToNonbbxsc: {type: const, value: 1.050638524299397, on: 'ttHToNonbb'}  # uncer= 0.02855
+    - ZZZxsc: {type: const, value: 1.0010701001430615, on: 'ZZZ'} # uncer= 1.496e-05
+    - WWWxsc: {type: const, value: 1.0009702780441037, on: 'WWW'} # uncer= 0.0002024
+    - WWZxsc: {type: const, value: 1.0010442156268928, on: 'WWZ'} # uncer= 0.0001724
+    - WZZxsc: {type: const, value: 1.0009883198562444, on: 'WZZ'} # uncer= 5.5e-05
+    - WJetsToLNuxsc: {type: const, value: 1.0020519609465497, on: 'WJetsToLNu'} # uncer= 124.0
+    - TTZToLLNuNuxsc: {type: const, value: 1.0013357058125743, on: 'TTZToLLNuNu'} # uncer= 0.0003378
+    - TTZToQQxsc: {type: const, value: 1.001499150462526, on: 'TTZToQQ'} # uncer= 0.0007941
+    - TTWJetsToLNuxsc: {type: const, value: 1.0041294352823589, on: 'TTWJetsToLNu'} # uncer= 0.0008263
+    - TTWJetsToQQxsc: {type: const, value: 1.0041802469135803, on: 'TTWJetsToQQ'} #uncer= 0.001693
+    - WWTo2L2Nuxsc: {type: const, value: 1.0007983778625955, on: 'WWTo2L2Nu'} # uncer= 0.008367
+    - WWToLNuQQxsc: {type: const, value: 1.0007983000229728, on: 'WWToLNuQQ'} # uncer=0.03475
+    #- WZTo2L2Qxsc: {type: const, value: , on: 'WZTo2L2Q'} # uncer= 0.01897
+    #- WZTo1L3Nuxsc: {type: const, value:, on: 'WZTo1L3Nu'} # uncer= 0.01222
+    #- WZ1L1Nu2Qxsc: {type: const, value:, on: 'WZ1L1Nu2Q'} # uncer= 0.01824
+    #- WZTo3LNuxsc: {type: const, value: , on: 'WZTo3LNu'} # uncer= 0.05

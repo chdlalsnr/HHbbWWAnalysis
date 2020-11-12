@@ -49,23 +49,6 @@ class PlotterNanoHHtobbWWDL(BaseNanoHHtobbWW,DataDrivenBackgroundHistogramsModul
     def definePlots(self, t, noSel, sample=None, sampleCfg=None): 
         noSel = super(PlotterNanoHHtobbWWDL,self).prepareObjects(t, noSel, sample, sampleCfg, 'DL')
 
-        #----- Machine Learning Model -----#                
-        #path_model = os.path.join(os.path.abspath(os.path.dirname(__file__)),'MachineLearning','ml-models','models','multi-classification','dnn',self.args.Classifier,'model','model.pb')
-        DNNs = {}
-        for model_num in ["01","02","03","04"]:
-        #for model_num in ["03"]:
-            path_model = os.path.join(os.path.abspath(os.path.dirname(__file__)),'MachineLearning','ml-models','models','multi-classification','dnn',model_num,'model','model.pb')
-            print ("DNN model : %s"%path_model)
-            if not os.path.exists(path_model):
-                raise RuntimeError('Could not find model file %s'%path_model)
-            try:
-                input_names = ["input_1", "input_2"]
-                if model_num in ["03","04"]:
-                    input_names.append("input_3")
-                DNNs[model_num] = op.mvaEvaluator(path_model,mvaType='Tensorflow',otherArgs=(input_names, "model/output/Softmax"))
-            except:
-                raise RuntimeError('Could not load model %s'%path_model)
-
         #---- Parameters -----#
 
         plots = []
@@ -92,6 +75,23 @@ class PlotterNanoHHtobbWWDL(BaseNanoHHtobbWW,DataDrivenBackgroundHistogramsModul
             plots.append(objectsNumberPlot(channel="NoChannel",suffix='NoSelection',sel=noSel,objCont=self.ak4Jets,objName='Ak4Jets',Nmax=15,xTitle='N(Ak4 jets)'))
             plots.append(CutFlowReport("DYStitchingCutFlowReport",noSel))
             return plots
+
+        #----- Machine Learning Model -----#                
+        #path_model = os.path.join(os.path.abspath(os.path.dirname(__file__)),'MachineLearning','ml-models','models','multi-classification','dnn',self.args.Classifier,'model','model.pb')
+        DNNs = {}
+        for model_num in ["01","02","03","04"]:
+        #for model_num in ["03"]:
+            path_model = os.path.join(os.path.abspath(os.path.dirname(__file__)),'MachineLearning','ml-models','models','multi-classification','dnn',model_num,'model','model.pb')
+            print ("DNN model : %s"%path_model)
+            if not os.path.exists(path_model):
+                raise RuntimeError('Could not find model file %s'%path_model)
+            try:
+                input_names = ["input_1", "input_2"]
+                if model_num in ["03","04"]:
+                    input_names.append("input_3")
+                DNNs[model_num] = op.mvaEvaluator(path_model,mvaType='Tensorflow',otherArgs=(input_names, "model/output/Softmax"))
+            except:
+                raise RuntimeError('Could not load model %s'%path_model)
 
 
         #----- Dileptons -----#
@@ -123,9 +123,14 @@ class PlotterNanoHHtobbWWDL(BaseNanoHHtobbWW,DataDrivenBackgroundHistogramsModul
                 OSMuMuDilepton = self.MuMuDileptonFakeSel
                 OSElMuDilepton = self.ElMuDileptonFakeSel
             elif selectionType == "Tight":
-                OSElElDilepton = switch_on_index([0],op.rng_len(self.ElElDileptonTightSel)>=1,self.ElElDileptonTightSel,self.ElElDileptonFakeExtrapolationSel)
-                OSMuMuDilepton = switch_on_index([0],op.rng_len(self.MuMuDileptonTightSel)>=1,self.MuMuDileptonTightSel,self.MuMuDileptonFakeExtrapolationSel)
-                OSElMuDilepton = switch_on_index([0],op.rng_len(self.ElMuDileptonTightSel)>=1,self.ElMuDileptonTightSel,self.ElMuDileptonFakeExtrapolationSel)
+                if self.args.POGID:
+                    OSElElDilepton = self.ElElDileptonTightSel
+                    OSMuMuDilepton = self.MuMuDileptonTightSel
+                    OSElMuDilepton = self.ElMuDileptonTightSel
+                if self.args.TTHIDLoose or self.args.TTHIDTight:
+                    OSElElDilepton = switch_on_index([0],op.rng_len(self.ElElDileptonTightSel)>=1,self.ElElDileptonTightSel,self.ElElDileptonFakeExtrapolationSel)
+                    OSMuMuDilepton = switch_on_index([0],op.rng_len(self.MuMuDileptonTightSel)>=1,self.MuMuDileptonTightSel,self.MuMuDileptonFakeExtrapolationSel)
+                    OSElMuDilepton = switch_on_index([0],op.rng_len(self.ElMuDileptonTightSel)>=1,self.ElMuDileptonTightSel,self.ElMuDileptonFakeExtrapolationSel)
             elif selectionType == "FakeExtrapolation":
                 OSElElDilepton = self.ElElDileptonFakeExtrapolationSel
                 OSMuMuDilepton = self.MuMuDileptonFakeExtrapolationSel
@@ -135,30 +140,34 @@ class PlotterNanoHHtobbWWDL(BaseNanoHHtobbWW,DataDrivenBackgroundHistogramsModul
             #----- DY reweighting -----#
             if 'DYEstimation' in self.datadrivenContributions:
                 mode = 'mc' if "PseudoData" in self.datadrivenContributions else 'data'
-                self.ResolvedDYReweighting1bElEl = self.SF.get_scalefactor("lepton", ('DY_{}'.format(era),'ElEl_leadjetPt_{}_1b'.format(mode)), combine="weight", 
-                                                                       systName="dy_resolved_reweighting_1b", 
+                # Resolved : ElEl #
+                self.ResolvedDYReweighting1bElEl = self.SF.get_scalefactor("lepton", ('DY_resolved_{}'.format(era),'ElEl_leadjetPt_{}_1b'.format(mode)), combine="weight", 
+                                                                       systName="dy_ee_resolved_reweighting_1b", 
                                                                        additionalVariables={'Eta': lambda x : op.c_float(0.),'Pt': lambda x: x.pt})
-                self.ResolvedDYReweighting2bElEl = self.SF.get_scalefactor("lepton", ('DY_{}'.format(era),'ElEl_leadjetPt_{}_2b'.format(mode)), combine="weight", 
-                                                                       systName="dy_resolved_reweighting_2b", 
+                self.ResolvedDYReweighting2bElEl = self.SF.get_scalefactor("lepton", ('DY_resolved_{}'.format(era),'ElEl_leadjetPt_{}_2b'.format(mode)), combine="weight", 
+                                                                       systName="dy_ee_resolved_reweighting_2b", 
                                                                        additionalVariables={'Eta': lambda x : op.c_float(0.),'Pt': lambda x: x.pt})
-                self.BoostedDYReweighting1bElEl =  self.SF.get_scalefactor("lepton", ('DY_{}'.format(era),'ElEl_fatjetsoftDropmass_{}_1b'.format(mode)), combine="weight", 
-                                                                       systName="dy_boosted_reweighting_1b", 
+                # Resolved : MuMu #
+                self.ResolvedDYReweighting1bMuMu = self.SF.get_scalefactor("lepton", ('DY_resolved_{}'.format(era),'MuMu_leadjetPt_{}_1b'.format(mode)), combine="weight", 
+                                                                       systName="dy_mm_resolved_reweighting_1b", 
+                                                                       additionalVariables={'Eta': lambda x : op.c_float(0.),'Pt': lambda x: x.pt})
+                self.ResolvedDYReweighting2bMuMu = self.SF.get_scalefactor("lepton", ('DY_resolved_{}'.format(era),'MuMu_leadjetPt_{}_2b'.format(mode)), combine="weight", 
+                                                                       systName="dy_mm_resolved_reweighting_1b", 
+                                                                       additionalVariables={'Eta': lambda x : op.c_float(0.),'Pt': lambda x: x.pt})
+                # Boosted : ElEl #
+                self.BoostedDYReweighting1bElEl  =  self.SF.get_scalefactor("lepton", ('DY_boosted_{}'.format(era),'ElEl_fatjetsoftDropmass_{}_1b'.format(mode)), combine="weight", 
+                                                                       systName="dy_ee_boosted_reweighting_1b", 
                                                                        additionalVariables={'Eta': lambda x : op.c_float(0.),'Pt': lambda x: x.msoftdrop})
-                self.ResolvedDYReweighting1bMuMu = self.SF.get_scalefactor("lepton", ('DY_{}'.format(era),'MuMu_leadjetPt_{}_1b'.format(mode)), combine="weight", 
-                                                                       systName="dy_resolved_reweighting_1b", 
-                                                                       additionalVariables={'Eta': lambda x : op.c_float(0.),'Pt': lambda x: x.pt})
-                self.ResolvedDYReweighting2bMuMu = self.SF.get_scalefactor("lepton", ('DY_{}'.format(era),'MuMu_leadjetPt_{}_2b'.format(mode)), combine="weight", 
-                                                                       systName="dy_resolved_reweighting_2b", 
-                                                                       additionalVariables={'Eta': lambda x : op.c_float(0.),'Pt': lambda x: x.pt})
-                self.BoostedDYReweighting1bMuMu =  self.SF.get_scalefactor("lepton", ('DY_{}'.format(era),'MuMu_fatjetsoftDropmass_{}_1b'.format(mode)), combine="weight", 
-                                                                       systName="dy_boosted_reweighting_1b", 
+                # Boosted : MuMu #
+                self.BoostedDYReweighting1bMuMu  =  self.SF.get_scalefactor("lepton", ('DY_boosted_{}'.format(era),'MuMu_fatjetsoftDropmass_{}_1b'.format(mode)), combine="weight", 
+                                                                       systName="dy_mm_boosted_reweighting_1b", 
                                                                        additionalVariables={'Eta': lambda x : op.c_float(0.),'Pt': lambda x: x.msoftdrop})
             else:
-                self.ResolvedDYReweighting1bElEL = lambda dilep : None
+                self.ResolvedDYReweighting1bElEl = lambda dilep : None
                 self.ResolvedDYReweighting2bElEl = lambda dilep : None
-                self.BoostedDYReweighting1bElEl  = lambda dilep : None
-                self.ResolvedDYReweighting1bElEL = lambda dilep : None
+                self.ResolvedDYReweighting1bMuMu = lambda dilep : None
                 self.ResolvedDYReweighting2bMuMu = lambda dilep : None
+                self.BoostedDYReweighting1bElEl  = lambda dilep : None
                 self.BoostedDYReweighting1bMuMu  = lambda dilep : None
 
 

@@ -1,0 +1,18 @@
+Questions about the DNN input variables
+
+Low Level :
+Is the l1,l2 ordering done per cone-pt ? 
+In Louvain : ok for ElEl and MuMu, but for ElMu it is hardcoded that first lepton is electron and second lepton is muon
+    -> I expect this might be an issue in pdgId node (l1 is by construction the electron then)
+
+High level :
+- m_bb_bregcorr : bRegCorr applied on PT and M or only PT ? In Louvain : both
+- HT : only on selected Ak4 jets (and cleaning) ? 
+- min_dr_jets_lep1 : jets -> same question as above
+- min_dphi_jet : is there an absolute value ? If not the variable will always be negative
+- m_hh_simplemet : b1+b2+l1+l2+met -> nothing else right ? 
+- mww_simplemet : same, no more particles ? 
+- n_btag : is this disabled for DNN 04 (without btag info) ? 
+
+Add
+- n_btag : did you train with 0btag 
