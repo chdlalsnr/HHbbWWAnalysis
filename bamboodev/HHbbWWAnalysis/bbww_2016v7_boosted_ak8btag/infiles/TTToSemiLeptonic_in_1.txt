@@ -1,0 +1,2 @@
+/storage/data/cms/store/mc/RunIISummer16NanoAODv7/TTToSemiLeptonic_TuneCP5_PSweights_13TeV-powheg-pythia8/NANOAODSIM/PUMoriond17_Nano02Apr2020_102X_mcRun2_asymptotic_v8-v1/260000/D47D96A0-3DEB-B342-A692-74190AE72753.root
+/storage/data/cms/store/mc/RunIISummer16NanoAODv7/TTToSemiLeptonic_TuneCP5_PSweights_13TeV-powheg-pythia8/NANOAODSIM/PUMoriond17_Nano02Apr2020_102X_mcRun2_asymptotic_v8-v1/260000/3D2C6A6E-7F81-584D-86C9-FD790CDBEB0E.root

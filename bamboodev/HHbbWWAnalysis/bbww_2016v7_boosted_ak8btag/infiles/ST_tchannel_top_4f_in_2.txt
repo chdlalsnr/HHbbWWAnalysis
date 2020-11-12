@@ -1,0 +1,1 @@
+/storage/data/cms/store/mc/RunIISummer16NanoAODv7/ST_t-channel_top_4f_inclusiveDecays_13TeV-powhegV2-madspin-pythia8_TuneCUETP8M1/NANOAODSIM/PUMoriond17_Nano02Apr2020_102X_mcRun2_asymptotic_v8-v2/10000/4D499923-771C-7349-ADBC-6605C7718008.root

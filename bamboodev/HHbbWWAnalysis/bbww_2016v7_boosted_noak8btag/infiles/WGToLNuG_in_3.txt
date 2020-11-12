@@ -1,0 +1,7 @@
+/storage/data/cms/store/mc/RunIISummer16NanoAODv7/WGToLNuG_01J_5f_TuneCUETP8M1_13TeV-amcatnloFXFX-pythia8/NANOAODSIM/PUMoriond17_Nano02Apr2020_102X_mcRun2_asymptotic_v8-v1/110000/C6934B89-3CF1-B245-9A00-23C14717BE5B.root
+/storage/data/cms/store/mc/RunIISummer16NanoAODv7/WGToLNuG_01J_5f_TuneCUETP8M1_13TeV-amcatnloFXFX-pythia8/NANOAODSIM/PUMoriond17_Nano02Apr2020_102X_mcRun2_asymptotic_v8-v1/70000/9D9957B5-B09A-944F-AD45-D981F9DC558D.root
+/storage/data/cms/store/mc/RunIISummer16NanoAODv7/WGToLNuG_01J_5f_TuneCUETP8M1_13TeV-amcatnloFXFX-pythia8/NANOAODSIM/PUMoriond17_Nano02Apr2020_102X_mcRun2_asymptotic_v8-v1/70000/6AE7E9F0-C60C-DC46-BB4D-D078A2E4EBA7.root
+/storage/data/cms/store/mc/RunIISummer16NanoAODv7/WGToLNuG_01J_5f_TuneCUETP8M1_13TeV-amcatnloFXFX-pythia8/NANOAODSIM/PUMoriond17_Nano02Apr2020_102X_mcRun2_asymptotic_v8-v1/270000/F8F4F4C0-C8AF-3845-8FE2-6ED1D933D704.root
+/storage/data/cms/store/mc/RunIISummer16NanoAODv7/WGToLNuG_01J_5f_TuneCUETP8M1_13TeV-amcatnloFXFX-pythia8/NANOAODSIM/PUMoriond17_Nano02Apr2020_102X_mcRun2_asymptotic_v8-v1/270000/B97DE47E-B4B9-054E-8FE1-338A175447A1.root
+/storage/data/cms/store/mc/RunIISummer16NanoAODv7/WGToLNuG_01J_5f_TuneCUETP8M1_13TeV-amcatnloFXFX-pythia8/NANOAODSIM/PUMoriond17_Nano02Apr2020_102X_mcRun2_asymptotic_v8-v1/130000/E07B54DE-1ED5-7947-8C20-3D4A41BE517A.root
+/storage/data/cms/store/mc/RunIISummer16NanoAODv7/WGToLNuG_01J_5f_TuneCUETP8M1_13TeV-amcatnloFXFX-pythia8/NANOAODSIM/PUMoriond17_Nano02Apr2020_102X_mcRun2_asymptotic_v8-v1/60000/C6C2B0B5-C96C-CB46-80ED-DC32F25CDB33.root

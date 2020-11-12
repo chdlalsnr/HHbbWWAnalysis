@@ -1,0 +1,1 @@
+/storage/data/cms/store/mc/RunIISummer16NanoAODv7/TTZH_TuneCUETP8M2T4_13TeV-madgraph-pythia8/NANOAODSIM/PUMoriond17_Nano02Apr2020_102X_mcRun2_asymptotic_v8_ext1-v1/130000/84758980-9DD9-AC4B-B010-18BCD4D9DEEF.root

@@ -1,0 +1,2 @@
+/storage/data/cms/store/mc/RunIISummer16NanoAODv7/DYToLL_1J_13TeV-amcatnloFXFX-pythia8/NANOAODSIM/PUMoriond17_Nano02Apr2020_backup_102X_mcRun2_asymptotic_v8-v1/100000/E1AFCEFC-20AD-0744-B97E-343F02FA55C5.root
+/storage/data/cms/store/mc/RunIISummer16NanoAODv7/DYToLL_1J_13TeV-amcatnloFXFX-pythia8/NANOAODSIM/PUMoriond17_Nano02Apr2020_backup_102X_mcRun2_asymptotic_v8-v1/100000/9E34CD7E-5B1A-B649-B590-D1CCFF9DE0B6.root

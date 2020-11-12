@@ -1,0 +1,41 @@
+======== Starting job (2020. 11. 03. (화) 17:06:57 CET) ========
+Job id: 21899589
+List of nodes allocated to the job: mb-sky014
+Batch node: mb-sky014
+Startup working directory: /home/ucl/cp3/mchoi/bamboodev/HHbbWWAnalysis
+Job working directory: /scratch/mchoi/21899589
+==== Starting read of input parameters for job's payload (2020. 11. 03. (화) 17:06:57 CET) ====
+taskcmd = bambooRun --module=/home/users/m/c/mchoi/bamboodev/HHbbWWAnalysis/PlotterHHtobbWWDL.py:PlotterNanoHHtobbWWDL --distributed=worker --anaConfig=/home/users/m/c/mchoi/bamboodev/HHbbWWAnalysis/analysis2016_v7.yml --plotIt plotIt --backend dataframe --NoSystematics --Tight --Boosted1Btag --DYVariable False --Channel None --Classifier None --WhadTagger None --input=/home/users/m/c/mchoi/bamboodev/HHbbWWAnalysis/bbww_2016v7_boosted_woak8btag/infiles/WGToLNuG_in_0.txt --output=WGToLNuG.root --tree=Events --sample=WGToLNuG
+==== Finished read of input parameters for job's payload (2020. 11. 03. (화) 17:06:57 CET) ====
+==== Starting execution of payload (2020. 11. 03. (화) 17:06:57 CET) ====
+------------------------- Begin payload output ------------------------
+INFO:bamboo.analysismodules:No data-driven contributions selected
+INFO:bamboo.analysismodules:Worker process: calling processTrees for /home/users/m/c/mchoi/bamboodev/HHbbWWAnalysis/PlotterHHtobbWWDL.py:PlotterNanoHHtobbWWDL with (['/storage/data/cms/store/mc/RunIISummer16NanoAODv7/WGToLNuG_01J_5f_TuneCUETP8M1_13TeV-amcatnloFXFX-pythia8/NANOAODSIM/PUMoriond17_Nano02Apr2020_102X_mcRun2_asymptotic_v8-v1/130000/AF8ECB6E-0CE6-BE4B-BAA0-4DD3CA37A8AA.root', '/storage/data/cms/store/mc/RunIISummer16NanoAODv7/WGToLNuG_01J_5f_TuneCUETP8M1_13TeV-amcatnloFXFX-pythia8/NANOAODSIM/PUMoriond17_Nano02Apr2020_102X_mcRun2_asymptotic_v8-v1/130000/0AAFE40C-B673-6446-A5E7-C7FAB96075C0.root', '/storage/data/cms/store/mc/RunIISummer16NanoAODv7/WGToLNuG_01J_5f_TuneCUETP8M1_13TeV-amcatnloFXFX-pythia8/NANOAODSIM/PUMoriond17_Nano02Apr2020_102X_mcRun2_asymptotic_v8-v1/270000/A9C3B062-803E-424A-87DD-50A19CCCA24C.root', '/storage/data/cms/store/mc/RunIISummer16NanoAODv7/WGToLNuG_01J_5f_TuneCUETP8M1_13TeV-amcatnloFXFX-pythia8/NANOAODSIM/PUMoriond17_Nano02Apr2020_102X_mcRun2_asymptotic_v8-v1/270000/E2CCD30A-EB18-E040-B6C6-9C93166E9806.root', '/storage/data/cms/store/mc/RunIISummer16NanoAODv7/WGToLNuG_01J_5f_TuneCUETP8M1_13TeV-amcatnloFXFX-pythia8/NANOAODSIM/PUMoriond17_Nano02Apr2020_102X_mcRun2_asymptotic_v8-v1/130000/9E80A8A0-B7D9-DD4E-97BE-D06D6878A2EB.root', '/storage/data/cms/store/mc/RunIISummer16NanoAODv7/WGToLNuG_01J_5f_TuneCUETP8M1_13TeV-amcatnloFXFX-pythia8/NANOAODSIM/PUMoriond17_Nano02Apr2020_102X_mcRun2_asymptotic_v8-v1/130000/E0485671-1616-FA46-881A-0233A91D2C97.root', '/storage/data/cms/store/mc/RunIISummer16NanoAODv7/WGToLNuG_01J_5f_TuneCUETP8M1_13TeV-amcatnloFXFX-pythia8/NANOAODSIM/PUMoriond17_Nano02Apr2020_102X_mcRun2_asymptotic_v8-v1/100000/07D2CCEA-D79C-0C42-90ED-F650996417B5.root'], WGToLNuG.root, treeName=Events, certifiedLumiFile=None, runRange=None, sample=WGToLNuG)
+Warning in <TClass::Init>: no dictionary for class edm::ProcessHistory is available
+Warning in <TClass::Init>: no dictionary for class edm::ProcessConfiguration is available
+Warning in <TClass::Init>: no dictionary for class edm::ParameterSetBlob is available
+Warning in <TClass::Init>: no dictionary for class edm::Hash<1> is available
+Warning in <TClass::Init>: no dictionary for class pair<edm::Hash<1>,edm::ParameterSetBlob> is available
+INFO:bamboo.analysismodules:Starting to define plots
+INFO:bamboo.analysismodules:132 plots defined in 68.50s, max RSS: 737.90MB
+INFO:bamboo.analysismodules:Number of uses per node type: defaultdict(<class 'int'>, {'gInterpreter_Declare': 53, 'Define': 217, 'Filter': 24, 'Histo1D': 129, 'Histo2D': 6})
+INFO:bamboo.analysismodules:HistoND calls per column type: defaultdict(<class 'int'>, {('ROOT::RDF::RInterface<ROOT::Detail::RDF::RJittedFilter,void>', ('int',), 'float'): 3, ('ROOT::RDF::RInterface<ROOT::Detail::RDF::RJittedFilter,void>', ('int',), 'double'): 21, ('ROOT::RDF::RInterface<ROOT::Detail::RDF::RJittedFilter,void>', ('bool',), 'double'): 12, ('ROOT::RDF::RInterface<ROOT::Detail::RDF::RJittedFilter,void>', ('Bool_t',), 'double'): 3, ('ROOT::RDF::RInterface<ROOT::Detail::RDF::RJittedFilter,void>', ('float',), 'double'): 54, ('ROOT::RDF::RInterface<ROOT::Detail::RDF::RJittedFilter,void>', ('float', 'float'), 'double'): 6, ('ROOT::RDF::RInterface<ROOT::Detail::RDF::RJittedFilter,void>', ('unsigned char',), 'double'): 6, ('ROOT::RDF::RInterface<ROOT::Detail::RDF::RJittedFilter,void>', ('unsigned long',), 'double'): 6, ('ROOT::RDF::RInterface<ROOT::Detail::RDF::RJittedFilter,void>', ('double',), 'double'): 24})
+INFO:bamboo.analysismodules:Starting to fill plots
+INFO:bamboo.analysismodules:Plots finished in 285.80s, max RSS: 1503.03MB (132 histograms)
+Btag Ak4 CSV file /home/users/m/c/mchoi/bamboodev/HHbbWWAnalysis/data/ScaleFactors_POG/DeepJet_2016LegacySF_V1.csv
+Reweighting file /home/users/m/c/mchoi/bamboodev/HHbbWWAnalysis/data/ScaleFactors_Btag/BtagReweightingRatio_jetN_WGToLNuG_2016.json
+... Processing Tight lepton type
+...... Processing Ak8 jet selection
+...... Processing Boosted jet (1 btag) selection
+--------------------------- End payload output ------------------------
+Payload exit code: 0
+==== Finished execution of payload (2020. 11. 03. (화) 17:13:04 CET) ====
+==== Starting stageout of user files (2020. 11. 03. (화) 17:13:04 CET) ====
+Destination directory: /home/users/m/c/mchoi/bamboodev/HHbbWWAnalysis/bbww_2016v7_boosted_woak8btag/batch/output/742
+List of filename patterns to match against: '*.root'.
+Copying file WGToLNuG.root ...
+File copied.
+==== Finished stageout of user files (2020. 11. 03. (화) 17:13:04 CET) ====
+======== Finished job (2020. 11. 03. (화) 17:13:04 CET) ========
+Batch script exit code: 0
+Will stageout the logs before exiting.

@@ -1,0 +1,38 @@
+======== Starting job (2020. 11. 03. (화) 16:50:34 CET) ========
+Job id: 21899159
+List of nodes allocated to the job: mb-ivy217
+Batch node: mb-ivy217
+Startup working directory: /home/ucl/cp3/mchoi/bamboodev/HHbbWWAnalysis
+Job working directory: /scratch/mchoi/21899159
+==== Starting read of input parameters for job's payload (2020. 11. 03. (화) 16:50:35 CET) ====
+taskcmd = bambooRun --module=/home/users/m/c/mchoi/bamboodev/HHbbWWAnalysis/PlotterHHtobbWWDL.py:PlotterNanoHHtobbWWDL --distributed=worker --anaConfig=/home/users/m/c/mchoi/bamboodev/HHbbWWAnalysis/analysis2016_v7.yml --plotIt plotIt --backend dataframe --NoSystematics --Tight --Boosted1Btag --DYVariable False --Channel None --Classifier None --WhadTagger None --input=/home/users/m/c/mchoi/bamboodev/HHbbWWAnalysis/bbww_2016v7_boosted_woak8btag/infiles/THW_in_8.txt --output=THW.root --tree=Events --sample=THW
+==== Finished read of input parameters for job's payload (2020. 11. 03. (화) 16:50:35 CET) ====
+==== Starting execution of payload (2020. 11. 03. (화) 16:50:35 CET) ====
+------------------------- Begin payload output ------------------------
+INFO:bamboo.analysismodules:No data-driven contributions selected
+INFO:bamboo.analysismodules:Worker process: calling processTrees for /home/users/m/c/mchoi/bamboodev/HHbbWWAnalysis/PlotterHHtobbWWDL.py:PlotterNanoHHtobbWWDL with (['/storage/data/cms/store/mc/RunIISummer16NanoAODv7/THW_ctcvcp_HIncl_M125_TuneCP5_13TeV-madgraph-pythia8/NANOAODSIM/PUMoriond17_Nano02Apr2020_102X_mcRun2_asymptotic_v8-v1/100000/F98DAB22-5FC7-8149-A920-A1DB8DA9C681.root', '/storage/data/cms/store/mc/RunIISummer16NanoAODv7/THW_ctcvcp_HIncl_M125_TuneCP5_13TeV-madgraph-pythia8/NANOAODSIM/PUMoriond17_Nano02Apr2020_102X_mcRun2_asymptotic_v8-v1/70000/BA3F1B24-56BE-4842-80E1-8C5AD8BA8A2D.root'], THW.root, treeName=Events, certifiedLumiFile=None, runRange=None, sample=THW)
+Warning in <TClass::Init>: no dictionary for class edm::ProcessHistory is available
+Warning in <TClass::Init>: no dictionary for class edm::ProcessConfiguration is available
+Warning in <TClass::Init>: no dictionary for class edm::ParameterSetBlob is available
+Warning in <TClass::Init>: no dictionary for class edm::Hash<1> is available
+Warning in <TClass::Init>: no dictionary for class pair<edm::Hash<1>,edm::ParameterSetBlob> is available
+Error in <TFile::TFile>: file /storage/data/cms/store/mc/RunIISummer16NanoAODv7/THW_ctcvcp_HIncl_M125_TuneCP5_13TeV-madgraph-pythia8/NANOAODSIM/PUMoriond17_Nano02Apr2020_102X_mcRun2_asymptotic_v8-v1/70000/BA3F1B24-56BE-4842-80E1-8C5AD8BA8A2D.root does not exist
+Traceback (most recent call last):
+  File "/home/users/m/c/mchoi/bamboodev/bamboovenv/bin/bambooRun", line 10, in <module>
+    sys.exit(main())
+  File "/home/users/m/c/mchoi/bamboodev/bamboovenv/lib/python3.7/site-packages/bamboo/scripts/bambooRun.py", line 62, in main
+    modInst.run()
+  File "/home/users/m/c/mchoi/bamboodev/bamboovenv/lib/python3.7/site-packages/bamboo/analysismodules.py", line 285, in run
+    self.processTrees(inputFiles, self.args.output, tree=self.args.treeName, certifiedLumiFile=self.args.certifiedLumiFile, runRange=self.args.runRange, sample=self.args.sample, sampleCfg=sampleCfg)
+  File "/home/users/m/c/mchoi/bamboodev/bamboovenv/lib/python3.7/site-packages/bamboo/analysismodules.py", line 1014, in processTrees
+    backend = super(DataDrivenBackgroundHistogramsModule, self).processTrees(inputFiles, outputFile, tree=tree, certifiedLumiFile=certifiedLumiFile, runRange=runRange, sample=sample, sampleCfg=sampleCfg)
+  File "/home/users/m/c/mchoi/bamboodev/bamboovenv/lib/python3.7/site-packages/bamboo/analysismodules.py", line 560, in processTrees
+    raise IOError("Could not open file {}".format(fName))
+OSError: Could not open file /storage/data/cms/store/mc/RunIISummer16NanoAODv7/THW_ctcvcp_HIncl_M125_TuneCP5_13TeV-madgraph-pythia8/NANOAODSIM/PUMoriond17_Nano02Apr2020_102X_mcRun2_asymptotic_v8-v1/70000/BA3F1B24-56BE-4842-80E1-8C5AD8BA8A2D.root
+--------------------------- End payload output ------------------------
+Payload exit code: 1
+Payload exit code is outside the recommended range for user-defined exit codes: 79-99. This is not a problem, but if you are interested in defining/using exit codes for your payload that would not occur outside your payload, please consider restricting to that range.
+==== Finished execution of payload (2020. 11. 03. (화) 16:50:51 CET) ====
+======== Finished job (2020. 11. 03. (화) 16:50:51 CET) ========
+Batch script exit code: 1 (failure in user's payload)
+Will stageout the logs before exiting.

@@ -1,0 +1,1 @@
+/storage/data/cms/store/mc/RunIISummer16NanoAODv7/TGJets_leptonDecays_13TeV_amcatnlo_madspin_pythia8/NANOAODSIM/PUMoriond17_Nano02Apr2020_102X_mcRun2_asymptotic_v8-v1/270000/9E7E0C07-EC91-B842-9CDD-7B4F64C4549A.root

@@ -1,0 +1,41 @@
+======== Starting job (2020. 11. 03. (화) 17:46:34 CET) ========
+Job id: 21900847
+List of nodes allocated to the job: mb-sky016
+Batch node: mb-sky016
+Startup working directory: /home/ucl/cp3/mchoi/bamboodev/HHbbWWAnalysis
+Job working directory: /scratch/mchoi/21900847
+==== Starting read of input parameters for job's payload (2020. 11. 03. (화) 17:46:34 CET) ====
+taskcmd = bambooRun --module=/home/users/m/c/mchoi/bamboodev/HHbbWWAnalysis/PlotterHHtobbWWDL.py:PlotterNanoHHtobbWWDL --distributed=worker --anaConfig=/home/users/m/c/mchoi/bamboodev/HHbbWWAnalysis/analysis2016_v7.yml --plotIt plotIt --backend dataframe --NoSystematics --Tight --Boosted1Btag --DYVariable False --Channel None --Classifier None --WhadTagger None --input=/home/users/m/c/mchoi/bamboodev/HHbbWWAnalysis/bbww_2016v7_boosted_woak8btag/infiles/SingleMuon_2016D_in_18.txt --output=SingleMuon_2016D.root --tree=Events --certifiedLumiFile=/home/users/m/c/mchoi/bamboodev/HHbbWWAnalysis/bbww_2016v7_boosted_woak8btag/Cert_271036-284044_13TeV_23Sep2016ReReco_Collisions16_JSON.txt --runRange=276315,276811 --sample=SingleMuon_2016D
+==== Finished read of input parameters for job's payload (2020. 11. 03. (화) 17:46:35 CET) ====
+==== Starting execution of payload (2020. 11. 03. (화) 17:46:35 CET) ====
+------------------------- Begin payload output ------------------------
+INFO:bamboo.analysismodules:No data-driven contributions selected
+INFO:bamboo.analysismodules:Worker process: calling processTrees for /home/users/m/c/mchoi/bamboodev/HHbbWWAnalysis/PlotterHHtobbWWDL.py:PlotterNanoHHtobbWWDL with (['/storage/data/cms/store/data/Run2016D/SingleMuon/NANOAOD/Nano25Oct2019-v1/20000/D34C0905-C2EC-7A4E-BC63-2787B9BD46D0.root', '/storage/data/cms/store/data/Run2016D/SingleMuon/NANOAOD/Nano25Oct2019-v1/20000/E7E4FDA8-3C44-4141-AFDF-6F1633E92286.root'], SingleMuon_2016D.root, treeName=Events, certifiedLumiFile=/home/users/m/c/mchoi/bamboodev/HHbbWWAnalysis/bbww_2016v7_boosted_woak8btag/Cert_271036-284044_13TeV_23Sep2016ReReco_Collisions16_JSON.txt, runRange=(276315, 276811), sample=SingleMuon_2016D)
+Warning in <TClass::Init>: no dictionary for class edm::Hash<1> is available
+Warning in <TClass::Init>: no dictionary for class edm::ParameterSetBlob is available
+Warning in <TClass::Init>: no dictionary for class edm::ProcessHistory is available
+Warning in <TClass::Init>: no dictionary for class edm::ProcessConfiguration is available
+Warning in <TClass::Init>: no dictionary for class pair<edm::Hash<1>,edm::ParameterSetBlob> is available
+INFO:bamboo.analysismodules:Starting to define plots
+INFO:bamboo.analysismodules:132 plots defined in 13.57s, max RSS: 510.75MB
+INFO:bamboo.analysismodules:Number of uses per node type: defaultdict(<class 'int'>, {'gInterpreter_Declare': 33, 'Filter': 25, 'Define': 170, 'Histo1D': 129, 'Histo2D': 6})
+INFO:bamboo.analysismodules:HistoND calls per column type: defaultdict(<class 'int'>, {('ROOT::RDF::RInterface<ROOT::Detail::RDF::RJittedFilter,void>', ('int',)): 30, ('ROOT::RDF::RInterface<ROOT::Detail::RDF::RJittedFilter,void>', ('bool',)): 12, ('ROOT::RDF::RInterface<ROOT::Detail::RDF::RJittedFilter,void>', ('Bool_t',)): 3, ('ROOT::RDF::RInterface<ROOT::Detail::RDF::RJittedFilter,void>', ('float',)): 54, ('ROOT::RDF::RInterface<ROOT::Detail::RDF::RJittedFilter,void>', ('float', 'float')): 6, ('ROOT::RDF::RInterface<ROOT::Detail::RDF::RJittedFilter,void>', ('unsigned long',)): 6, ('ROOT::RDF::RInterface<ROOT::Detail::RDF::RJittedFilter,void>', ('double',)): 24})
+INFO:bamboo.analysismodules:Starting to fill plots
+INFO:bamboo.analysismodules:Plots finished in 348.05s, max RSS: 1152.32MB (132 histograms)
+Could not find branch tree.HLT.Mu8_TrkIsoVVL_Ele23_CaloIdL_TrackIdL_IsoVL_DZ, will omit it
+Could not find branch tree.HLT.Mu23_TrkIsoVVL_Ele8_CaloIdL_TrackIdL_IsoVL_DZ, will omit it
+... Processing Tight lepton type
+...... Processing Ak8 jet selection
+...... Processing Boosted jet (1 btag) selection
+--------------------------- End payload output ------------------------
+Payload exit code: 0
+==== Finished execution of payload (2020. 11. 03. (화) 17:52:46 CET) ====
+==== Starting stageout of user files (2020. 11. 03. (화) 17:52:46 CET) ====
+Destination directory: /home/users/m/c/mchoi/bamboodev/HHbbWWAnalysis/bbww_2016v7_boosted_woak8btag/batch/output/1112
+List of filename patterns to match against: '*.root'.
+Copying file SingleMuon_2016D.root ...
+File copied.
+==== Finished stageout of user files (2020. 11. 03. (화) 17:52:46 CET) ====
+======== Finished job (2020. 11. 03. (화) 17:52:46 CET) ========
+Batch script exit code: 0
+Will stageout the logs before exiting.

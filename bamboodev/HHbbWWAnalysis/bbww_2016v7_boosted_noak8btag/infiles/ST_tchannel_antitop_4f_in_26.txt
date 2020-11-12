@@ -1,0 +1,4 @@
+/storage/data/cms/store/mc/RunIISummer16NanoAODv7/ST_t-channel_antitop_4f_inclusiveDecays_13TeV_PSweights-powhegV2-madspin/NANOAODSIM/PUMoriond17_Nano02Apr2020_102X_mcRun2_asymptotic_v8-v1/130000/E7B14677-0D01-3A41-8551-6180E0121ABC.root
+/storage/data/cms/store/mc/RunIISummer16NanoAODv7/ST_t-channel_antitop_4f_inclusiveDecays_13TeV_PSweights-powhegV2-madspin/NANOAODSIM/PUMoriond17_Nano02Apr2020_102X_mcRun2_asymptotic_v8-v1/100000/7A02810E-BB5C-F54D-9D6F-123FC1EE8CE6.root
+/storage/data/cms/store/mc/RunIISummer16NanoAODv7/ST_t-channel_antitop_4f_inclusiveDecays_13TeV_PSweights-powhegV2-madspin/NANOAODSIM/PUMoriond17_Nano02Apr2020_102X_mcRun2_asymptotic_v8-v1/100000/AF9ED0E9-777F-5049-8FE2-3DD1A4898E4E.root
+/storage/data/cms/store/mc/RunIISummer16NanoAODv7/ST_t-channel_antitop_4f_inclusiveDecays_13TeV_PSweights-powhegV2-madspin/NANOAODSIM/PUMoriond17_Nano02Apr2020_102X_mcRun2_asymptotic_v8-v1/110000/CFCAF103-12AF-BE42-A0A5-080B0595CDED.root

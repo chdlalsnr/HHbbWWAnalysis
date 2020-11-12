@@ -1,0 +1,2 @@
+/storage/data/cms/store/data/Run2016G/SingleMuon/NANOAOD/Nano25Oct2019-v1/40000/F2AC57E2-360D-4240-AF45-70CEC695C3DF.root
+/storage/data/cms/store/data/Run2016G/SingleMuon/NANOAOD/Nano25Oct2019-v1/40000/DB445B02-C71F-4047-A951-FB7E7DE1E858.root

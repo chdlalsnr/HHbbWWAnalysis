@@ -1,0 +1,1 @@
+/storage/data/cms/store/mc/RunIISummer16NanoAODv7/ST_s-channel_4f_leptonDecays_13TeV_PSweights-amcatnlo-pythia8/NANOAODSIM/PUMoriond17_Nano02Apr2020_102X_mcRun2_asymptotic_v8-v1/70000/BC347173-6EB7-1142-BA80-B225765F0EB1.root

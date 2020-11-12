@@ -1,0 +1,41 @@
+======== Starting job (2020. 11. 03. (화) 18:27:32 CET) ========
+Job id: 21902220
+List of nodes allocated to the job: mb-ivy217
+Batch node: mb-ivy217
+Startup working directory: /home/ucl/cp3/mchoi/bamboodev/HHbbWWAnalysis
+Job working directory: /scratch/mchoi/21902220
+==== Starting read of input parameters for job's payload (2020. 11. 03. (화) 18:27:32 CET) ====
+taskcmd = bambooRun --module=/home/users/m/c/mchoi/bamboodev/HHbbWWAnalysis/PlotterHHtobbWWDL.py:PlotterNanoHHtobbWWDL --distributed=worker --anaConfig=/home/users/m/c/mchoi/bamboodev/HHbbWWAnalysis/analysis2016_v7.yml --plotIt plotIt --backend dataframe --NoSystematics --Tight --Boosted1Btag --DYVariable False --Channel None --Classifier None --WhadTagger None --input=/home/users/m/c/mchoi/bamboodev/HHbbWWAnalysis/bbww_2016v7_boosted_woak8btag/infiles/SingleElectron_2016H_in_20.txt --output=SingleElectron_2016H.root --tree=Events --certifiedLumiFile=/home/users/m/c/mchoi/bamboodev/HHbbWWAnalysis/bbww_2016v7_boosted_woak8btag/Cert_271036-284044_13TeV_23Sep2016ReReco_Collisions16_JSON.txt --runRange=280919,284044 --sample=SingleElectron_2016H
+==== Finished read of input parameters for job's payload (2020. 11. 03. (화) 18:27:32 CET) ====
+==== Starting execution of payload (2020. 11. 03. (화) 18:27:32 CET) ====
+------------------------- Begin payload output ------------------------
+INFO:bamboo.analysismodules:No data-driven contributions selected
+INFO:bamboo.analysismodules:Worker process: calling processTrees for /home/users/m/c/mchoi/bamboodev/HHbbWWAnalysis/PlotterHHtobbWWDL.py:PlotterNanoHHtobbWWDL with (['/storage/data/cms/store/data/Run2016H/SingleElectron/NANOAOD/Nano25Oct2019-v1/30000/4C93D998-FECD-F843-8919-5E430EF57D7A.root', '/storage/data/cms/store/data/Run2016H/SingleElectron/NANOAOD/Nano25Oct2019-v1/30000/CD5C2498-E066-0B42-8EEC-019A0A909C39.root'], SingleElectron_2016H.root, treeName=Events, certifiedLumiFile=/home/users/m/c/mchoi/bamboodev/HHbbWWAnalysis/bbww_2016v7_boosted_woak8btag/Cert_271036-284044_13TeV_23Sep2016ReReco_Collisions16_JSON.txt, runRange=(280919, 284044), sample=SingleElectron_2016H)
+Warning in <TClass::Init>: no dictionary for class edm::Hash<1> is available
+Warning in <TClass::Init>: no dictionary for class edm::ParameterSetBlob is available
+Warning in <TClass::Init>: no dictionary for class edm::ProcessHistory is available
+Warning in <TClass::Init>: no dictionary for class edm::ProcessConfiguration is available
+Warning in <TClass::Init>: no dictionary for class pair<edm::Hash<1>,edm::ParameterSetBlob> is available
+INFO:bamboo.analysismodules:Starting to define plots
+INFO:bamboo.analysismodules:132 plots defined in 23.19s, max RSS: 511.45MB
+INFO:bamboo.analysismodules:Number of uses per node type: defaultdict(<class 'int'>, {'gInterpreter_Declare': 33, 'Filter': 25, 'Define': 170, 'Histo1D': 129, 'Histo2D': 6})
+INFO:bamboo.analysismodules:HistoND calls per column type: defaultdict(<class 'int'>, {('ROOT::RDF::RInterface<ROOT::Detail::RDF::RJittedFilter,void>', ('int',)): 30, ('ROOT::RDF::RInterface<ROOT::Detail::RDF::RJittedFilter,void>', ('bool',)): 12, ('ROOT::RDF::RInterface<ROOT::Detail::RDF::RJittedFilter,void>', ('Bool_t',)): 3, ('ROOT::RDF::RInterface<ROOT::Detail::RDF::RJittedFilter,void>', ('float',)): 54, ('ROOT::RDF::RInterface<ROOT::Detail::RDF::RJittedFilter,void>', ('float', 'float')): 6, ('ROOT::RDF::RInterface<ROOT::Detail::RDF::RJittedFilter,void>', ('unsigned long',)): 6, ('ROOT::RDF::RInterface<ROOT::Detail::RDF::RJittedFilter,void>', ('double',)): 24})
+INFO:bamboo.analysismodules:Starting to fill plots
+INFO:bamboo.analysismodules:Plots finished in 474.53s, max RSS: 1147.22MB (132 histograms)
+Could not find branch tree.HLT.Mu8_TrkIsoVVL_Ele23_CaloIdL_TrackIdL_IsoVL, will omit it
+Could not find branch tree.HLT.Mu23_TrkIsoVVL_Ele8_CaloIdL_TrackIdL_IsoVL, will omit it
+... Processing Tight lepton type
+...... Processing Ak8 jet selection
+...... Processing Boosted jet (1 btag) selection
+--------------------------- End payload output ------------------------
+Payload exit code: 0
+==== Finished execution of payload (2020. 11. 03. (화) 18:36:08 CET) ====
+==== Starting stageout of user files (2020. 11. 03. (화) 18:36:08 CET) ====
+Destination directory: /home/users/m/c/mchoi/bamboodev/HHbbWWAnalysis/bbww_2016v7_boosted_woak8btag/batch/output/1737
+List of filename patterns to match against: '*.root'.
+Copying file SingleElectron_2016H.root ...
+File copied.
+==== Finished stageout of user files (2020. 11. 03. (화) 18:36:08 CET) ====
+======== Finished job (2020. 11. 03. (화) 18:36:08 CET) ========
+Batch script exit code: 0
+Will stageout the logs before exiting.

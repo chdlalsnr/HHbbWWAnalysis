@@ -1,0 +1,2451 @@
+configuration:
+  eras:
+  - '2016'
+  experiment: CMS
+  extra-label: 2016 Data -- Work in progress
+  height: 599
+  luminosity:
+    '2016': 35922
+  luminosity-label: '%1$.2f fb^{-1} (13 TeV)'
+  margin-bottom: 0.13
+  margin-left: 0.15
+  margin-right: 0.03
+  margin-top: 0.05
+  root: results
+  show-overflow: true
+  width: 800
+files:
+  DYJetsToLL_M-10to50.root:
+    cross-section: 18610.0
+    era: '2016'
+    generated-events: 34909242.0
+    group: DY
+    type: mc
+  DYJetsToLL_M-50.root:
+    cross-section: 6077.22
+    era: '2016'
+    generated-events: 1897141621849.12
+    group: DY
+    type: mc
+  DYToLL_0J.root:
+    cross-section: 4843.6
+    era: '2016'
+    generated-events: 538837481211.2707
+    group: DY
+    type: mc
+  DYToLL_1J.root:
+    cross-section: 897.8
+    era: '2016'
+    generated-events: 413683787173.8496
+    group: DY
+    type: mc
+  DYToLL_2J.root:
+    cross-section: 335.8
+    era: '2016'
+    generated-events: 212534217577.50864
+    group: DY
+    type: mc
+  DoubleEGamma_2016B.root:
+    era: '2016'
+    group: data
+    type: data
+  DoubleEGamma_2016C.root:
+    era: '2016'
+    group: data
+    type: data
+  DoubleEGamma_2016D.root:
+    era: '2016'
+    group: data
+    type: data
+  DoubleEGamma_2016E.root:
+    era: '2016'
+    group: data
+    type: data
+  DoubleEGamma_2016F.root:
+    era: '2016'
+    group: data
+    type: data
+  DoubleEGamma_2016G.root:
+    era: '2016'
+    group: data
+    type: data
+  DoubleEGamma_2016H.root:
+    era: '2016'
+    group: data
+    type: data
+  DoubleMuon_2016B.root:
+    era: '2016'
+    group: data
+    type: data
+  DoubleMuon_2016C.root:
+    era: '2016'
+    group: data
+    type: data
+  DoubleMuon_2016D.root:
+    era: '2016'
+    group: data
+    type: data
+  DoubleMuon_2016E.root:
+    era: '2016'
+    group: data
+    type: data
+  DoubleMuon_2016F.root:
+    era: '2016'
+    group: data
+    type: data
+  DoubleMuon_2016G.root:
+    era: '2016'
+    group: data
+    type: data
+  DoubleMuon_2016H.root:
+    era: '2016'
+    group: data
+    type: data
+  GluGluHToBB.root:
+    cross-section: 28.293
+    era: '2016'
+    generated-events: 524413568.05377996
+    group: SM
+    type: mc
+  GluGluHToGG.root:
+    cross-section: 0.11028
+    era: '2016'
+    generated-events: 89212192.12336
+    group: SM
+    type: mc
+  GluGluHToMuMu.root:
+    cross-section: 0.010571
+    era: '2016'
+    generated-events: 1990894.263548006
+    group: SM
+    type: mc
+  GluGluHToTauTau.root:
+    cross-section: 3.0469
+    era: '2016'
+    generated-events: 9673200.0
+    group: SM
+    type: mc
+  GluGluHToWWTo2L2Nu.root:
+    cross-section: 1.1033
+    era: '2016'
+    generated-events: 492200.0
+    group: SM
+    type: mc
+  GluGluHToWWToLNuQQ.root:
+    cross-section: 4.5621
+    era: '2016'
+    generated-events: 198000.0
+    group: SM
+    type: mc
+  GluGluHToZZTo4L.root:
+    cross-section: 0.01297
+    era: '2016'
+    generated-events: 999800.0
+    group: SM
+    type: mc
+  GluGluToHHTo2B2VTo2L2Nu_node_SM.root:
+    cross-section: 1
+    era: '2016'
+    generated-events: 299999.0
+    legend: HH (2B2V, node SM)
+    line-type: 1
+    type: signal
+  GluGluToRadionToHHTo2B2VTo2L2Nu_M-750.root:
+    cross-section: 1
+    era: '2016'
+    generated-events: 298727.0
+    legend: HH (Radion2B2V, M = 750)
+    line-type: 2
+    type: signal
+  HZJ_HToWW.root:
+    cross-section: 0.1889
+    era: '2016'
+    generated-events: 222635.94038200015
+    group: SM
+    type: mc
+  MuonEG_2016B.root:
+    era: '2016'
+    group: data
+    type: data
+  MuonEG_2016C.root:
+    era: '2016'
+    group: data
+    type: data
+  MuonEG_2016D.root:
+    era: '2016'
+    group: data
+    type: data
+  MuonEG_2016E.root:
+    era: '2016'
+    group: data
+    type: data
+  MuonEG_2016F.root:
+    era: '2016'
+    group: data
+    type: data
+  MuonEG_2016G.root:
+    era: '2016'
+    group: data
+    type: data
+  MuonEG_2016H.root:
+    era: '2016'
+    group: data
+    type: data
+  ST_schannel_4f.root:
+    cross-section: 3.364
+    era: '2016'
+    generated-events: 36943028.03247439
+    group: ST
+    type: mc
+  ST_tW_antitop_5f.root:
+    cross-section: 35.85
+    era: '2016'
+    generated-events: 6933094.0
+    group: ST
+    type: mc
+  ST_tW_top_5f.root:
+    cross-section: 35.85
+    era: '2016'
+    generated-events: 6952830.0
+    group: ST
+    type: mc
+  ST_tWll_5f.root:
+    cross-section: 0.01096
+    era: '2016'
+    generated-events: 50000.0
+    group: ST
+    type: mc
+  ST_tchannel_antitop_4f.root:
+    cross-section: 80.95
+    era: '2016'
+    generated-events: 77396873.40324038
+    group: ST
+    type: mc
+  ST_tchannel_top_4f.root:
+    cross-section: 136.02
+    era: '2016'
+    generated-events: 58403420.0
+    group: ST
+    type: mc
+  SingleElectron_2016B.root:
+    era: '2016'
+    group: data
+    type: data
+  SingleElectron_2016C.root:
+    era: '2016'
+    group: data
+    type: data
+  SingleElectron_2016D.root:
+    era: '2016'
+    group: data
+    type: data
+  SingleElectron_2016E.root:
+    era: '2016'
+    group: data
+    type: data
+  SingleElectron_2016F.root:
+    era: '2016'
+    group: data
+    type: data
+  SingleElectron_2016G.root:
+    era: '2016'
+    group: data
+    type: data
+  SingleElectron_2016H.root:
+    era: '2016'
+    group: data
+    type: data
+  SingleMuon_2016B.root:
+    era: '2016'
+    group: data
+    type: data
+  SingleMuon_2016C.root:
+    era: '2016'
+    group: data
+    type: data
+  SingleMuon_2016D.root:
+    era: '2016'
+    group: data
+    type: data
+  SingleMuon_2016E.root:
+    era: '2016'
+    group: data
+    type: data
+  SingleMuon_2016F.root:
+    era: '2016'
+    group: data
+    type: data
+  SingleMuon_2016G.root:
+    era: '2016'
+    group: data
+    type: data
+  SingleMuon_2016H.root:
+    era: '2016'
+    group: data
+    type: data
+  TGJets.root:
+    cross-section: 1.018
+    era: '2016'
+    generated-events: 648.435550763155
+    group: Rares
+    type: mc
+  THQ.root:
+    cross-section: 0.07096
+    era: '2016'
+    generated-events: 9670778.474769648
+    group: SM
+    type: mc
+  THW.root:
+    cross-section: 0.01561
+    era: '2016'
+    generated-events: 4852763.394947886
+    group: SM
+    type: mc
+  TTGJets.root:
+    cross-section: 4.215
+    era: '2016'
+    generated-events: 101000494.77454202
+    group: Rares
+    type: mc
+  TTTT.root:
+    cross-section: 0.008213
+    era: '2016'
+    generated-events: 2283.8227267200004
+    group: Rares
+    type: mc
+  TTTo2L2Nu.root:
+    cross-section: 88.4
+    era: '2016'
+    generated-events: 4891620336.097583
+    group: ttbar
+    type: mc
+  TTToHadronic.root:
+    cross-section: 377.85
+    era: '2016'
+    generated-events: 21432310862.903515
+    group: ttbar
+    type: mc
+  TTToSemiLeptonic.root:
+    cross-section: 365.52
+    era: '2016'
+    generated-events: 32129152052.965183
+    group: ttbar
+    type: mc
+  TTWH.root:
+    cross-section: 0.001582
+    era: '2016'
+    generated-events: 100000.0
+    group: SM
+    type: mc
+  TTWJetsToLNu.root:
+    cross-section: 0.196
+    era: '2016'
+    generated-events: 1054697.9480006401
+    group: ttVV
+    type: mc
+  TTWJetsToQQ.root:
+    cross-section: 0.4049
+    era: '2016'
+    generated-events: 569424.1453420001
+    group: ttVV
+    type: mc
+  TTWW.root:
+    cross-section: 0.006981
+    era: '2016'
+    generated-events: 98300.0
+    group: ttVV
+    type: mc
+  TTZH.root:
+    cross-section: 0.001535
+    era: '2016'
+    generated-events: 97800.0
+    group: SM
+    type: mc
+  TTZToLLNuNu_M-10.root:
+    cross-section: 0.2814
+    era: '2016'
+    generated-events: 2954447.3587142406
+    group: ttVV
+    type: mc
+  TTZToLL_M-1to10.root:
+    cross-section: 0.0822
+    era: '2016'
+    generated-events: 246792.0
+    group: ttVV
+    type: mc
+  TTZToQQ.root:
+    cross-section: 0.5868
+    era: '2016'
+    generated-events: 396340.93255240016
+    group: ttVV
+    type: mc
+  VBFHToBB.root:
+    cross-section: 2.2026
+    era: '2016'
+    generated-events: 17839729.61364
+    group: SM
+    type: mc
+  VBFHToGG.root:
+    cross-section: 0.0085851
+    era: '2016'
+    generated-events: 12375429.19728
+    group: SM
+    type: mc
+  VBFHToMuMu.root:
+    cross-section: 0.00082296
+    era: '2016'
+    generated-events: 3729024.983790237
+    group: SM
+    type: mc
+  VBFHToTauTau.root:
+    cross-section: 0.2372
+    era: '2016'
+    generated-events: 5605381.855919999
+    group: SM
+    type: mc
+  VBFHToWWTo2L2Nu.root:
+    cross-section: 0.085894
+    era: '2016'
+    generated-events: 376906.1507400001
+    group: SM
+    type: mc
+  VBFHToWWToLNuQQ.root:
+    cross-section: 0.35517
+    era: '2016'
+    generated-events: 753842.4956400002
+    group: SM
+    type: mc
+  VBFHToZZTo4L.root:
+    cross-section: 0.0010099
+    era: '2016'
+    generated-events: 1884538.3022400006
+    group: SM
+    type: mc
+  VHToNonbb.root:
+    cross-section: 0.9425
+    era: '2016'
+    generated-events: 5296350.861803999
+    group: SM
+    type: mc
+  WGToLNuG.root:
+    cross-section: 191.6
+    era: '2016'
+    generated-events: 8974318928.143368
+    group: Rares
+    type: mc
+  WJetsToLNu.root:
+    cross-section: 61526.7
+    era: '2016'
+    generated-events: 86916455.0
+    group: Wjets
+    type: mc
+  WWTo2L2Nu.root:
+    cross-section: 12.2
+    era: '2016'
+    generated-events: 999367.0
+    group: VVV
+    type: mc
+  WWTo2L2Nu_DoubleScattering.root:
+    cross-section: 0.2232
+    era: '2016'
+    generated-events: 999367.0
+    group: VVV
+    type: mc
+  WWToLNuQQ.root:
+    cross-section: 50.45
+    era: '2016'
+    generated-events: 8654600.0
+    group: VVV
+    type: mc
+  WWW.root:
+    cross-section: 0.2086
+    era: '2016'
+    generated-events: 50012.91451008002
+    group: VVV
+    type: mc
+  WWZ.root:
+    cross-section: 0.1676
+    era: '2016'
+    generated-events: 41171.8092188
+    group: VVV
+    type: mc
+  WZG.root:
+    cross-section: 0.04345
+    era: '2016'
+    generated-events: 41207.14302055802
+    group: Rares
+    type: mc
+  WZTo2L2Q.root:
+    cross-section: 5.6
+    era: '2016'
+    generated-events: 233388706.9617089
+    group: VVV
+    type: mc
+  WZTo3LNu.root:
+    cross-section: 4.43
+    era: '2016'
+    generated-events: 97448995.34015499
+    group: VVV
+    type: mc
+  WZZ.root:
+    cross-section: 0.05701
+    era: '2016'
+    generated-events: 13736.419587359997
+    group: VVV
+    type: mc
+  WminusH_HToBB_WToLNu.root:
+    cross-section: 0.1012
+    era: '2016'
+    generated-events: 421007.33151
+    group: SM
+    type: mc
+  WpWpJJ.root:
+    cross-section: 0.04926
+    era: '2016'
+    generated-events: 149681.0
+    group: Rares
+    type: mc
+  WplusH_HToBB_WToLNu.root:
+    cross-section: 0.1595
+    era: '2016'
+    generated-events: 690338.0570790003
+    group: SM
+    type: mc
+  ZGTo2LG.root:
+    cross-section: 123.9
+    era: '2016'
+    generated-events: 3420691477.56
+    group: Rares
+    type: mc
+  ZHToTauTau.root:
+    cross-section: 0.05544
+    era: '2016'
+    generated-events: 451664.57493800024
+    group: SM
+    type: mc
+  ZH_HToBB_ZToLL.root:
+    cross-section: 0.05198
+    era: '2016'
+    generated-events: 223865.06672720012
+    group: SM
+    type: mc
+  ZZTo2L2Q.root:
+    cross-section: 5.52
+    era: '2016'
+    generated-events: 78447678.65153103
+    group: VVV
+    type: mc
+  ZZTo4L.root:
+    cross-section: 1.256
+    era: '2016'
+    generated-events: 6669988.0
+    group: VVV
+    type: mc
+  ZZZ.root:
+    cross-section: 0.01473
+    era: '2016'
+    generated-events: 3499.4468979589997
+    group: VVV
+    type: mc
+  tZq_ll.root:
+    cross-section: 0.07358
+    era: '2016'
+    generated-events: 1873972.7603655807
+    group: Rares
+    type: mc
+  ttHJetToNonbb.root:
+    cross-section: 0.2118
+    era: '2016'
+    generated-events: 10142423.525162
+    group: SM
+    type: mc
+  ttHJetTobb.root:
+    cross-section: 0.2953
+    era: '2016'
+    generated-events: 9688450.475416001
+    group: SM
+    type: mc
+groups:
+  DY:
+    fill-color: '#1a83a1'
+    legend: Drell-Yan
+    order: 3
+  DYEstimation:
+    fill-color: '#1a83a1'
+    legend: Drell-Yan (from data)
+    order: 9
+  Fake:
+    fill-color: '#6e3303'
+    legend: Fake
+    order: 10
+  Rares:
+    fill-color: '#610596'
+    legend: Rares
+    order: 8
+  SM:
+    fill-color: '#06b894'
+    legend: SM Higgs (ggH, qqH, ttH, ZH)
+    order: 7
+  ST:
+    fill-color: '#99053d'
+    legend: Single Top
+    order: 2
+  VVV:
+    fill-color: '#ccbf45'
+    legend: VV(V)
+    order: 5
+  Wjets:
+    fill-color: '#d95564'
+    legend: W+jets
+    order: 4
+  data:
+    legend: data
+  ttVV:
+    fill-color: '#174704'
+    legend: tt+V(V)
+    order: 6
+  ttbar:
+    fill-color: '#cc7a16'
+    legend: tt
+    order: 1
+legend:
+  position:
+  - 0.7
+  - 0.6
+  - 0.91
+  - 0.91
+plots:
+  ElEl_HasElElTightOneAk8JetInclusiveBoostedOneBtag_Ak8BJets_N:
+    labels:
+    - position:
+      - 0.23
+      - 0.87
+      size: 36
+      text: e^{+}e^{-}
+    log-y: both
+    ratio-y-axis: Ratio Data/MC
+    ratio-y-axis-range: &id001
+    - 0.8
+    - 1.2
+    show-ratio: true
+    sort-by-yields: true
+    x-axis: N(Ak8 Bjets)
+    x-axis-range:
+    - 0.0
+    - 5
+    y-axis: Events
+    y-axis-show-zero: true
+  ElEl_HasElElTightOneAk8JetInclusiveBoostedOneBtag_Ak8Jets_N:
+    labels:
+    - position:
+      - 0.23
+      - 0.87
+      size: 36
+      text: e^{+}e^{-}
+    log-y: both
+    ratio-y-axis: Ratio Data/MC
+    ratio-y-axis-range: *id001
+    show-ratio: true
+    sort-by-yields: true
+    x-axis: N(Ak8 jets)
+    x-axis-range:
+    - 0.0
+    - 5
+    y-axis: Events
+    y-axis-show-zero: true
+  ElEl_HasElElTightOneAk8JetInclusiveBoostedOneBtag_dilepton_deltaPhi:
+    labels: &id002
+    - position:
+      - 0.23
+      - 0.87
+      size: 36
+      text: e^{+}e^{-}
+    log-y: both
+    ratio-y-axis: Ratio Data/MC
+    ratio-y-axis-range: *id001
+    show-ratio: true
+    sort-by-yields: true
+    x-axis: '|#Delta \phi (dilepton)|'
+    x-axis-range:
+    - 0
+    - 3.2
+    y-axis: Events
+    y-axis-show-zero: true
+  ElEl_HasElElTightOneAk8JetInclusiveBoostedOneBtag_dilepton_deltaR:
+    labels: *id002
+    log-y: both
+    ratio-y-axis: Ratio Data/MC
+    ratio-y-axis-range: *id001
+    show-ratio: true
+    sort-by-yields: true
+    x-axis: '#Delta R (dilepton)'
+    x-axis-range:
+    - 0.0
+    - 5.0
+    y-axis: Events
+    y-axis-show-zero: true
+  ElEl_HasElElTightOneAk8JetInclusiveBoostedOneBtag_dilepton_invariantMass:
+    labels: *id002
+    log-y: both
+    ratio-y-axis: Ratio Data/MC
+    ratio-y-axis-range: *id001
+    show-ratio: true
+    sort-by-yields: true
+    x-axis: Invariant mass (dilepton) [GeV]
+    x-axis-range:
+    - 0.0
+    - 500.0
+    y-axis: Events
+    y-axis-show-zero: true
+  ElEl_HasElElTightOneAk8JetInclusiveBoostedOneBtag_dilepton_pt:
+    labels: *id002
+    log-y: both
+    ratio-y-axis: Ratio Data/MC
+    ratio-y-axis-range: *id001
+    show-ratio: true
+    sort-by-yields: true
+    x-axis: P_{T} (dilepton) [GeV]
+    x-axis-range:
+    - 0.0
+    - 300.0
+    y-axis: Events
+    y-axis-show-zero: true
+  ElEl_HasElElTightOneAk8JetInclusiveBoostedOneBtag_fatjet_btagDeepB:
+    labels: &id003
+    - position:
+      - 0.23
+      - 0.87
+      size: 36
+      text: e^{+}e^{-}
+    log-y: both
+    ratio-y-axis: Ratio Data/MC
+    ratio-y-axis-range: *id001
+    show-ratio: true
+    sort-by-yields: true
+    x-axis: btagDeepB
+    x-axis-range:
+    - 0.0
+    - 1.0
+    y-axis: Events
+    y-axis-show-zero: true
+  ElEl_HasElElTightOneAk8JetInclusiveBoostedOneBtag_fatjet_btagHbb:
+    labels: *id003
+    log-y: both
+    ratio-y-axis: Ratio Data/MC
+    ratio-y-axis-range: *id001
+    show-ratio: true
+    sort-by-yields: true
+    x-axis: btagHbb
+    x-axis-range:
+    - 0.0
+    - 1.0
+    y-axis: Events
+    y-axis-show-zero: true
+  ElEl_HasElElTightOneAk8JetInclusiveBoostedOneBtag_fatjet_eta:
+    labels: *id003
+    log-y: both
+    ratio-y-axis: Ratio Data/MC
+    ratio-y-axis-range: *id001
+    show-ratio: true
+    sort-by-yields: true
+    x-axis: '#eta(fatjet)'
+    x-axis-range:
+    - -2.4
+    - 2.4
+    y-axis: Events
+    y-axis-show-zero: true
+  ElEl_HasElElTightOneAk8JetInclusiveBoostedOneBtag_fatjet_mass:
+    labels: *id003
+    log-y: both
+    ratio-y-axis: Ratio Data/MC
+    ratio-y-axis-range: *id001
+    show-ratio: true
+    sort-by-yields: true
+    x-axis: M(fatjet)
+    x-axis-range:
+    - 0.0
+    - 200.0
+    y-axis: Events
+    y-axis-show-zero: true
+  ElEl_HasElElTightOneAk8JetInclusiveBoostedOneBtag_fatjet_phi:
+    labels: *id003
+    log-y: both
+    ratio-y-axis: Ratio Data/MC
+    ratio-y-axis-range: *id001
+    show-ratio: true
+    sort-by-yields: true
+    x-axis: '#phi(fatjet)'
+    x-axis-range:
+    - -3.2
+    - 3.2
+    y-axis: Events
+    y-axis-show-zero: true
+  ElEl_HasElElTightOneAk8JetInclusiveBoostedOneBtag_fatjet_pt:
+    labels: *id003
+    log-y: both
+    ratio-y-axis: Ratio Data/MC
+    ratio-y-axis-range: *id001
+    show-ratio: true
+    sort-by-yields: true
+    x-axis: P_{T}(fatjet) [GeV]
+    x-axis-range:
+    - 0.0
+    - 600.0
+    y-axis: Events
+    y-axis-show-zero: true
+  ElEl_HasElElTightOneAk8JetInclusiveBoostedOneBtag_fatjet_softdropmass:
+    labels: *id003
+    log-y: both
+    ratio-y-axis: Ratio Data/MC
+    ratio-y-axis-range: *id001
+    show-ratio: true
+    sort-by-yields: true
+    x-axis: M_{Soft Drop}(fatjet) [GeV]
+    x-axis-range:
+    - 0.0
+    - 200.0
+    y-axis: Events
+    y-axis-show-zero: true
+  ElEl_HasElElTightOneAk8JetInclusiveBoostedOneBtag_firstlepton_eta:
+    labels: *id002
+    log-y: both
+    ratio-y-axis: Ratio Data/MC
+    ratio-y-axis-range: *id001
+    show-ratio: true
+    sort-by-yields: true
+    x-axis: '#eta (first lepton)'
+    x-axis-range:
+    - -3.0
+    - 3.0
+    y-axis: Events
+    y-axis-show-zero: true
+  ElEl_HasElElTightOneAk8JetInclusiveBoostedOneBtag_firstlepton_genPartFlav:
+    labels: *id002
+    log-y: both
+    ratio-y-axis: Ratio Data/MC
+    ratio-y-axis-range: *id001
+    show-ratio: true
+    sort-by-yields: true
+    x-axis: GenParticle flavour (first lepton)
+    x-axis-range:
+    - -1.0
+    - 22.0
+    y-axis: Events
+    y-axis-show-zero: true
+  ElEl_HasElElTightOneAk8JetInclusiveBoostedOneBtag_firstlepton_phi:
+    labels: *id002
+    log-y: both
+    ratio-y-axis: Ratio Data/MC
+    ratio-y-axis-range: *id001
+    show-ratio: true
+    sort-by-yields: true
+    x-axis: '#phi (first lepton)'
+    x-axis-range:
+    - -3.2
+    - 3.2
+    y-axis: Events
+    y-axis-show-zero: true
+  ElEl_HasElElTightOneAk8JetInclusiveBoostedOneBtag_firstlepton_pt:
+    labels: *id002
+    log-y: both
+    ratio-y-axis: Ratio Data/MC
+    ratio-y-axis-range: *id001
+    show-ratio: true
+    sort-by-yields: true
+    x-axis: P_{T} (first lepton) [GeV]
+    x-axis-range:
+    - 0.0
+    - 300.0
+    y-axis: Events
+    y-axis-show-zero: true
+  ElEl_HasElElTightOneAk8JetInclusiveBoostedOneBtag_highlevelvariable_DilepJetInvariantMass:
+    labels: &id004
+    - position:
+      - 0.23
+      - 0.87
+      size: 36
+      text: e^{+}e^{-}
+    log-y: both
+    ratio-y-axis: Ratio Data/MC
+    ratio-y-axis-range: *id001
+    show-ratio: true
+    sort-by-yields: true
+    x-axis: M_{lljj}
+    x-axis-range:
+    - 0.0
+    - 1000.0
+    y-axis: Events
+    y-axis-show-zero: true
+  ElEl_HasElElTightOneAk8JetInclusiveBoostedOneBtag_highlevelvariable_DilepMETdeltaPhi:
+    labels: *id004
+    log-y: both
+    ratio-y-axis: Ratio Data/MC
+    ratio-y-axis-range: *id001
+    show-ratio: true
+    sort-by-yields: true
+    x-axis: '|#Delta \phi (ll,MET)|'
+    x-axis-range:
+    - 0.0
+    - 3.2
+    y-axis: Events
+    y-axis-show-zero: true
+  ElEl_HasElElTightOneAk8JetInclusiveBoostedOneBtag_highlevelvariable_DilepMETpt:
+    labels: *id004
+    log-y: both
+    ratio-y-axis: Ratio Data/MC
+    ratio-y-axis-range: *id001
+    show-ratio: true
+    sort-by-yields: true
+    x-axis: P_{T}(ll,MET) [GeV]
+    x-axis-range:
+    - 0.0
+    - 500.0
+    y-axis: Events
+    y-axis-show-zero: true
+  ElEl_HasElElTightOneAk8JetInclusiveBoostedOneBtag_highlevelvariable_HT2:
+    labels: *id004
+    log-y: both
+    ratio-y-axis: Ratio Data/MC
+    ratio-y-axis-range: *id001
+    show-ratio: true
+    sort-by-yields: true
+    x-axis: H_{T2} [GeV]
+    x-axis-range:
+    - 0.0
+    - 600.0
+    y-axis: Events
+    y-axis-show-zero: true
+  ElEl_HasElElTightOneAk8JetInclusiveBoostedOneBtag_highlevelvariable_HT2R:
+    labels: *id004
+    log-y: both
+    ratio-y-axis: Ratio Data/MC
+    ratio-y-axis-range: *id001
+    show-ratio: true
+    sort-by-yields: true
+    x-axis: H_{T2}^{R} [GeV]
+    x-axis-range:
+    - 0.0
+    - 1.0
+    y-axis: Events
+    y-axis-show-zero: true
+  ElEl_HasElElTightOneAk8JetInclusiveBoostedOneBtag_highlevelvariable_MTll:
+    labels: *id004
+    log-y: both
+    ratio-y-axis: Ratio Data/MC
+    ratio-y-axis-range: *id001
+    show-ratio: true
+    sort-by-yields: true
+    x-axis: M_{T}(ll,MET) [GeV]
+    x-axis-range:
+    - 0.0
+    - 1000.0
+    y-axis: Events
+    y-axis-show-zero: true
+  ElEl_HasElElTightOneAk8JetInclusiveBoostedOneBtag_highlevelvariable_MTlljj:
+    labels: *id004
+    log-y: both
+    ratio-y-axis: Ratio Data/MC
+    ratio-y-axis-range: *id001
+    show-ratio: true
+    sort-by-yields: true
+    x-axis: M_{T}(lljj,MET) [GeV]
+    x-axis-range:
+    - 0.0
+    - 1000.0
+    y-axis: Events
+    y-axis-show-zero: true
+  ElEl_HasElElTightOneAk8JetInclusiveBoostedOneBtag_met_phi:
+    labels: &id005
+    - position:
+      - 0.23
+      - 0.87
+      size: 36
+      text: e^{+}e^{-}
+    log-y: both
+    ratio-y-axis: Ratio Data/MC
+    ratio-y-axis-range: *id001
+    show-ratio: true
+    sort-by-yields: true
+    x-axis: '#phi (MET)'
+    x-axis-range:
+    - -3.2
+    - 3.2
+    y-axis: Events
+    y-axis-show-zero: true
+  ElEl_HasElElTightOneAk8JetInclusiveBoostedOneBtag_met_pt:
+    labels: *id005
+    log-y: both
+    ratio-y-axis: Ratio Data/MC
+    ratio-y-axis-range: *id001
+    show-ratio: true
+    sort-by-yields: true
+    x-axis: P_{T}(MET) [GeV]
+    x-axis-range:
+    - 0.0
+    - 200.0
+    y-axis: Events
+    y-axis-show-zero: true
+  ElEl_HasElElTightOneAk8JetInclusiveBoostedOneBtag_secondlepton_eta:
+    labels: *id002
+    log-y: both
+    ratio-y-axis: Ratio Data/MC
+    ratio-y-axis-range: *id001
+    show-ratio: true
+    sort-by-yields: true
+    x-axis: '#eta (second lepton)'
+    x-axis-range:
+    - -3.0
+    - 3.0
+    y-axis: Events
+    y-axis-show-zero: true
+  ElEl_HasElElTightOneAk8JetInclusiveBoostedOneBtag_secondlepton_genPartFlav:
+    labels: *id002
+    log-y: both
+    ratio-y-axis: Ratio Data/MC
+    ratio-y-axis-range: *id001
+    show-ratio: true
+    sort-by-yields: true
+    x-axis: GenParticle flavour (second lepton)
+    x-axis-range:
+    - -1.0
+    - 22.0
+    y-axis: Events
+    y-axis-show-zero: true
+  ElEl_HasElElTightOneAk8JetInclusiveBoostedOneBtag_secondlepton_phi:
+    labels: *id002
+    log-y: both
+    ratio-y-axis: Ratio Data/MC
+    ratio-y-axis-range: *id001
+    show-ratio: true
+    sort-by-yields: true
+    x-axis: '#phi (second lepton)'
+    x-axis-range:
+    - -3.2
+    - 3.2
+    y-axis: Events
+    y-axis-show-zero: true
+  ElEl_HasElElTightOneAk8JetInclusiveBoostedOneBtag_secondlepton_pt:
+    labels: *id002
+    log-y: both
+    ratio-y-axis: Ratio Data/MC
+    ratio-y-axis-range: *id001
+    show-ratio: true
+    sort-by-yields: true
+    x-axis: P_{T} (second lepton) [GeV]
+    x-axis-range:
+    - 0.0
+    - 200.0
+    y-axis: Events
+    y-axis-show-zero: true
+  ElEl_HasElElTight_trigger_MuonElectron:
+    labels: &id006
+    - position:
+      - 0.23
+      - 0.87
+      size: 36
+      text: e^{+}e^{-}
+    log-y: both
+    ratio-y-axis: Ratio Data/MC
+    ratio-y-axis-range: *id001
+    show-ratio: true
+    sort-by-yields: true
+    x-axis: MuonEG trigger
+    x-axis-range:
+    - 0.0
+    - 2.0
+    y-axis: Events
+    y-axis-show-zero: true
+  ElEl_HasElElTight_trigger_doubleElectron:
+    labels: *id006
+    log-y: both
+    ratio-y-axis: Ratio Data/MC
+    ratio-y-axis-range: *id001
+    show-ratio: true
+    sort-by-yields: true
+    x-axis: DoubleEGamma trigger
+    x-axis-range:
+    - 0.0
+    - 2.0
+    y-axis: Events
+    y-axis-show-zero: true
+  ElEl_HasElElTight_trigger_doubleMuon:
+    labels: *id006
+    log-y: both
+    ratio-y-axis: Ratio Data/MC
+    ratio-y-axis-range: *id001
+    show-ratio: true
+    sort-by-yields: true
+    x-axis: DoubleMuon trigger
+    x-axis-range:
+    - 0.0
+    - 2.0
+    y-axis: Events
+    y-axis-show-zero: true
+  ElEl_HasElElTight_trigger_singleElectron:
+    labels: *id006
+    log-y: both
+    ratio-y-axis: Ratio Data/MC
+    ratio-y-axis-range: *id001
+    show-ratio: true
+    sort-by-yields: true
+    x-axis: SingleElectron trigger
+    x-axis-range:
+    - 0.0
+    - 2.0
+    y-axis: Events
+    y-axis-show-zero: true
+  ElEl_HasElElTight_trigger_singleMuon:
+    labels: *id006
+    log-y: both
+    ratio-y-axis: Ratio Data/MC
+    ratio-y-axis-range: *id001
+    show-ratio: true
+    sort-by-yields: true
+    x-axis: SingleMuon trigger
+    x-axis-range:
+    - 0.0
+    - 2.0
+    y-axis: Events
+    y-axis-show-zero: true
+  ElMu_HasElMuTightOneAk8JetInclusiveBoostedOneBtag_Ak8BJets_N:
+    labels:
+    - position:
+      - 0.23
+      - 0.87
+      size: 36
+      text: 'e^{#pm} #mu^{#mp}'
+    log-y: both
+    ratio-y-axis: Ratio Data/MC
+    ratio-y-axis-range: *id001
+    show-ratio: true
+    sort-by-yields: true
+    x-axis: N(Ak8 Bjets)
+    x-axis-range:
+    - 0.0
+    - 5
+    y-axis: Events
+    y-axis-show-zero: true
+  ElMu_HasElMuTightOneAk8JetInclusiveBoostedOneBtag_Ak8Jets_N:
+    labels:
+    - position:
+      - 0.23
+      - 0.87
+      size: 36
+      text: 'e^{#pm} #mu^{#mp}'
+    log-y: both
+    ratio-y-axis: Ratio Data/MC
+    ratio-y-axis-range: *id001
+    show-ratio: true
+    sort-by-yields: true
+    x-axis: N(Ak8 jets)
+    x-axis-range:
+    - 0.0
+    - 5
+    y-axis: Events
+    y-axis-show-zero: true
+  ElMu_HasElMuTightOneAk8JetInclusiveBoostedOneBtag_dilepton_deltaPhi:
+    labels: &id007
+    - position:
+      - 0.23
+      - 0.87
+      size: 36
+      text: 'e^{#pm} #mu^{#mp}'
+    log-y: both
+    ratio-y-axis: Ratio Data/MC
+    ratio-y-axis-range: *id001
+    show-ratio: true
+    sort-by-yields: true
+    x-axis: '|#Delta \phi (dilepton)|'
+    x-axis-range:
+    - 0
+    - 3.2
+    y-axis: Events
+    y-axis-show-zero: true
+  ElMu_HasElMuTightOneAk8JetInclusiveBoostedOneBtag_dilepton_deltaR:
+    labels: *id007
+    log-y: both
+    ratio-y-axis: Ratio Data/MC
+    ratio-y-axis-range: *id001
+    show-ratio: true
+    sort-by-yields: true
+    x-axis: '#Delta R (dilepton)'
+    x-axis-range:
+    - 0.0
+    - 5.0
+    y-axis: Events
+    y-axis-show-zero: true
+  ElMu_HasElMuTightOneAk8JetInclusiveBoostedOneBtag_dilepton_invariantMass:
+    labels: *id007
+    log-y: both
+    ratio-y-axis: Ratio Data/MC
+    ratio-y-axis-range: *id001
+    show-ratio: true
+    sort-by-yields: true
+    x-axis: Invariant mass (dilepton) [GeV]
+    x-axis-range:
+    - 0.0
+    - 500.0
+    y-axis: Events
+    y-axis-show-zero: true
+  ElMu_HasElMuTightOneAk8JetInclusiveBoostedOneBtag_dilepton_pt:
+    labels: *id007
+    log-y: both
+    ratio-y-axis: Ratio Data/MC
+    ratio-y-axis-range: *id001
+    show-ratio: true
+    sort-by-yields: true
+    x-axis: P_{T} (dilepton) [GeV]
+    x-axis-range:
+    - 0.0
+    - 300.0
+    y-axis: Events
+    y-axis-show-zero: true
+  ElMu_HasElMuTightOneAk8JetInclusiveBoostedOneBtag_fatjet_btagDeepB:
+    labels: &id008
+    - position:
+      - 0.23
+      - 0.87
+      size: 36
+      text: 'e^{#pm} #mu^{#mp}'
+    log-y: both
+    ratio-y-axis: Ratio Data/MC
+    ratio-y-axis-range: *id001
+    show-ratio: true
+    sort-by-yields: true
+    x-axis: btagDeepB
+    x-axis-range:
+    - 0.0
+    - 1.0
+    y-axis: Events
+    y-axis-show-zero: true
+  ElMu_HasElMuTightOneAk8JetInclusiveBoostedOneBtag_fatjet_btagHbb:
+    labels: *id008
+    log-y: both
+    ratio-y-axis: Ratio Data/MC
+    ratio-y-axis-range: *id001
+    show-ratio: true
+    sort-by-yields: true
+    x-axis: btagHbb
+    x-axis-range:
+    - 0.0
+    - 1.0
+    y-axis: Events
+    y-axis-show-zero: true
+  ElMu_HasElMuTightOneAk8JetInclusiveBoostedOneBtag_fatjet_eta:
+    labels: *id008
+    log-y: both
+    ratio-y-axis: Ratio Data/MC
+    ratio-y-axis-range: *id001
+    show-ratio: true
+    sort-by-yields: true
+    x-axis: '#eta(fatjet)'
+    x-axis-range:
+    - -2.4
+    - 2.4
+    y-axis: Events
+    y-axis-show-zero: true
+  ElMu_HasElMuTightOneAk8JetInclusiveBoostedOneBtag_fatjet_mass:
+    labels: *id008
+    log-y: both
+    ratio-y-axis: Ratio Data/MC
+    ratio-y-axis-range: *id001
+    show-ratio: true
+    sort-by-yields: true
+    x-axis: M(fatjet)
+    x-axis-range:
+    - 0.0
+    - 200.0
+    y-axis: Events
+    y-axis-show-zero: true
+  ElMu_HasElMuTightOneAk8JetInclusiveBoostedOneBtag_fatjet_phi:
+    labels: *id008
+    log-y: both
+    ratio-y-axis: Ratio Data/MC
+    ratio-y-axis-range: *id001
+    show-ratio: true
+    sort-by-yields: true
+    x-axis: '#phi(fatjet)'
+    x-axis-range:
+    - -3.2
+    - 3.2
+    y-axis: Events
+    y-axis-show-zero: true
+  ElMu_HasElMuTightOneAk8JetInclusiveBoostedOneBtag_fatjet_pt:
+    labels: *id008
+    log-y: both
+    ratio-y-axis: Ratio Data/MC
+    ratio-y-axis-range: *id001
+    show-ratio: true
+    sort-by-yields: true
+    x-axis: P_{T}(fatjet) [GeV]
+    x-axis-range:
+    - 0.0
+    - 600.0
+    y-axis: Events
+    y-axis-show-zero: true
+  ElMu_HasElMuTightOneAk8JetInclusiveBoostedOneBtag_fatjet_softdropmass:
+    labels: *id008
+    log-y: both
+    ratio-y-axis: Ratio Data/MC
+    ratio-y-axis-range: *id001
+    show-ratio: true
+    sort-by-yields: true
+    x-axis: M_{Soft Drop}(fatjet) [GeV]
+    x-axis-range:
+    - 0.0
+    - 200.0
+    y-axis: Events
+    y-axis-show-zero: true
+  ElMu_HasElMuTightOneAk8JetInclusiveBoostedOneBtag_firstlepton_eta:
+    labels: *id007
+    log-y: both
+    ratio-y-axis: Ratio Data/MC
+    ratio-y-axis-range: *id001
+    show-ratio: true
+    sort-by-yields: true
+    x-axis: '#eta (first lepton)'
+    x-axis-range:
+    - -3.0
+    - 3.0
+    y-axis: Events
+    y-axis-show-zero: true
+  ElMu_HasElMuTightOneAk8JetInclusiveBoostedOneBtag_firstlepton_genPartFlav:
+    labels: *id007
+    log-y: both
+    ratio-y-axis: Ratio Data/MC
+    ratio-y-axis-range: *id001
+    show-ratio: true
+    sort-by-yields: true
+    x-axis: GenParticle flavour (first lepton)
+    x-axis-range:
+    - -1.0
+    - 22.0
+    y-axis: Events
+    y-axis-show-zero: true
+  ElMu_HasElMuTightOneAk8JetInclusiveBoostedOneBtag_firstlepton_phi:
+    labels: *id007
+    log-y: both
+    ratio-y-axis: Ratio Data/MC
+    ratio-y-axis-range: *id001
+    show-ratio: true
+    sort-by-yields: true
+    x-axis: '#phi (first lepton)'
+    x-axis-range:
+    - -3.2
+    - 3.2
+    y-axis: Events
+    y-axis-show-zero: true
+  ElMu_HasElMuTightOneAk8JetInclusiveBoostedOneBtag_firstlepton_pt:
+    labels: *id007
+    log-y: both
+    ratio-y-axis: Ratio Data/MC
+    ratio-y-axis-range: *id001
+    show-ratio: true
+    sort-by-yields: true
+    x-axis: P_{T} (first lepton) [GeV]
+    x-axis-range:
+    - 0.0
+    - 300.0
+    y-axis: Events
+    y-axis-show-zero: true
+  ElMu_HasElMuTightOneAk8JetInclusiveBoostedOneBtag_highlevelvariable_DilepJetInvariantMass:
+    labels: &id009
+    - position:
+      - 0.23
+      - 0.87
+      size: 36
+      text: 'e^{#pm} #mu^{#mp}'
+    log-y: both
+    ratio-y-axis: Ratio Data/MC
+    ratio-y-axis-range: *id001
+    show-ratio: true
+    sort-by-yields: true
+    x-axis: M_{lljj}
+    x-axis-range:
+    - 0.0
+    - 1000.0
+    y-axis: Events
+    y-axis-show-zero: true
+  ElMu_HasElMuTightOneAk8JetInclusiveBoostedOneBtag_highlevelvariable_DilepMETdeltaPhi:
+    labels: *id009
+    log-y: both
+    ratio-y-axis: Ratio Data/MC
+    ratio-y-axis-range: *id001
+    show-ratio: true
+    sort-by-yields: true
+    x-axis: '|#Delta \phi (ll,MET)|'
+    x-axis-range:
+    - 0.0
+    - 3.2
+    y-axis: Events
+    y-axis-show-zero: true
+  ElMu_HasElMuTightOneAk8JetInclusiveBoostedOneBtag_highlevelvariable_DilepMETpt:
+    labels: *id009
+    log-y: both
+    ratio-y-axis: Ratio Data/MC
+    ratio-y-axis-range: *id001
+    show-ratio: true
+    sort-by-yields: true
+    x-axis: P_{T}(ll,MET) [GeV]
+    x-axis-range:
+    - 0.0
+    - 500.0
+    y-axis: Events
+    y-axis-show-zero: true
+  ElMu_HasElMuTightOneAk8JetInclusiveBoostedOneBtag_highlevelvariable_HT2:
+    labels: *id009
+    log-y: both
+    ratio-y-axis: Ratio Data/MC
+    ratio-y-axis-range: *id001
+    show-ratio: true
+    sort-by-yields: true
+    x-axis: H_{T2} [GeV]
+    x-axis-range:
+    - 0.0
+    - 600.0
+    y-axis: Events
+    y-axis-show-zero: true
+  ElMu_HasElMuTightOneAk8JetInclusiveBoostedOneBtag_highlevelvariable_HT2R:
+    labels: *id009
+    log-y: both
+    ratio-y-axis: Ratio Data/MC
+    ratio-y-axis-range: *id001
+    show-ratio: true
+    sort-by-yields: true
+    x-axis: H_{T2}^{R} [GeV]
+    x-axis-range:
+    - 0.0
+    - 1.0
+    y-axis: Events
+    y-axis-show-zero: true
+  ElMu_HasElMuTightOneAk8JetInclusiveBoostedOneBtag_highlevelvariable_MTll:
+    labels: *id009
+    log-y: both
+    ratio-y-axis: Ratio Data/MC
+    ratio-y-axis-range: *id001
+    show-ratio: true
+    sort-by-yields: true
+    x-axis: M_{T}(ll,MET) [GeV]
+    x-axis-range:
+    - 0.0
+    - 1000.0
+    y-axis: Events
+    y-axis-show-zero: true
+  ElMu_HasElMuTightOneAk8JetInclusiveBoostedOneBtag_highlevelvariable_MTlljj:
+    labels: *id009
+    log-y: both
+    ratio-y-axis: Ratio Data/MC
+    ratio-y-axis-range: *id001
+    show-ratio: true
+    sort-by-yields: true
+    x-axis: M_{T}(lljj,MET) [GeV]
+    x-axis-range:
+    - 0.0
+    - 1000.0
+    y-axis: Events
+    y-axis-show-zero: true
+  ElMu_HasElMuTightOneAk8JetInclusiveBoostedOneBtag_met_phi:
+    labels: &id010
+    - position:
+      - 0.23
+      - 0.87
+      size: 36
+      text: 'e^{#pm} #mu^{#mp}'
+    log-y: both
+    ratio-y-axis: Ratio Data/MC
+    ratio-y-axis-range: *id001
+    show-ratio: true
+    sort-by-yields: true
+    x-axis: '#phi (MET)'
+    x-axis-range:
+    - -3.2
+    - 3.2
+    y-axis: Events
+    y-axis-show-zero: true
+  ElMu_HasElMuTightOneAk8JetInclusiveBoostedOneBtag_met_pt:
+    labels: *id010
+    log-y: both
+    ratio-y-axis: Ratio Data/MC
+    ratio-y-axis-range: *id001
+    show-ratio: true
+    sort-by-yields: true
+    x-axis: P_{T}(MET) [GeV]
+    x-axis-range:
+    - 0.0
+    - 200.0
+    y-axis: Events
+    y-axis-show-zero: true
+  ElMu_HasElMuTightOneAk8JetInclusiveBoostedOneBtag_secondlepton_eta:
+    labels: *id007
+    log-y: both
+    ratio-y-axis: Ratio Data/MC
+    ratio-y-axis-range: *id001
+    show-ratio: true
+    sort-by-yields: true
+    x-axis: '#eta (second lepton)'
+    x-axis-range:
+    - -3.0
+    - 3.0
+    y-axis: Events
+    y-axis-show-zero: true
+  ElMu_HasElMuTightOneAk8JetInclusiveBoostedOneBtag_secondlepton_genPartFlav:
+    labels: *id007
+    log-y: both
+    ratio-y-axis: Ratio Data/MC
+    ratio-y-axis-range: *id001
+    show-ratio: true
+    sort-by-yields: true
+    x-axis: GenParticle flavour (second lepton)
+    x-axis-range:
+    - -1.0
+    - 22.0
+    y-axis: Events
+    y-axis-show-zero: true
+  ElMu_HasElMuTightOneAk8JetInclusiveBoostedOneBtag_secondlepton_phi:
+    labels: *id007
+    log-y: both
+    ratio-y-axis: Ratio Data/MC
+    ratio-y-axis-range: *id001
+    show-ratio: true
+    sort-by-yields: true
+    x-axis: '#phi (second lepton)'
+    x-axis-range:
+    - -3.2
+    - 3.2
+    y-axis: Events
+    y-axis-show-zero: true
+  ElMu_HasElMuTightOneAk8JetInclusiveBoostedOneBtag_secondlepton_pt:
+    labels: *id007
+    log-y: both
+    ratio-y-axis: Ratio Data/MC
+    ratio-y-axis-range: *id001
+    show-ratio: true
+    sort-by-yields: true
+    x-axis: P_{T} (second lepton) [GeV]
+    x-axis-range:
+    - 0.0
+    - 200.0
+    y-axis: Events
+    y-axis-show-zero: true
+  ElMu_HasElMuTight_trigger_MuonElectron:
+    labels: &id011
+    - position:
+      - 0.23
+      - 0.87
+      size: 36
+      text: 'e^{#pm} #mu^{#mp}'
+    log-y: both
+    ratio-y-axis: Ratio Data/MC
+    ratio-y-axis-range: *id001
+    show-ratio: true
+    sort-by-yields: true
+    x-axis: MuonEG trigger
+    x-axis-range:
+    - 0.0
+    - 2.0
+    y-axis: Events
+    y-axis-show-zero: true
+  ElMu_HasElMuTight_trigger_doubleElectron:
+    labels: *id011
+    log-y: both
+    ratio-y-axis: Ratio Data/MC
+    ratio-y-axis-range: *id001
+    show-ratio: true
+    sort-by-yields: true
+    x-axis: DoubleEGamma trigger
+    x-axis-range:
+    - 0.0
+    - 2.0
+    y-axis: Events
+    y-axis-show-zero: true
+  ElMu_HasElMuTight_trigger_doubleMuon:
+    labels: *id011
+    log-y: both
+    ratio-y-axis: Ratio Data/MC
+    ratio-y-axis-range: *id001
+    show-ratio: true
+    sort-by-yields: true
+    x-axis: DoubleMuon trigger
+    x-axis-range:
+    - 0.0
+    - 2.0
+    y-axis: Events
+    y-axis-show-zero: true
+  ElMu_HasElMuTight_trigger_singleElectron:
+    labels: *id011
+    log-y: both
+    ratio-y-axis: Ratio Data/MC
+    ratio-y-axis-range: *id001
+    show-ratio: true
+    sort-by-yields: true
+    x-axis: SingleElectron trigger
+    x-axis-range:
+    - 0.0
+    - 2.0
+    y-axis: Events
+    y-axis-show-zero: true
+  ElMu_HasElMuTight_trigger_singleMuon:
+    labels: *id011
+    log-y: both
+    ratio-y-axis: Ratio Data/MC
+    ratio-y-axis-range: *id001
+    show-ratio: true
+    sort-by-yields: true
+    x-axis: SingleMuon trigger
+    x-axis-range:
+    - 0.0
+    - 2.0
+    y-axis: Events
+    y-axis-show-zero: true
+  MuMu_HasMuMuTightOneAk8JetInclusiveBoostedOneBtag_Ak8BJets_N:
+    labels:
+    - position:
+      - 0.23
+      - 0.87
+      size: 36
+      text: '#mu^{+}#mu^{-}'
+    log-y: both
+    ratio-y-axis: Ratio Data/MC
+    ratio-y-axis-range: *id001
+    show-ratio: true
+    sort-by-yields: true
+    x-axis: N(Ak8 Bjets)
+    x-axis-range:
+    - 0.0
+    - 5
+    y-axis: Events
+    y-axis-show-zero: true
+  MuMu_HasMuMuTightOneAk8JetInclusiveBoostedOneBtag_Ak8Jets_N:
+    labels:
+    - position:
+      - 0.23
+      - 0.87
+      size: 36
+      text: '#mu^{+}#mu^{-}'
+    log-y: both
+    ratio-y-axis: Ratio Data/MC
+    ratio-y-axis-range: *id001
+    show-ratio: true
+    sort-by-yields: true
+    x-axis: N(Ak8 jets)
+    x-axis-range:
+    - 0.0
+    - 5
+    y-axis: Events
+    y-axis-show-zero: true
+  MuMu_HasMuMuTightOneAk8JetInclusiveBoostedOneBtag_dilepton_deltaPhi:
+    labels: &id012
+    - position:
+      - 0.23
+      - 0.87
+      size: 36
+      text: '#mu^{+}#mu^{-}'
+    log-y: both
+    ratio-y-axis: Ratio Data/MC
+    ratio-y-axis-range: *id001
+    show-ratio: true
+    sort-by-yields: true
+    x-axis: '|#Delta \phi (dilepton)|'
+    x-axis-range:
+    - 0
+    - 3.2
+    y-axis: Events
+    y-axis-show-zero: true
+  MuMu_HasMuMuTightOneAk8JetInclusiveBoostedOneBtag_dilepton_deltaR:
+    labels: *id012
+    log-y: both
+    ratio-y-axis: Ratio Data/MC
+    ratio-y-axis-range: *id001
+    show-ratio: true
+    sort-by-yields: true
+    x-axis: '#Delta R (dilepton)'
+    x-axis-range:
+    - 0.0
+    - 5.0
+    y-axis: Events
+    y-axis-show-zero: true
+  MuMu_HasMuMuTightOneAk8JetInclusiveBoostedOneBtag_dilepton_invariantMass:
+    labels: *id012
+    log-y: both
+    ratio-y-axis: Ratio Data/MC
+    ratio-y-axis-range: *id001
+    show-ratio: true
+    sort-by-yields: true
+    x-axis: Invariant mass (dilepton) [GeV]
+    x-axis-range:
+    - 0.0
+    - 500.0
+    y-axis: Events
+    y-axis-show-zero: true
+  MuMu_HasMuMuTightOneAk8JetInclusiveBoostedOneBtag_dilepton_pt:
+    labels: *id012
+    log-y: both
+    ratio-y-axis: Ratio Data/MC
+    ratio-y-axis-range: *id001
+    show-ratio: true
+    sort-by-yields: true
+    x-axis: P_{T} (dilepton) [GeV]
+    x-axis-range:
+    - 0.0
+    - 300.0
+    y-axis: Events
+    y-axis-show-zero: true
+  MuMu_HasMuMuTightOneAk8JetInclusiveBoostedOneBtag_fatjet_btagDeepB:
+    labels: &id013
+    - position:
+      - 0.23
+      - 0.87
+      size: 36
+      text: '#mu^{+}#mu^{-}'
+    log-y: both
+    ratio-y-axis: Ratio Data/MC
+    ratio-y-axis-range: *id001
+    show-ratio: true
+    sort-by-yields: true
+    x-axis: btagDeepB
+    x-axis-range:
+    - 0.0
+    - 1.0
+    y-axis: Events
+    y-axis-show-zero: true
+  MuMu_HasMuMuTightOneAk8JetInclusiveBoostedOneBtag_fatjet_btagHbb:
+    labels: *id013
+    log-y: both
+    ratio-y-axis: Ratio Data/MC
+    ratio-y-axis-range: *id001
+    show-ratio: true
+    sort-by-yields: true
+    x-axis: btagHbb
+    x-axis-range:
+    - 0.0
+    - 1.0
+    y-axis: Events
+    y-axis-show-zero: true
+  MuMu_HasMuMuTightOneAk8JetInclusiveBoostedOneBtag_fatjet_eta:
+    labels: *id013
+    log-y: both
+    ratio-y-axis: Ratio Data/MC
+    ratio-y-axis-range: *id001
+    show-ratio: true
+    sort-by-yields: true
+    x-axis: '#eta(fatjet)'
+    x-axis-range:
+    - -2.4
+    - 2.4
+    y-axis: Events
+    y-axis-show-zero: true
+  MuMu_HasMuMuTightOneAk8JetInclusiveBoostedOneBtag_fatjet_mass:
+    labels: *id013
+    log-y: both
+    ratio-y-axis: Ratio Data/MC
+    ratio-y-axis-range: *id001
+    show-ratio: true
+    sort-by-yields: true
+    x-axis: M(fatjet)
+    x-axis-range:
+    - 0.0
+    - 200.0
+    y-axis: Events
+    y-axis-show-zero: true
+  MuMu_HasMuMuTightOneAk8JetInclusiveBoostedOneBtag_fatjet_phi:
+    labels: *id013
+    log-y: both
+    ratio-y-axis: Ratio Data/MC
+    ratio-y-axis-range: *id001
+    show-ratio: true
+    sort-by-yields: true
+    x-axis: '#phi(fatjet)'
+    x-axis-range:
+    - -3.2
+    - 3.2
+    y-axis: Events
+    y-axis-show-zero: true
+  MuMu_HasMuMuTightOneAk8JetInclusiveBoostedOneBtag_fatjet_pt:
+    labels: *id013
+    log-y: both
+    ratio-y-axis: Ratio Data/MC
+    ratio-y-axis-range: *id001
+    show-ratio: true
+    sort-by-yields: true
+    x-axis: P_{T}(fatjet) [GeV]
+    x-axis-range:
+    - 0.0
+    - 600.0
+    y-axis: Events
+    y-axis-show-zero: true
+  MuMu_HasMuMuTightOneAk8JetInclusiveBoostedOneBtag_fatjet_softdropmass:
+    labels: *id013
+    log-y: both
+    ratio-y-axis: Ratio Data/MC
+    ratio-y-axis-range: *id001
+    show-ratio: true
+    sort-by-yields: true
+    x-axis: M_{Soft Drop}(fatjet) [GeV]
+    x-axis-range:
+    - 0.0
+    - 200.0
+    y-axis: Events
+    y-axis-show-zero: true
+  MuMu_HasMuMuTightOneAk8JetInclusiveBoostedOneBtag_firstlepton_eta:
+    labels: *id012
+    log-y: both
+    ratio-y-axis: Ratio Data/MC
+    ratio-y-axis-range: *id001
+    show-ratio: true
+    sort-by-yields: true
+    x-axis: '#eta (first lepton)'
+    x-axis-range:
+    - -3.0
+    - 3.0
+    y-axis: Events
+    y-axis-show-zero: true
+  MuMu_HasMuMuTightOneAk8JetInclusiveBoostedOneBtag_firstlepton_genPartFlav:
+    labels: *id012
+    log-y: both
+    ratio-y-axis: Ratio Data/MC
+    ratio-y-axis-range: *id001
+    show-ratio: true
+    sort-by-yields: true
+    x-axis: GenParticle flavour (first lepton)
+    x-axis-range:
+    - -1.0
+    - 22.0
+    y-axis: Events
+    y-axis-show-zero: true
+  MuMu_HasMuMuTightOneAk8JetInclusiveBoostedOneBtag_firstlepton_phi:
+    labels: *id012
+    log-y: both
+    ratio-y-axis: Ratio Data/MC
+    ratio-y-axis-range: *id001
+    show-ratio: true
+    sort-by-yields: true
+    x-axis: '#phi (first lepton)'
+    x-axis-range:
+    - -3.2
+    - 3.2
+    y-axis: Events
+    y-axis-show-zero: true
+  MuMu_HasMuMuTightOneAk8JetInclusiveBoostedOneBtag_firstlepton_pt:
+    labels: *id012
+    log-y: both
+    ratio-y-axis: Ratio Data/MC
+    ratio-y-axis-range: *id001
+    show-ratio: true
+    sort-by-yields: true
+    x-axis: P_{T} (first lepton) [GeV]
+    x-axis-range:
+    - 0.0
+    - 300.0
+    y-axis: Events
+    y-axis-show-zero: true
+  MuMu_HasMuMuTightOneAk8JetInclusiveBoostedOneBtag_highlevelvariable_DilepJetInvariantMass:
+    labels: &id014
+    - position:
+      - 0.23
+      - 0.87
+      size: 36
+      text: '#mu^{+}#mu^{-}'
+    log-y: both
+    ratio-y-axis: Ratio Data/MC
+    ratio-y-axis-range: *id001
+    show-ratio: true
+    sort-by-yields: true
+    x-axis: M_{lljj}
+    x-axis-range:
+    - 0.0
+    - 1000.0
+    y-axis: Events
+    y-axis-show-zero: true
+  MuMu_HasMuMuTightOneAk8JetInclusiveBoostedOneBtag_highlevelvariable_DilepMETdeltaPhi:
+    labels: *id014
+    log-y: both
+    ratio-y-axis: Ratio Data/MC
+    ratio-y-axis-range: *id001
+    show-ratio: true
+    sort-by-yields: true
+    x-axis: '|#Delta \phi (ll,MET)|'
+    x-axis-range:
+    - 0.0
+    - 3.2
+    y-axis: Events
+    y-axis-show-zero: true
+  MuMu_HasMuMuTightOneAk8JetInclusiveBoostedOneBtag_highlevelvariable_DilepMETpt:
+    labels: *id014
+    log-y: both
+    ratio-y-axis: Ratio Data/MC
+    ratio-y-axis-range: *id001
+    show-ratio: true
+    sort-by-yields: true
+    x-axis: P_{T}(ll,MET) [GeV]
+    x-axis-range:
+    - 0.0
+    - 500.0
+    y-axis: Events
+    y-axis-show-zero: true
+  MuMu_HasMuMuTightOneAk8JetInclusiveBoostedOneBtag_highlevelvariable_HT2:
+    labels: *id014
+    log-y: both
+    ratio-y-axis: Ratio Data/MC
+    ratio-y-axis-range: *id001
+    show-ratio: true
+    sort-by-yields: true
+    x-axis: H_{T2} [GeV]
+    x-axis-range:
+    - 0.0
+    - 600.0
+    y-axis: Events
+    y-axis-show-zero: true
+  MuMu_HasMuMuTightOneAk8JetInclusiveBoostedOneBtag_highlevelvariable_HT2R:
+    labels: *id014
+    log-y: both
+    ratio-y-axis: Ratio Data/MC
+    ratio-y-axis-range: *id001
+    show-ratio: true
+    sort-by-yields: true
+    x-axis: H_{T2}^{R} [GeV]
+    x-axis-range:
+    - 0.0
+    - 1.0
+    y-axis: Events
+    y-axis-show-zero: true
+  MuMu_HasMuMuTightOneAk8JetInclusiveBoostedOneBtag_highlevelvariable_MTll:
+    labels: *id014
+    log-y: both
+    ratio-y-axis: Ratio Data/MC
+    ratio-y-axis-range: *id001
+    show-ratio: true
+    sort-by-yields: true
+    x-axis: M_{T}(ll,MET) [GeV]
+    x-axis-range:
+    - 0.0
+    - 1000.0
+    y-axis: Events
+    y-axis-show-zero: true
+  MuMu_HasMuMuTightOneAk8JetInclusiveBoostedOneBtag_highlevelvariable_MTlljj:
+    labels: *id014
+    log-y: both
+    ratio-y-axis: Ratio Data/MC
+    ratio-y-axis-range: *id001
+    show-ratio: true
+    sort-by-yields: true
+    x-axis: M_{T}(lljj,MET) [GeV]
+    x-axis-range:
+    - 0.0
+    - 1000.0
+    y-axis: Events
+    y-axis-show-zero: true
+  MuMu_HasMuMuTightOneAk8JetInclusiveBoostedOneBtag_met_phi:
+    labels: &id015
+    - position:
+      - 0.23
+      - 0.87
+      size: 36
+      text: '#mu^{+}#mu^{-}'
+    log-y: both
+    ratio-y-axis: Ratio Data/MC
+    ratio-y-axis-range: *id001
+    show-ratio: true
+    sort-by-yields: true
+    x-axis: '#phi (MET)'
+    x-axis-range:
+    - -3.2
+    - 3.2
+    y-axis: Events
+    y-axis-show-zero: true
+  MuMu_HasMuMuTightOneAk8JetInclusiveBoostedOneBtag_met_pt:
+    labels: *id015
+    log-y: both
+    ratio-y-axis: Ratio Data/MC
+    ratio-y-axis-range: *id001
+    show-ratio: true
+    sort-by-yields: true
+    x-axis: P_{T}(MET) [GeV]
+    x-axis-range:
+    - 0.0
+    - 200.0
+    y-axis: Events
+    y-axis-show-zero: true
+  MuMu_HasMuMuTightOneAk8JetInclusiveBoostedOneBtag_secondlepton_eta:
+    labels: *id012
+    log-y: both
+    ratio-y-axis: Ratio Data/MC
+    ratio-y-axis-range: *id001
+    show-ratio: true
+    sort-by-yields: true
+    x-axis: '#eta (second lepton)'
+    x-axis-range:
+    - -3.0
+    - 3.0
+    y-axis: Events
+    y-axis-show-zero: true
+  MuMu_HasMuMuTightOneAk8JetInclusiveBoostedOneBtag_secondlepton_genPartFlav:
+    labels: *id012
+    log-y: both
+    ratio-y-axis: Ratio Data/MC
+    ratio-y-axis-range: *id001
+    show-ratio: true
+    sort-by-yields: true
+    x-axis: GenParticle flavour (second lepton)
+    x-axis-range:
+    - -1.0
+    - 22.0
+    y-axis: Events
+    y-axis-show-zero: true
+  MuMu_HasMuMuTightOneAk8JetInclusiveBoostedOneBtag_secondlepton_phi:
+    labels: *id012
+    log-y: both
+    ratio-y-axis: Ratio Data/MC
+    ratio-y-axis-range: *id001
+    show-ratio: true
+    sort-by-yields: true
+    x-axis: '#phi (second lepton)'
+    x-axis-range:
+    - -3.2
+    - 3.2
+    y-axis: Events
+    y-axis-show-zero: true
+  MuMu_HasMuMuTightOneAk8JetInclusiveBoostedOneBtag_secondlepton_pt:
+    labels: *id012
+    log-y: both
+    ratio-y-axis: Ratio Data/MC
+    ratio-y-axis-range: *id001
+    show-ratio: true
+    sort-by-yields: true
+    x-axis: P_{T} (second lepton) [GeV]
+    x-axis-range:
+    - 0.0
+    - 200.0
+    y-axis: Events
+    y-axis-show-zero: true
+  MuMu_HasMuMuTight_trigger_MuonElectron:
+    labels: &id016
+    - position:
+      - 0.23
+      - 0.87
+      size: 36
+      text: '#mu^{+}#mu^{-}'
+    log-y: both
+    ratio-y-axis: Ratio Data/MC
+    ratio-y-axis-range: *id001
+    show-ratio: true
+    sort-by-yields: true
+    x-axis: MuonEG trigger
+    x-axis-range:
+    - 0.0
+    - 2.0
+    y-axis: Events
+    y-axis-show-zero: true
+  MuMu_HasMuMuTight_trigger_doubleElectron:
+    labels: *id016
+    log-y: both
+    ratio-y-axis: Ratio Data/MC
+    ratio-y-axis-range: *id001
+    show-ratio: true
+    sort-by-yields: true
+    x-axis: DoubleEGamma trigger
+    x-axis-range:
+    - 0.0
+    - 2.0
+    y-axis: Events
+    y-axis-show-zero: true
+  MuMu_HasMuMuTight_trigger_doubleMuon:
+    labels: *id016
+    log-y: both
+    ratio-y-axis: Ratio Data/MC
+    ratio-y-axis-range: *id001
+    show-ratio: true
+    sort-by-yields: true
+    x-axis: DoubleMuon trigger
+    x-axis-range:
+    - 0.0
+    - 2.0
+    y-axis: Events
+    y-axis-show-zero: true
+  MuMu_HasMuMuTight_trigger_singleElectron:
+    labels: *id016
+    log-y: both
+    ratio-y-axis: Ratio Data/MC
+    ratio-y-axis-range: *id001
+    show-ratio: true
+    sort-by-yields: true
+    x-axis: SingleElectron trigger
+    x-axis-range:
+    - 0.0
+    - 2.0
+    y-axis: Events
+    y-axis-show-zero: true
+  MuMu_HasMuMuTight_trigger_singleMuon:
+    labels: *id016
+    log-y: both
+    ratio-y-axis: Ratio Data/MC
+    ratio-y-axis-range: *id001
+    show-ratio: true
+    sort-by-yields: true
+    x-axis: SingleMuon trigger
+    x-axis-range:
+    - 0.0
+    - 2.0
+    y-axis: Events
+    y-axis-show-zero: true
+  Yield_HasElElFakeable:
+    for-yields: true
+    log-y: both
+    ratio-y-axis: Ratio Data/MC
+    ratio-y-axis-range: *id001
+    show-ratio: true
+    sort-by-yields: true
+    x-axis: Yield_HasElElFakeable
+    x-axis-range:
+    - 0.0
+    - 1.0
+    y-axis: Events
+    y-axis-show-zero: true
+    yields-table-order: 3
+    yields-title: OS fakeable lepton pair (channel $e^+e^-$)
+  Yield_HasElElFakeablePreMllCutOutZ:
+    for-yields: true
+    log-y: both
+    ratio-y-axis: Ratio Data/MC
+    ratio-y-axis-range: *id001
+    show-ratio: true
+    sort-by-yields: true
+    x-axis: Yield_HasElElFakeablePreMllCutOutZ
+    x-axis-range:
+    - 0.0
+    - 1.0
+    y-axis: Events
+    y-axis-show-zero: true
+    yields-table-order: 6
+    yields-title: OS fakeable lepton pair (channel $e^+e^-$) + $M_{ll}>12$ + Z Veto
+      $|M_{ll}^{Preselected SF}-M_Z|>10$
+  Yield_HasElElFakeablePreMllCutOutZTightVeto:
+    for-yields: true
+    log-y: both
+    ratio-y-axis: Ratio Data/MC
+    ratio-y-axis-range: *id001
+    show-ratio: true
+    sort-by-yields: true
+    x-axis: Yield_HasElElFakeablePreMllCutOutZTightVeto
+    x-axis-range:
+    - 0.0
+    - 1.0
+    y-axis: Events
+    y-axis-show-zero: true
+    yields-table-order: 9
+    yields-title: OS fakeable lepton pair (channel $e^+e^-$) + $M_{ll}>12$ + Z Veto
+      $|M_{ll}^{Preselected SF}-M_Z|>10$ + Two tights cut
+  Yield_HasElElPreselected:
+    for-yields: true
+    log-y: both
+    ratio-y-axis: Ratio Data/MC
+    ratio-y-axis-range: *id001
+    show-ratio: true
+    sort-by-yields: true
+    x-axis: Yield_HasElElPreselected
+    x-axis-range:
+    - 0.0
+    - 1.0
+    y-axis: Events
+    y-axis-show-zero: true
+    yields-table-order: 0
+    yields-title: Preselected lepton pair (channel $e^+e^-$)
+  Yield_HasElElTight:
+    for-yields: true
+    log-y: both
+    ratio-y-axis: Ratio Data/MC
+    ratio-y-axis-range: *id001
+    show-ratio: true
+    sort-by-yields: true
+    x-axis: Yield_HasElElTight
+    x-axis-range:
+    - 0.0
+    - 1.0
+    y-axis: Events
+    y-axis-show-zero: true
+    yields-table-order: 12
+    yields-title: OS tight lepton pair (channel $e^+e^-$)
+  Yield_HasElElTightOneAk8Jet:
+    for-yields: true
+    log-y: both
+    ratio-y-axis: Ratio Data/MC
+    ratio-y-axis-range: *id001
+    show-ratio: true
+    sort-by-yields: true
+    x-axis: Yield_HasElElTightOneAk8Jet
+    x-axis-range:
+    - 0.0
+    - 1.0
+    y-axis: Events
+    y-axis-show-zero: true
+    yields-table-order: 15
+    yields-title: OS tight lepton pair (channel $e^+e^-$) + Ak8 Jets $\geq 1$
+  Yield_HasElElTightOneAk8JetInclusiveBoostedOneBtag:
+    for-yields: true
+    log-y: both
+    ratio-y-axis: Ratio Data/MC
+    ratio-y-axis-range: *id001
+    show-ratio: true
+    sort-by-yields: true
+    x-axis: Yield_HasElElTightOneAk8JetInclusiveBoostedOneBtag
+    x-axis-range:
+    - 0.0
+    - 1.0
+    y-axis: Events
+    y-axis-show-zero: true
+    yields-table-order: 18
+    yields-title: OS tight lepton pair (channel $e^+e^-$) + Ak8 Jets $\geq 1$ + Inclusive
+      Boosted 1 Btag
+  Yield_HasElMuFakeable:
+    for-yields: true
+    log-y: both
+    ratio-y-axis: Ratio Data/MC
+    ratio-y-axis-range: *id001
+    show-ratio: true
+    sort-by-yields: true
+    x-axis: Yield_HasElMuFakeable
+    x-axis-range:
+    - 0.0
+    - 1.0
+    y-axis: Events
+    y-axis-show-zero: true
+    yields-table-order: 5
+    yields-title: OS fakeable lepton pair (channel $e^{\pm}\mu^{\mp}$)
+  Yield_HasElMuFakeablePreMllCutOutZ:
+    for-yields: true
+    log-y: both
+    ratio-y-axis: Ratio Data/MC
+    ratio-y-axis-range: *id001
+    show-ratio: true
+    sort-by-yields: true
+    x-axis: Yield_HasElMuFakeablePreMllCutOutZ
+    x-axis-range:
+    - 0.0
+    - 1.0
+    y-axis: Events
+    y-axis-show-zero: true
+    yields-table-order: 8
+    yields-title: OS fakeable lepton pair (channel $e^{\pm}\mu^{\mp}$) + $M_{ll}>12$
+      + Z Veto $|M_{ll}^{Preselected SF}-M_Z|>10$
+  Yield_HasElMuFakeablePreMllCutOutZTightVeto:
+    for-yields: true
+    log-y: both
+    ratio-y-axis: Ratio Data/MC
+    ratio-y-axis-range: *id001
+    show-ratio: true
+    sort-by-yields: true
+    x-axis: Yield_HasElMuFakeablePreMllCutOutZTightVeto
+    x-axis-range:
+    - 0.0
+    - 1.0
+    y-axis: Events
+    y-axis-show-zero: true
+    yields-table-order: 11
+    yields-title: OS fakeable lepton pair (channel $e^{\pm}\mu^{\mp}$) + $M_{ll}>12$
+      + Z Veto $|M_{ll}^{Preselected SF}-M_Z|>10$ + Two tights cut
+  Yield_HasElMuPreselected:
+    for-yields: true
+    log-y: both
+    ratio-y-axis: Ratio Data/MC
+    ratio-y-axis-range: *id001
+    show-ratio: true
+    sort-by-yields: true
+    x-axis: Yield_HasElMuPreselected
+    x-axis-range:
+    - 0.0
+    - 1.0
+    y-axis: Events
+    y-axis-show-zero: true
+    yields-table-order: 2
+    yields-title: Preselected lepton pair (channel $e^{\pm}\mu^{\mp}$)
+  Yield_HasElMuTight:
+    for-yields: true
+    log-y: both
+    ratio-y-axis: Ratio Data/MC
+    ratio-y-axis-range: *id001
+    show-ratio: true
+    sort-by-yields: true
+    x-axis: Yield_HasElMuTight
+    x-axis-range:
+    - 0.0
+    - 1.0
+    y-axis: Events
+    y-axis-show-zero: true
+    yields-table-order: 14
+    yields-title: OS tight lepton pair (channel $e^{\pm}\mu^{\mp}$)
+  Yield_HasElMuTightOneAk8Jet:
+    for-yields: true
+    log-y: both
+    ratio-y-axis: Ratio Data/MC
+    ratio-y-axis-range: *id001
+    show-ratio: true
+    sort-by-yields: true
+    x-axis: Yield_HasElMuTightOneAk8Jet
+    x-axis-range:
+    - 0.0
+    - 1.0
+    y-axis: Events
+    y-axis-show-zero: true
+    yields-table-order: 17
+    yields-title: OS tight lepton pair (channel $e^{\pm}\mu^{\mp}$) + Ak8 Jets $\geq
+      1$
+  Yield_HasElMuTightOneAk8JetInclusiveBoostedOneBtag:
+    for-yields: true
+    log-y: both
+    ratio-y-axis: Ratio Data/MC
+    ratio-y-axis-range: *id001
+    show-ratio: true
+    sort-by-yields: true
+    x-axis: Yield_HasElMuTightOneAk8JetInclusiveBoostedOneBtag
+    x-axis-range:
+    - 0.0
+    - 1.0
+    y-axis: Events
+    y-axis-show-zero: true
+    yields-table-order: 20
+    yields-title: OS tight lepton pair (channel $e^{\pm}\mu^{\mp}$) + Ak8 Jets $\geq
+      1$ + Inclusive Boosted 1 Btag
+  Yield_HasMuMuFakeable:
+    for-yields: true
+    log-y: both
+    ratio-y-axis: Ratio Data/MC
+    ratio-y-axis-range: *id001
+    show-ratio: true
+    sort-by-yields: true
+    x-axis: Yield_HasMuMuFakeable
+    x-axis-range:
+    - 0.0
+    - 1.0
+    y-axis: Events
+    y-axis-show-zero: true
+    yields-table-order: 4
+    yields-title: OS fakeable lepton pair (channel $\mu^+\mu^-$)
+  Yield_HasMuMuFakeablePreMllCutOutZ:
+    for-yields: true
+    log-y: both
+    ratio-y-axis: Ratio Data/MC
+    ratio-y-axis-range: *id001
+    show-ratio: true
+    sort-by-yields: true
+    x-axis: Yield_HasMuMuFakeablePreMllCutOutZ
+    x-axis-range:
+    - 0.0
+    - 1.0
+    y-axis: Events
+    y-axis-show-zero: true
+    yields-table-order: 7
+    yields-title: OS fakeable lepton pair (channel $\mu^+\mu^-$) + $M_{ll}>12$ + Z
+      Veto $|M_{ll}^{Preselected SF}-M_Z|>10$
+  Yield_HasMuMuFakeablePreMllCutOutZTightVeto:
+    for-yields: true
+    log-y: both
+    ratio-y-axis: Ratio Data/MC
+    ratio-y-axis-range: *id001
+    show-ratio: true
+    sort-by-yields: true
+    x-axis: Yield_HasMuMuFakeablePreMllCutOutZTightVeto
+    x-axis-range:
+    - 0.0
+    - 1.0
+    y-axis: Events
+    y-axis-show-zero: true
+    yields-table-order: 10
+    yields-title: OS fakeable lepton pair (channel $\mu^+\mu^-$) + $M_{ll}>12$ + Z
+      Veto $|M_{ll}^{Preselected SF}-M_Z|>10$ + Two tights cut
+  Yield_HasMuMuPreselected:
+    for-yields: true
+    log-y: both
+    ratio-y-axis: Ratio Data/MC
+    ratio-y-axis-range: *id001
+    show-ratio: true
+    sort-by-yields: true
+    x-axis: Yield_HasMuMuPreselected
+    x-axis-range:
+    - 0.0
+    - 1.0
+    y-axis: Events
+    y-axis-show-zero: true
+    yields-table-order: 1
+    yields-title: Preselected lepton pair (channel $\mu^+\mu^-$)
+  Yield_HasMuMuTight:
+    for-yields: true
+    log-y: both
+    ratio-y-axis: Ratio Data/MC
+    ratio-y-axis-range: *id001
+    show-ratio: true
+    sort-by-yields: true
+    x-axis: Yield_HasMuMuTight
+    x-axis-range:
+    - 0.0
+    - 1.0
+    y-axis: Events
+    y-axis-show-zero: true
+    yields-table-order: 13
+    yields-title: OS tight lepton pair (channel $\mu^+\mu^-$)
+  Yield_HasMuMuTightOneAk8Jet:
+    for-yields: true
+    log-y: both
+    ratio-y-axis: Ratio Data/MC
+    ratio-y-axis-range: *id001
+    show-ratio: true
+    sort-by-yields: true
+    x-axis: Yield_HasMuMuTightOneAk8Jet
+    x-axis-range:
+    - 0.0
+    - 1.0
+    y-axis: Events
+    y-axis-show-zero: true
+    yields-table-order: 16
+    yields-title: OS tight lepton pair (channel $\mu^+\mu^-$) + Ak8 Jets $\geq 1$
+  Yield_HasMuMuTightOneAk8JetInclusiveBoostedOneBtag:
+    for-yields: true
+    log-y: both
+    ratio-y-axis: Ratio Data/MC
+    ratio-y-axis-range: *id001
+    show-ratio: true
+    sort-by-yields: true
+    x-axis: Yield_HasMuMuTightOneAk8JetInclusiveBoostedOneBtag
+    x-axis-range:
+    - 0.0
+    - 1.0
+    y-axis: Events
+    y-axis-show-zero: true
+    yields-table-order: 19
+    yields-title: OS tight lepton pair (channel $\mu^+\mu^-$) + Ak8 Jets $\geq 1$
+      + Inclusive Boosted 1 Btag
+systematics:
+- jer
+- jesTotal
+- mu_loose
+- mu_tightmva
+- el_looserecoptlt20
+- el_looserecoptgt20
+- el_looseid
+- el_looseeff
+- el_tightmva
+- ttH_singleElectron_trigSF
+- ttH_singleMuon_trigSF
+- ttH_doubleElectron_trigSF
+- ttH_doubleMuon_trigSF
+- ttH_electronMuon_trigSF
+- pileup
+- deepjet
+- btagSF_lf
+- btagSF_hf
+- btagSF_hfstats1
+- btagSF_hfstats2
+- btagSF_lfstats1
+- btagSF_lfstats2
+- btagSF_cferr1
+- btagSF_cferr2
+- topPtReweighting
+- btag_ratio
+- dy_reweighting_elel
+- dy_reweighting_mumu
+- el_FR_pt_syst
+- el_FR_barrel_syst
+- el_FR_norm_syst
+- electronCorrFR
+- mu_FR_pt_syst
+- mu_FR_barrel_syst
+- mu_FR_norm_syst
+- muonCorrFR

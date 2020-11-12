@@ -1,0 +1,3 @@
+/storage/data/cms/store/mc/RunIISummer16NanoAODv7/TTZToLLNuNu_M-10_TuneCUETP8M1_13TeV-amcatnlo-pythia8/NANOAODSIM/PUMoriond17_Nano02Apr2020_102X_mcRun2_asymptotic_v8_ext2-v1/110000/84A8B12E-2055-774D-8CA7-C5848A24E114.root
+/storage/data/cms/store/mc/RunIISummer16NanoAODv7/TTZToLLNuNu_M-10_TuneCUETP8M1_13TeV-amcatnlo-pythia8/NANOAODSIM/PUMoriond17_Nano02Apr2020_102X_mcRun2_asymptotic_v8_ext2-v1/110000/3AF5A20C-F1E3-E640-8B6D-EDF1626D834A.root
+/storage/data/cms/store/mc/RunIISummer16NanoAODv7/TTZToLLNuNu_M-10_TuneCUETP8M1_13TeV-amcatnlo-pythia8/NANOAODSIM/PUMoriond17_Nano02Apr2020_102X_mcRun2_asymptotic_v8_ext2-v1/110000/81EB8D05-05B2-DB42-89F5-5542D0C4C4E7.root
